@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="L1916_listperson">
+        <fileDesc>
+            <titleStmt>
+                <title> List of person names referenced in the Letters of 1916 collection </title>
+                <editor>Susan Schreibman</editor>
+            </titleStmt>
+            <editionStmt>
+                <p>
+                    <!-- A general edition statement has to be added here, same statement for all letters -->
+                </p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>NUI Maynooth</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_listperson"/>
+                <availability status="restricted">
+                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>Machine-readable transcriptions of letters from the Letters of 1916
+                    collection</p>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            
+            <langUsage>
+                <!-- Data from field: Q: English -->
+                <language ident="en-EN">English</language>
+            </langUsage>
+            
+        </profileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.</ab>
+            </samplingDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listPerson>
+                    <!-- example for a person, ID could be also something as simple as P1, P2, etc. -->
+                    
+                    <person xml:id="RobertAtwell">
+                        <persName>Robert Atwell</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    <person xml:id="Mary_macDonagh">
+                        <persName>Mary MacDonagh</persName>
+                        <sex value="F">female</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    <person xml:id="JosephMacDonagh">
+                        <persName>Joseph MacDonagh</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="DJMurphy">
+                        <persName>D. J. Murphy</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="JamesRFair">
+                        <persName>James R Fair</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    <person xml:id="DavidDCurtin">
+                        <persName>David G. Curtin</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                </listPerson>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

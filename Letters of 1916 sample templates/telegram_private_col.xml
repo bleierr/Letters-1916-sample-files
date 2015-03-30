@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Data from field: E - Letter ID-->
+    <teiHeader xml:id="L1916_1156">
+        <fileDesc>
+            <titleStmt>
+                <title><!-- Data from field: F: Title -->Telegraph</title>
+                <author><!-- Data from field: I -->unknown</author>
+                <editor>Susan Schreibman</editor>
+            </titleStmt>
+            <editionStmt>
+                <!-- Edition statement ?-->
+                <p> </p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <!-- Publisher statement ?-->
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>NUI Maynooth</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_1156"/>
+                <availability status="restricted">
+                    <!-- Copyright statement ?-->
+                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>Machine-readable transcriptions of letters from the Letters of 1916
+                    collection</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    <!-- Data from field: H - ISSUE: This example had no data in field H-->
+                    <p>No information supplied</p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- has to be generated from a list of collection information -->
+                        <country>???</country>
+                        <settlement>???</settlement>
+                        <!-- Data from field: J: Pat Carroll, Private Collection -->
+                        <repository ref="#Carroll_Pat">Pat Carroll, Private Collection</repository>
+                        <!-- Data from field: AD - Collection-->
+                        <idno type="collection">Carroll_Pat_12</idno>
+                    </msIdentifier>
+                </msDesc>
+                <!-- 
+                    List of places and persons could go here for each document, 
+                    maybe better in separate file?
+                -->
+                <bibl>
+                    <!-- the reference @target could contain a permalink for referencing this telegram -->
+                    <ref target="http://letteredition/#L1916_1156">
+                        <!-- generated from field F --> Telegraph</ref>
+                </bibl>
+
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc
+                xmlns="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc">
+
+                <correspAction type="receiving">
+                    <!-- the person name should be generated from field: U
+                        @ref on <persName> contains refernce to a detailed description of the person
+                        in this example no data is available for <persName>, it should be excluded from <correspAction>
+                    <persName ref="" xmlns="http://www.tei-c.org/ns/1.0">
+                    </persName>-->
+                    <!-- the place name should be generated from field: V
+                        @ref on <placeName> contains a reference to a detailed description of the place
+                        with coordinates, normalised name, etc.
+                        if V is empty the element is not included in <correspAction
+                    <placeName xmlns="http://www.tei-c.org/ns/1.0">
+                    </placeName>-->
+                    <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
+                        and in a human readable form as content of the date element (e.g. 12 April 1916)
+                        <date when="" xmlns="http://www.tei-c.org/ns/1.0"></date>
+                    -->
+                    <note xmlns="http://www.tei-c.org/ns/1.0">No details of receiver are
+                        available</note>
+                </correspAction>
+                <correspAction type="sending">
+                    <!-- the person name should be generated from field: I
+                        @ref on <persName> contains refernce to a detailed description of the person
+                        in this example no data is available for <persName>, it should be excluded from <correspAction>
+                    <persName ref="" xmlns="http://www.tei-c.org/ns/1.0">
+                    </persName>-->
+                    <!-- the place name should be generated from field: W
+                        @ref on <placeName> contains a reference to a detailed description of the place
+                        with coordinates, normalised name, etc.
+                        if V is empty the element is not included in <correspAction
+                    <placeName xmlns="http://www.tei-c.org/ns/1.0">
+                    </placeName>-->
+                    <date when="1916-06-20" xmlns="http://www.tei-c.org/ns/1.0"
+                        ><!-- X: '1916-06-20, date has to be changed into human readable format -->
+                        20 June 1916</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <list>
+                        <!-- Data from field: Z  male or female this would go into a person field-->
+                        <item n="assigned_category">
+                            <!-- Data from field: B --> World War 1: 1914-1918 </item>
+                        <item n="tag">
+                            <!-- Data from field: G - 
+                                subject, not present in most letters also not in this telgram-->
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <!-- Data from field: Q: Irish -->
+                <language ident="en-EN">English</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.</ab>
+            </samplingDecl>
+        </encodingDesc>
+
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="L1916_1156_img_1" url="#L1916_1156_img_1.png"/>
+    </facsimile>
+    <text type="telegram">
+        <body>
+            <div n="1" type="page" facs="#L1916_1156_img_1">
+                <!-- To (2)  <unclear></unclear> v. CX. Wicklow Hotel
+                    Reply paid-
+                    Regret cannot grant exclusion -->
+
+                <opener>
+                    <seg type="pre-printedText">Office of Origin and Service Instructions</seg>
+                    <unclear reason="missing"/>
+                    <seg type="pre-printedText">Handed in at</seg>
+                    <unclear reason="illegible"/>
+                    <seg type="pre-printedText">Received here at</seg>
+                    <unclear reason="illegible"/>
+                    <seg type="pre-printedText">TO</seg> (2) <unclear reason="illegible"/> v. CX.
+                    Wicklow Hotel </opener>
+                <p>Reply paid-</p>
+                <p>Regret cannot grant exclusion </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

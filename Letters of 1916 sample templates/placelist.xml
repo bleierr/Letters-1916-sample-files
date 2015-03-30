@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="L1916_listplaces">
+        <fileDesc>
+            <titleStmt>
+                <title> List of place names referenced in the Letters of 1916 collection </title>
+                <editor>Susan Schreibman</editor>
+            </titleStmt>
+            <editionStmt>
+                <p>
+                    <!-- A general edition statement has to be added here, same statement for all letters -->
+                </p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>NUI Maynooth</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_listplaces"/>
+                <availability status="restricted">
+                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>Machine-readable transcriptions of letters from the Letters of 1916
+                    collection</p>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            
+            <langUsage>
+                <!-- Data from field: Q: English -->
+                <language ident="en-EN">English</language>
+            </langUsage>
+            
+        </profileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <ab>This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.</ab>
+            </samplingDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listPlace>
+                    <!-- Examples for place and location descriptions ID could be also simple like
+                           loc1, loc2, etc.
+                    -->
+                    <place xml:id="belfast_Ire">
+                        <!-- Belfast, Ireland -->
+                        <settlement>Belfast</settlement>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>52.289376, -9.144230</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="dublin_Ire">
+                        <!-- Dublin, Ireland -->
+                        <settlement>Dublin</settlement>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>52.289376, -9.144230</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="rockchapel_co_cork">
+                        <!-- Rockchapel, County Cork, Ireland -->
+                        <settlement>Rockchapel</settlement>
+                        <region>County Cork</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>52.289376, -9.144230</geo>
+                        </location>
+                    </place>
+                    
+                    <place>
+                        <!-- data from field: W: Friar St, Thurles, County Tipperary -->
+                        <placeName>Friar St, Thurles</placeName>
+                        <region>County Tipperary</region>
+                        <location>
+                            <geo>53.226658, -0.541254</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="bere_island_co_cork">
+                        <!-- data from field: W: no data for V -->
+                        <placeName>Bere Island</placeName>
+                        <location>
+                            <geo>51.651175, -9.912390</geo>
+                        </location>
+                    </place>
+                    <place xml:id="haddington">
+                        <!-- data from field: W: no data for V -->
+                        <placeName>Haddington</placeName>
+                        <location>
+                            <geo>55.959168, -2.774827</geo>
+                        </location>
+                    </place>
+                    
+                    
+                </listPlace>
+            </div>
+        </body>
+    </text>
+</TEI>

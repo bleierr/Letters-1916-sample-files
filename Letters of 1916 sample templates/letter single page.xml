@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Data from field: E - Letter ID-->
+    <teiHeader xml:id="L1916_108">
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- Data from field: F: Title --> Letter from Joseph MacDonagh to Mary
+                    MacDonagh, 4 May 1916 </title>
+                <author ref="#JosephMacDonagh"><!-- Data from field: I -->Joseph MacDonagh</author>
+                <editor>Susan Schreibman</editor>
+            </titleStmt>
+            <editionStmt>
+                <p>
+                    <!-- editorial statement has to be supplied ? -->
+                </p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>NUI Maynooth</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <!-- Data from field: E
+                    Should the letter number be used as ID, short abbr for Letters of 1916? e.g. WeGA
+                -->
+                <idno n="L1916-108"/>
+                <availability status="restricted">
+                    <!-- Copyright statement???
+                    <p>This work is the property of the University of Nebraska—Lincoln. It may be copied freely by individuals for personal use, research, and teaching (including distribution to classes) as long as this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in providing this text in a commercial or non—profit product or from an information server must contact the University of Nebraska—Lincoln for licensing and cost information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example, creating a new edition of the text (electronically or in print) with substantive editorial changes, may do so with the permission of the University of Nebraska—Lincoln. This is the case whether the new publication will be made available at a cost or free of charge.</p>
+                
+                    -->
+                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date>2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-readable transcriptions of letters from the Letters of 1916
+                    collection</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    <!-- Data from field: H - ISSUE: <p> tags not in supplied text-->
+                    <p>The letter is from Joseph MacDonagh to his sister Mary MacDonagh.</p>
+                    <p>The letter offers condolences after the execution of their brother Thomas
+                        MacDonagh in Kilmainham Gaol for his part in the Easter Rising (3 May).
+                        Thomas MacDonagh (1878-1916) was a poet and teacher. A leading member of the
+                        Dublin Brigade of the Irish Volunteers, he was one of the principle
+                        organisers of the Easter Rising and one of the seven signatories of the
+                        Proclamation of the Irish Republic.</p>
+                    <p>Joseph MacDonagh (1883-1922) was the youngest brother and went on to serve in
+                        the First and Second Dáils and opposed the Anglo-Irish Treaty. Mary
+                        Josephine MacDonagh (1872-1954) was the eldest sibling. She went on to
+                        become a nun with the Sisters of Charity.</p>
+                    <p>She was the only member of the family to visit Thomas before his execution.
+                        'Muriel' in the letter is Thomas MacDonagh's wife (1884-1917) and 'Jack' is
+                        Thomas's brother John (1880-1961) who had fought under Thomas in the Rising
+                        and was imprisoned afterwards.</p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- Data from field: J: National Library of Ireland -->
+                        <country>IRE</country>
+                        <settlement>Dublin</settlement>
+                        <repository>National Library of Ireland</repository>
+                        <!-- Data from field: AD -->
+                        <idno>Thomas MacDonagh Family Papers, Collection List No 131; Ms.
+                            20647/1</idno>
+                    </msIdentifier>
+                </msDesc>
+                <!-- 
+                    List of places and persons could go here for each document, 
+                    maybe better in separate file?
+                -->
+
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc
+                xmlns="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc">
+
+                <!-- Letter context could be included here -->
+
+                <correspAction type="receiving">
+
+                    <persName ref="#Mary_macDonagh" xmlns="http://www.tei-c.org/ns/1.0">
+                        <!-- Data from field: U -->Mary MacDonagh </persName>
+
+                    <!-- the place name should be generated from field field: V
+                        @ref on <placeName> contains a reference to a detailed description of the place
+                        with coordinates, normalised name, etc.
+                        if V is empty the element is not included
+                    <placeName xmlns="http://www.tei-c.org/ns/1.0">
+                    </placeName>-->
+                    <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
+                        and in a human readable form as content of the date element (e.g. 12 April 1916)
+                        <date when="" xmlns="http://www.tei-c.org/ns/1.0"></date>
+                    -->
+                </correspAction>
+                <correspAction type="sending">
+                    <persName ref="#JosephMacDonagh" xmlns="http://www.tei-c.org/ns/1.0">
+                        <!-- Data from field: I -->Joseph MacDonagh </persName>
+                    <!-- the place name should be generated from field: W
+                        @ref on <placeName> contains a reference to a detailed description of the place
+                        with coordinates, normalised name, etc.
+                        if V is empty the element is not included in <correspAction
+                    <placeName xmlns="http://www.tei-c.org/ns/1.0">
+                    </placeName>-->
+                    <date xmlns="http://www.tei-c.org/ns/1.0" when="1916-05-04">
+                        <!-- Data from field: X -->4 May 1916 </date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item n="assigned_category">
+                            <!-- Data from field: B -->Easter Rising Ireland 1916 </item>
+                        <item n="tag">
+                            <!-- Data from field: G - subject, not present in most letters -->
+                            Country Life </item>
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <!-- Data from field: Q: English -->
+                <language ident="en-EN">English</language>
+            </langUsage>
+
+        </profileDesc>
+        <encodingDesc>
+            <ab>This electronic transcription was created as part of the crowdsourced project
+                Letters of 1916: creating history.</ab>
+        </encodingDesc>
+
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="L1916_108_img_1" url="#L1916_108_img_1.jpg"/>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div n="1" type="page" facs="#L1916_108_img_1">
+
+                <!-- 
+                Friar St.
+                Thurles
+                4.5.16.
+                My Dear Mary,
+                <p>I only heard the news<lb/>to-day.</p><p>I hope you are not too grieved.<lb/>
+                The written or spoken word at such a time is useless.</p>
+                <p>I will go up to Dublin<lb/>when the restrictions are off.</p>
+                <p>Let me know of Muriel and Jack.</p>Your fond brother,<lb/>Joe.
+                -->
+
+                <opener>
+                    <address>
+                        <addrLine>Friar St.</addrLine> 
+                        <addrLine>Thurles</addrLine>
+                    </address>
+                    <dateline><date when="1916-05-04">4.5.16.</date></dateline>
+                    <salute>My Dear Mary,</salute>
+                </opener>
+                <p>I only heard the news<lb/>to-day.</p>
+                <p>I hope you are not too grieved. <lb/>The written or spoken word at such a time is
+                    useless.</p>
+
+                <p>I will go up to Dublin <lb/>when the restrictions are off.</p>
+                <p>Let me know of Muriel and Jack.</p>
+                <closer>
+                    <lb/>Your fond brother, <lb/>Joe. </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

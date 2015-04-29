@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- Data from field: E - Letter ID-->
     <teiHeader xml:id="L1916_108">
         <fileDesc>
             <titleStmt>
                 <title>
-                    <!-- Data from field: F: Title --> Letter from Joseph MacDonagh to Mary
+                    <!-- Title of the transcription -->Letter from Joseph MacDonagh to Mary
                     MacDonagh, 4 May 1916 </title>
-                <author ref="#JosephMacDonagh"><!-- Data from field: I -->Joseph MacDonagh</author>
+                <author ref="#P13">Joseph MacDonagh</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
                 <p>
-                    <!-- editorial statement has to be supplied ? -->
+                    <!-- A general edition statement has to be added here, most likely the same statement for all letters -->
                 </p>
             </editionStmt>
             <publicationStmt>
                 <publisher>
                     <address>
+                        <!-- publisher details -->
                         <name>An Foras Feasa</name>
                         <orgName>NUI Maynooth</orgName>
                         <postBox>Co. Kildare</postBox>
@@ -28,12 +28,9 @@
                         </placeName>
                     </address>
                 </publisher>
-                <!-- Data from field: E
-                    Should the letter number be used as ID, short abbr for Letters of 1916? e.g. WeGA
-                -->
                 <idno n="L1916-108"/>
                 <availability status="restricted">
-                    <!-- Copyright statement???
+                    <!-- Copyright statement example
                     <p>This work is the property of the University of Nebraska—Lincoln. It may be copied freely by individuals for personal use, research, and teaching (including distribution to classes) as long as this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds, including for—profit works.</p>
                     <p>Publishers, libraries, and other information providers interested in providing this text in a commercial or non—profit product or from an information server must contact the University of Nebraska—Lincoln for licensing and cost information.</p>
                     <p> Scholars interested in changing or adding to these texts by, for example, creating a new edition of the text (electronically or in print) with substantive editorial changes, may do so with the permission of the University of Nebraska—Lincoln. This is the case whether the new publication will be made available at a cost or free of charge.</p>
@@ -44,12 +41,13 @@
                 <date>2015</date>
             </publicationStmt>
             <seriesStmt>
+                <!-- Series statement, optional-->
                 <p>Machine-readable transcriptions of letters from the Letters of 1916
                     collection</p>
             </seriesStmt>
             <notesStmt>
                 <note type="summary">
-                    <!-- Data from field: H - ISSUE: <p> tags not in supplied text-->
+                    <!-- a note statement could contain a short summary, optional -->
                     <p>The letter is from Joseph MacDonagh to his sister Mary MacDonagh.</p>
                     <p>The letter offers condolences after the execution of their brother Thomas
                         MacDonagh in Kilmainham Gaol for his part in the Easter Rising (3 May).
@@ -74,16 +72,11 @@
                         <country>IRE</country>
                         <settlement>Dublin</settlement>
                         <repository>National Library of Ireland</repository>
-                        <!-- Data from field: AD -->
                         <idno>Thomas MacDonagh Family Papers, Collection List No 131; Ms.
                             20647/1</idno>
                     </msIdentifier>
                 </msDesc>
-                <!-- 
-                    List of places and persons could go here for each document, 
-                    maybe better in separate file?
-                -->
-
+                
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -95,7 +88,7 @@
                 <correspAction type="receiving">
 
                     <persName ref="#Mary_macDonagh" xmlns="http://www.tei-c.org/ns/1.0">
-                        <!-- Data from field: U -->Mary MacDonagh </persName>
+                        Mary MacDonagh </persName>
 
                     <!-- the place name should be generated from field field: V
                         @ref on <placeName> contains a reference to a detailed description of the place

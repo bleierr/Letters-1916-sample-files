@@ -130,8 +130,8 @@
             </text>
             <text type="letter">
                 <body>
-                    <div n="1" type="page" facs="#L1916_1590_img_1">
-                        
+                    <div>
+                        <pb n="1" facs="#L1916_1590_img_1"/>
                         <opener>
                             <address>                      
                         <addrLine>West End.Millstreet</addrLine> 
@@ -145,10 +145,7 @@
                             Norman Thompson <placeName>Kindlestown, Delgany, Co.
                                 Wicklow.</placeName>
                         </p>
-                        <pb/>
-                    </div>
-                    <div n="2" type="page" facs="#L1916_1590_img_2">
-                        <pb/>
+                        <pb n="2" facs="#L1916_1590_img_2" />
                         <p>would accept my aunt that is<lb/> my Step- mother as tenant if<lb/> a
                             settlement was arrive                      d at and<lb/> the answer he got from the agent<lb/>
                             was that <hi rend="underline">under any circumstances<lb/> would he
@@ -164,11 +161,7 @@
                             anxious<lb/> to know for what purpose you<lb/> want the above
                             information.<lb/> As our P.P. Canon Casey<lb/> wrote to the agent (
                             H.D.M. Barton,<lb/> The Bush, Antrim) a few<lb/> weeks ago. asking if he </p>
-                        <pb/>
-                    </div>
-                    <div n="3" type="page" facs="#L1916_1590_img_3">
-                        
-                        <pb/>
+                        <pb n="3" facs="#L1916_1590_img_3" />
                         <p>claim as easily as that.<lb/> I will expect a letter from<lb/> you by
                             return of post.<lb/> Do not keep me in suspense<lb/> With best regards
                             to<lb/> yourself and all my<lb/> cousins at the Rock.<lb/>

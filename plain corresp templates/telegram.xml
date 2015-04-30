@@ -1,23 +1,21 @@
 <?xml version="1.0"?>
 <?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- Data from field: E - Letter ID-->
-    <teiHeader xml:id="L1916_619">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:corresp="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc" xml:id="L1916_619">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><!-- Data from field: F: Title -->Telegram to Lieutenant James R. Fair from
+                <title>Telegram to Lieutenant James R. Fair from
                     Richard Atwell, 1 February 1916</title>
-                <author ref="#RobertAtwell">
-                    <!-- Data from field: I --> Robert Atwell </author>
+                <author ref="#P1">Robert Atwell</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
-                <!-- Edition statement ?-->
-                <p> </p>
+                <p><!-- Edition statement goes here--></p>
             </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <!-- Publisher statement ?-->
+                    <!-- Publisher statement-->
                     <address>
                         <name>An Foras Feasa</name>
                         <orgName>NUI Maynooth</orgName>
@@ -31,19 +29,18 @@
                 <!-- Letter ID -->
                 <idno n="L1916_619"/>
                 <availability status="restricted">
-                    <!-- Copyright statement ?-->
+                    <!-- Copyright statement-->
                     <p>Copyright © 2015, Letters of 1916, Maynooth</p>
                 </availability>
                 <date when="2015">2015</date>
             </publicationStmt>
             <seriesStmt>
-                <!-- Series statement ?-->
+                <!-- Series statement, optional-->
                 <p>Machine-readable transcriptions of letters from the Letters of 1916
                     collection</p>
             </seriesStmt>
             <notesStmt>
                 <note type="summary">
-                    <!-- Data from field: H - ISSUE: <p> tags not in supplied text-->
                     <p>Telegram from Richard Atwell, Haddington, to Lieutenant James R. Fair.</p>
                     <p>The telegram reads: 'Bereisland Lieutanant Colonel Ford Goerge Scott officer
                         commanding 2/1 Lotham and Border Horse. Atwell.'</p>
@@ -54,67 +51,40 @@
                     <msIdentifier>
 
                         <country>IRE</country>
-                        <!-- This field has to be generated based on field J-->
                         <settlement>Dublin</settlement>
-                        <!-- This field has to be generated based on field J-->
-                        <!-- Data from field: J: National Library of Ireland -->
-                        <repository ref="#NLI">National Library of Ireland</repository>
-                        <!-- Data from field: AD - Collection-->
+                        <repository>National Library of Ireland</repository>
                         <idno>Bellew of Mount Bellew Papers, Collection List No. 33; Ms.
                             27,290</idno>
                     </msIdentifier>
                 </msDesc>
-                <!-- 
-                    List of places and persons could go here for each document, 
-                    maybe better in separate file?
-                -->
+                
                 <bibl>
-                    <!-- the reference @target could contain a permalink for referencing this telegram -->
-                    <ref target="http://letteredition/#L1916_619">
-                        <!-- generated from field F --> Telegram to Lieutenant James R. Fair from
+                    <ref target="http://letteredition/#L1916_619">Telegram to Lieutenant James R. Fair from
                         Richard Atwell, 1 February 1916 </ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc
-                xmlns="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc">
+            <corresp:correspDesc>
 
-                <correspAction type="receiving">
+                <corresp:correspAction type="receiving">
 
-                    <persName ref="#JamesRFair" xmlns="http://www.tei-c.org/ns/1.0">
-                        <!-- Data from field: U --> James R. Fair</persName>
-                    <placeName ref="#bere_island_co_cork" xmlns="http://www.tei-c.org/ns/1.0"
-                        ><!-- Data from field: V -->Bere Island</placeName>
-                    <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
-                        and in a human readable form as content of the date element (e.g. 12 April 1916)
-                        <date when="" xmlns="http://www.tei-c.org/ns/1.0"></date>
-                    -->
-                </correspAction>
-                <correspAction type="sending">
+                    <persName ref="#P5">James R. Fair</persName>
+                    <placeName ref="#Loc5">Bere Island</placeName>
+                   
+                </corresp:correspAction>
+                <corresp:correspAction type="sending">
 
-                    <persName ref="#RobertAtwell" xmlns="http://www.tei-c.org/ns/1.0">
-                        <!-- Data from field: I --> Robert Atwell </persName>
-                    <placeName xmlns="http://www.tei-c.org/ns/1.0" ref="#haddington"
-                        ><!-- Data from field: W -->Haddington</placeName>
-                    <date when="1916-02-01" xmlns="http://www.tei-c.org/ns/1.0"
-                        ><!-- X: '1916-02-01, date has to be changed into human readable format -->01
-                        February 1916</date>
-                </correspAction>
-            </correspDesc>
-            <textClass>
-                <keywords>
-                    <list>
-                        <item n="assigned_category">
-                            <!-- Data from field: B -->Easter Rising Ireland 1916</item>
-                        <item n="tag"
-                            ><!-- Data from field: G - subject, not present in most letters -->Country
-                            Life</item>
-                    </list>
-                </keywords>
-            </textClass>
+                    <persName ref="#RobertAtwell">
+                        Robert Atwell</persName>
+                    <placeName ref="#haddington"
+                        >Haddington</placeName>
+                    <date when="1916-02-01"
+                        >01 February 1916</date>
+                </corresp:correspAction>
+            </corresp:correspDesc>
+           
             <langUsage>
-                <!-- Data from field: Q: English -->
                 <language ident="en-EN">English</language>
             </langUsage>
         </profileDesc>
@@ -131,11 +101,8 @@
     </facsimile>
     <text type="telegram">
         <body>
-            <div n="1" type="page" facs="#L1916_619_img_1">
-                <!-- <p> (Office of Origin and Service Instructions) Haddington (Handed in at) 3.47p
-                    (Received here at) 4.35p (TO) Lieut Fair Bereisland Lieutenant Colonel Lord
-                    George Scott officer commanding 2/1 Lothian and Border Horse Atwell. </p> -->
-
+            <div>
+                <pb n="1" facs="#L1916_619_img_1"/>
                 <opener>
                     <seg type="pre-printedText">Office of Origin and Service Instructions</seg>
                     Haddington <seg type="pre-printedText">Handed in at</seg> 3.47p <seg

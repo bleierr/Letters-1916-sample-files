@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:id="L1916_1590">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:corresp="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc" xml:id="L1916_1590">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title><!-- Title of the transcription -->Letter from D. J. Murphy to David G.
                     Curtin, 26 February 1916</title>
-                <author ref="#P1"><!-- author of the letter -->David G. Curtin</author>
+                <author ref="#P6"><!-- author of the letter -->David G. Curtin</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
@@ -60,37 +60,39 @@
                         <!-- information about the repository that holds the letter currently -->
                         <country>IRE</country>
                         <settlement>Dublin</settlement>
-                        <repository ref="#NAI">National Archives of Ireland</repository>
+                        <repository>National Archives of Ireland</repository>
                         <idno type="collection">Chief Secretary’s Office Registered Papers, CSO
                             RP/1916/8645/1</idno>
                     </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="h1"> </handNote>
+                        </handDesc>
+                    </physDesc>
                 </msDesc>
-                
+
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc
-                xmlns="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc">
+            <corresp:correspDesc>
 
-                <correspAction type="receiving">
+                <corresp:correspAction type="receiving">
 
-                    <persName ref="#P1" xmlns="http://www.tei-c.org/ns/1.0">
-                        David G. Curtin </persName>
-                    <placeName corresp="#L1" xmlns="http://www.tei-c.org/ns/1.0"
-                        >Rockchapel, County Cork, Ireland</placeName>
-                    <date xmlns="http://www.tei-c.org/ns/1.0">unknown</date>
-                </correspAction>
-                <correspAction type="sending">
+                    <persName ref="#P4"> D. J.
+                        Murphy</persName>
+                    <placeName corresp="#Loc3">Rockchapel, County
+                        Cork, Ireland</placeName>
+                    <date>unknown</date>
+                </corresp:correspAction>
+                <corresp:correspAction type="sending">
 
-                    <persName ref="#P15" xmlns="http://www.tei-c.org/ns/1.0">
-                        D. J. Murphy </persName>
-                    <placeName xmlns="http://www.tei-c.org/ns/1.0"
-                        >unknown</placeName>
-                    <date xmlns="http://www.tei-c.org/ns/1.0" when="1916-02-26"
-                        >26 February 1916</date>
-                </correspAction>
-            </correspDesc>
-            
+                    <persName ref="#P6"> David G. Curtin </persName>
+                    <placeName>unknown</placeName>
+                    <date when="1916-02-26">26 February
+                        1916</date>
+                </corresp:correspAction>
+            </corresp:correspDesc>
+
             <langUsage>
                 <!-- language of the letter -->
                 <language ident="en-EN">English</language>
@@ -115,8 +117,8 @@
         <group>
             <text type="envelop">
                 <body>
-                    
-                    <div facs="#L1916_1590_img_4">
+                    <div>
+                        <pb facs="#L1916_1590_img_4"/>
                         <ab>
                             <address>
                             <addrLine>David G. Curtin Esq.R.D.C,</addrLine>
@@ -130,6 +132,7 @@
             </text>
             <text type="letter">
                 <body>
+
                     <div>
                         <pb n="1" facs="#L1916_1590_img_1"/>
                         <opener>
@@ -141,36 +144,40 @@
                         </opener>
                         <p>I got your P.C.<lb/> this morning and the following<lb/> are the
                             particulars you ask for.<lb/> Landladies:- Mrs Harriet Orpen,
-                                <!-- ??? --><placeName>24 Elgin Road. Dublin.</placeName> and Mrs
-                            Norman Thompson <placeName>Kindlestown, Delgany, Co.
-                                Wicklow.</placeName>
+                                <placeName>24 Elgin Road. Dublin.</placeName> and Mrs Norman
+                            Thompson <placeName>Kindlestown, Delgany, Co. Wicklow.</placeName>
                         </p>
-                        <pb n="2" facs="#L1916_1590_img_2" />
+                        <pb n="2" facs="#L1916_1590_img_2"/>
                         <p>would accept my aunt that is<lb/> my Step- mother as tenant if<lb/> a
-                            settlement was arrive                      d at and<lb/> the answer he got from the agent<lb/>
-                            was that <hi rend="underline">under any circumstances<lb/> would he
-                                again deal with the<lb/> Murphy Family.</hi>.</p>
-                        <p>But that he <add>the agent</add> would be willing<lb/>
-                            <del>to</del> if our good-will was<lb/> bought out to let it to any
-                            one<lb/> that would buy <del>it</del>our good-will.<lb/> Of course I
-                            need not say that<lb/> we will not surrender our
-                            <pb/> acres 140<lb/> Rent. £66.0-0<lb/>
-                            valuation £62.0.0<lb/> Board of Works Annuity £13.0.0<lb/> yearly. And
-                            the date of eviction<lb/> is 26<hi rend="superscript">th</hi> of
-                            February 1908<lb/> exactly this d ay 8 years.<lb/> I must say that I am
+                            settlement was arrive d at and<lb/> the answer he got from the
+                            agent<lb/> was that <hi rend="underline">under any circumstances<lb/>
+                                would he again deal with the<lb/> Murphy Family.</hi>.</p>
+                        <p>But that he <add place="above">the agent</add> would be willing<lb/>
+                            <del rend="underline">to</del> if our good-will was<lb/> bought out to
+                            let it to any one<lb/> that would buy <del>it</del>our good-will.<lb/>
+                            Of course I need not say that<lb/> we will not surrender our <pb/> acres
+                            140<lb/> Rent. £66.0-0<lb/> valuation £62.0.0<lb/> Board<handShift
+                                corresp="#h1"/> of Works Annuity £13.0.0<lb/> yearly. And the date
+                            of eviction<lb/> is 26<hi rend="superscript">th</hi> of February
+                            1908<lb/> exactly this d ay 8 years.<lb/> I must say that I am
                             anxious<lb/> to know for what purpose you<lb/> want the above
                             information.<lb/> As our P.P. Canon Casey<lb/> wrote to the agent (
                             H.D.M. Barton,<lb/> The Bush, Antrim) a few<lb/> weeks ago. asking if he </p>
-                        <pb n="3" facs="#L1916_1590_img_3" />
+                        <pb n="3" facs="#L1916_1590_img_3"/>
                         <p>claim as easily as that.<lb/> I will expect a letter from<lb/> you by
                             return of post.<lb/> Do not keep me in suspense<lb/> With best regards
                             to<lb/> yourself and all my<lb/> cousins at the Rock.<lb/>
                         </p>
                         <salute>I remain<lb/> Your Cousin <lb/> D. J. Murphy</salute>
-                        <note>To D. G. Curtin Esq. <unclear>R.D.6.</unclear>Note
-                            <sic>adress</sic></note>
+                        <note place="bottom">To D. G. Curtin Esq. <unclear>R.D.6.</unclear>Note
+                                <sic>adress</sic></note>
+                        <postscript>
+                            <p>This is a postscript</p>
+                        </postscript>
+
 
                     </div>
+
                 </body>
             </text>
         </group>

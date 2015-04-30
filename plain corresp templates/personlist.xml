@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:id="L1916_listperson">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1916_listperson">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> List of person names referenced in the Letters of 1916 collection </title>
+                <title> List of person names referenced in the Letters of 1916 collection</title>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
@@ -40,12 +40,12 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            
+
             <langUsage>
                 <!-- Data from field: Q: English -->
                 <language ident="en-EN">English</language>
             </langUsage>
-            
+
         </profileDesc>
         <encodingDesc>
             <samplingDecl>
@@ -53,50 +53,58 @@
                     Letters of 1916: creating history.</ab>
             </samplingDecl>
         </encodingDesc>
-        
+
     </teiHeader>
     <text>
         <body>
             <div>
                 <listPerson>
-                    <!-- example for a person, ID could be also something as simple as P1, P2, etc. -->
-                    
-                    <person xml:id="RobertAtwell">
+                    <person xml:id="P1">
                         <persName>Robert Atwell</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    <person xml:id="Mary_macDonagh">
+                    <person xml:id="P2">
                         <persName>Mary MacDonagh</persName>
                         <sex value="F">female</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    <person xml:id="JosephMacDonagh">
+                    <person xml:id="P3">
                         <persName>Joseph MacDonagh</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
-                    <person xml:id="DJMurphy">
+
+                    <person xml:id="P4">
                         <persName>D. J. Murphy</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
-                    <person xml:id="JamesRFair">
+
+                    <person xml:id="P5">
                         <persName>James R Fair</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    <person xml:id="DavidDCurtin">
+                    <person xml:id="P6">
                         <persName>David G. Curtin</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
+                    </person>
+                    <person xml:id="P7">
+                        <persName>Piaras Béaslaí
+                        </persName>
+                        <sex value="M">male</sex>
+                        <affiliation/>
+                    </person>
+                    <person xml:id="P8">
+                        <persName>M.
+                        </persName>
+                        <!-- sex unknown -->
+                        <affiliation/>
                     </person>
                 </listPerson>
             </div>
         </body>
     </text>
 </TEI>
-
-

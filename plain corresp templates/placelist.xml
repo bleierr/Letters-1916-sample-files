@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:id="L1916_listplaces">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1916_listplaces">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> List of place names referenced in the Letters of 1916 collection </title>
+                <title> List of place names referenced in the Letters of 1916 collection</title>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
@@ -40,12 +40,11 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            
+
             <langUsage>
-                <!-- Data from field: Q: English -->
                 <language ident="en-EN">English</language>
             </langUsage>
-            
+
         </profileDesc>
         <encodingDesc>
             <samplingDecl>
@@ -53,35 +52,30 @@
                     Letters of 1916: creating history.</ab>
             </samplingDecl>
         </encodingDesc>
-        
+
     </teiHeader>
     <text>
         <body>
             <div>
                 <listPlace>
-                    <!-- Examples for place and location descriptions ID could be also simple like
-                           loc1, loc2, etc.
-                    -->
-                    <place xml:id="belfast_Ire">
-                        <!-- Belfast, Ireland -->
+                    
+                    <place xml:id="Loc1">
                         <settlement>Belfast</settlement>
                         <country>Ireland</country>
                         <location>
                             <geo>52.289376, -9.144230</geo>
                         </location>
                     </place>
-                    
-                    <place xml:id="dublin_Ire">
-                        <!-- Dublin, Ireland -->
+
+                    <place xml:id="Loc2">
                         <settlement>Dublin</settlement>
                         <country>Ireland</country>
                         <location>
                             <geo>52.289376, -9.144230</geo>
                         </location>
                     </place>
-                    
-                    <place xml:id="rockchapel_co_cork">
-                        <!-- Rockchapel, County Cork, Ireland -->
+
+                    <place xml:id="Loc3">
                         <settlement>Rockchapel</settlement>
                         <region>County Cork</region>
                         <country>Ireland</country>
@@ -89,32 +83,29 @@
                             <geo>52.289376, -9.144230</geo>
                         </location>
                     </place>
-                    
-                    <place>
-                        <!-- data from field: W: Friar St, Thurles, County Tipperary -->
+
+                    <place xml:id="Loc4">
                         <placeName>Friar St, Thurles</placeName>
                         <region>County Tipperary</region>
                         <location>
                             <geo>53.226658, -0.541254</geo>
                         </location>
                     </place>
-                    
-                    <place xml:id="bere_island_co_cork">
-                        <!-- data from field: W: no data for V -->
+
+                    <place xml:id="Loc5">
                         <placeName>Bere Island</placeName>
                         <location>
                             <geo>51.651175, -9.912390</geo>
                         </location>
                     </place>
-                    <place xml:id="haddington">
-                        <!-- data from field: W: no data for V -->
+                    <place xml:id="Loc6">
                         <placeName>Haddington</placeName>
                         <location>
                             <geo>55.959168, -2.774827</geo>
                         </location>
                     </place>
-                    
-                    
+
+
                 </listPlace>
             </div>
         </body>

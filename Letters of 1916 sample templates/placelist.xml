@@ -114,6 +114,75 @@
                         </location>
                     </place>
                     
+                    <place xml:id="GrattanStreet_Dublin">
+                        <!-- 24 Grattan Street, Dublin, Ireland: remove number of address? remove street? -->
+                        <settlement>24 Grattan Street, Dublin</settlement>
+                        <region>Dublin</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.339338, -6.244197</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="LoughCurtaCastelGortGalway">
+                        <!-- Lough Curta Castel, Gort, County Galway-->
+                        <settlement>Lough Curta Castel, Gort</settlement>
+                        <region>County Galway</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.032248, -8.813090</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="StEndasCollegeRathfarnham">
+                        <!-- St. Enda's College, Rathfarnham, Dublin-->
+                        <settlement>St. Enda's College, Rathfarnham</settlement>
+                        <region>County Dublin</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.283056, -6.281667;</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="DawsonStreetDublin">
+                        <!-- 2 Dawson Street, Dublin, Ireland-->
+                        <settlement>2 Dawson Street, Dublin</settlement>
+                        <region>County Dublin</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.342654, -6.257668</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="WoodtownRathfarnham">
+                        <!-- Woodtown Park, Rathfarnham, Dublin, Ireland-->
+                        <settlement>Woodtown Park, Rathfarnham</settlement>
+                        <region>County Dublin</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.300604, -6.283870</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="Rathgar, Dublin">
+                        <!-- Rathgar, Dublin, Ireland; north= -->
+                        <settlement>Rathgar, Dublin</settlement>
+                        <region>County Dublin</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.319005, -6.269144</geo>
+                        </location>
+                    </place>
+                    
+                    <place xml:id="AhascraghGalway">
+                        <!-- name=Ahascragh, County Galway-->
+                        <settlement>Ahascragh</settlement>
+                        <region>County Galway</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.397737, -8.334626</geo>
+                        </location>
+                    </place>
                     
                 </listPlace>
             </div>

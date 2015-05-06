@@ -66,7 +66,7 @@
                         <sex value="M">male</sex>
                         <affiliation></affiliation>
                     </person>
-                    <person xml:id="Mary_macDonagh">
+                    <person xml:id="MaryMacDonagh">
                         <persName>Mary MacDonagh</persName>
                         <sex value="F">female</sex>
                         <affiliation></affiliation>
@@ -88,11 +88,85 @@
                         <sex value="M">male</sex>
                         <affiliation></affiliation>
                     </person>
-                    <person xml:id="DavidDCurtin">
+                    
+                    <person xml:id="DavidGCurtin">
                         <persName>David G. Curtin</persName>
                         <sex value="M">male</sex>
                         <affiliation></affiliation>
                     </person>
+                    
+                    <person xml:id="PatrickPearse">
+                        <persName>Patrick Pearse</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="WilliamPearse">
+                        <persName>William Pearse</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="AugustineBirrell">
+                        <persName>Augustine Birrell</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                     <person xml:id="SeanTO_Kelly">
+                        <persName>Seán T. O'Kelly</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="SarahHarden">
+                        <persName>Sarah Harden</persName>
+                        <sex value="F">female</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="EoinMacNeill">
+                        <persName>Eoin MacNeill</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                
+                    <person xml:id="DonaldHarden">
+                        <persName>Donald Harden</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="PatrickBlairCarphin">
+                        <persName>Patrick Blair Carphin</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="EamondeValera">
+                        <persName>Éamon de Valera</persName>
+                        <sex value="M">male</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="JosephineCarphin">
+                        <persName>Josephine Carphin</persName>
+                        <sex value="F">female</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="Budson">
+                        <persName>Mrs. Budson</persName>
+                        <sex value="F">female</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
+                    <person xml:id="AugustaCarolineDillonCrofton_Clonbrock"><!--how?-->
+                        <persName>Lady Clonbrock</persName>
+                        <sex value="F">female</sex>
+                        <affiliation></affiliation>
+                    </person>
+                    
                 </listPerson>
             </div>
         </body>

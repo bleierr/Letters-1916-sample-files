@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:id="L1916_listperson">
         <fileDesc>
@@ -40,12 +40,12 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            
+
             <langUsage>
                 <!-- Data from field: Q: English -->
                 <language ident="en-EN">English</language>
             </langUsage>
-            
+
         </profileDesc>
         <encodingDesc>
             <samplingDecl>
@@ -53,124 +53,123 @@
                     Letters of 1916: creating history.</ab>
             </samplingDecl>
         </encodingDesc>
-        
+
     </teiHeader>
     <text>
         <body>
             <div>
                 <listPerson>
                     <!-- example for a person, ID could be also something as simple as P1, P2, etc. -->
-                    
+
                     <person xml:id="RobertAtwell">
                         <persName>Robert Atwell</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
                     <person xml:id="MaryMacDonagh">
                         <persName>Mary MacDonagh</persName>
                         <sex value="F">female</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
                     <person xml:id="JosephMacDonagh">
                         <persName>Joseph MacDonagh</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="DJMurphy">
                         <persName>D. J. Murphy</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="JamesRFair">
                         <persName>James R Fair</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="DavidGCurtin">
                         <persName>David G. Curtin</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="PatrickPearse">
                         <persName>Patrick Pearse</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="WilliamPearse">
                         <persName>William Pearse</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="AugustineBirrell">
                         <persName>Augustine Birrell</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
-                     <person xml:id="SeanTO_Kelly">
+
+                    <person xml:id="SeanTO_Kelly">
                         <persName>Seán T. O'Kelly</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="SarahHarden">
                         <persName>Sarah Harden</persName>
                         <sex value="F">female</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="EoinMacNeill">
                         <persName>Eoin MacNeill</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                
+
                     <person xml:id="DonaldHarden">
                         <persName>Donald Harden</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="PatrickBlairCarphin">
                         <persName>Patrick Blair Carphin</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="EamondeValera">
                         <persName>Éamon de Valera</persName>
                         <sex value="M">male</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="JosephineCarphin">
                         <persName>Josephine Carphin</persName>
                         <sex value="F">female</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                     <person xml:id="Budson">
                         <persName>Mrs. Budson</persName>
                         <sex value="F">female</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
-                    <person xml:id="AugustaCarolineDillonCrofton_Clonbrock"><!--how?-->
+
+                    <person xml:id="AugustaCarolineDillonCrofton_Clonbrock">
+                        <!--how?-->
                         <persName>Lady Clonbrock</persName>
                         <sex value="F">female</sex>
-                        <affiliation></affiliation>
+                        <affiliation/>
                     </person>
-                    
+
                 </listPerson>
             </div>
         </body>
     </text>
 </TEI>
-
-

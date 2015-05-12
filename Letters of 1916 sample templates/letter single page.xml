@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <!-- Data from field: E - Letter ID-->
     <teiHeader xml:id="L1916_108">
@@ -87,37 +87,36 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc
-                xmlns="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc">
+            <correspDesc>
 
                 <!-- Letter context could be included here -->
 
                 <correspAction type="receiving">
 
-                    <persName ref="#Mary_macDonagh" xmlns="http://www.tei-c.org/ns/1.0">
+                    <persName ref="#Mary_macDonagh">
                         <!-- Data from field: U -->Mary MacDonagh </persName>
 
                     <!-- the place name should be generated from field field: V
                         @ref on <placeName> contains a reference to a detailed description of the place
                         with coordinates, normalised name, etc.
                         if V is empty the element is not included
-                    <placeName xmlns="http://www.tei-c.org/ns/1.0">
+                    <placeName>
                     </placeName>-->
                     <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
                         and in a human readable form as content of the date element (e.g. 12 April 1916)
-                        <date when="" xmlns="http://www.tei-c.org/ns/1.0"></date>
+                        <date when=""></date>
                     -->
                 </correspAction>
                 <correspAction type="sending">
-                    <persName ref="#JosephMacDonagh" xmlns="http://www.tei-c.org/ns/1.0">
+                    <persName ref="#JosephMacDonagh">
                         <!-- Data from field: I -->Joseph MacDonagh </persName>
                     <!-- the place name should be generated from field: W
                         @ref on <placeName> contains a reference to a detailed description of the place
                         with coordinates, normalised name, etc.
                         if V is empty the element is not included in <correspAction
-                    <placeName xmlns="http://www.tei-c.org/ns/1.0">
+                    <placeName>
                     </placeName>-->
-                    <date xmlns="http://www.tei-c.org/ns/1.0" when="1916-05-04">
+                    <date when="1916-05-04">
                         <!-- Data from field: X -->4 May 1916 </date>
                 </correspAction>
             </correspDesc>
@@ -167,7 +166,9 @@
                         <addrLine>Friar St.</addrLine> 
                         <addrLine>Thurles</addrLine>
                     </address>
-                    <dateline><date when="1916-05-04">4.5.16.</date></dateline>
+                    <dateline>
+                        <date when="1916-05-04">4.5.16.</date>
+                    </dateline>
                     <salute>My Dear Mary,</salute>
                 </opener>
                 <p>I only heard the news<lb/>to-day.</p>

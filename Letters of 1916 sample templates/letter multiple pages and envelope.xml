@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <!-- Data from field: E - Letter ID-->
     <teiHeader xml:id="L1916_1590">
@@ -73,24 +73,23 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc
-                xmlns="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc">
+            <correspDesc>
 
                 <correspAction type="receiving">
 
-                    <persName ref="#DavidGCurtis" xmlns="http://www.tei-c.org/ns/1.0">
+                    <persName ref="#DavidGCurtis">
                         <!-- Data from field: U --> David G. Curtin </persName>
-                    <placeName corresp="#rockchapel_co_cork" xmlns="http://www.tei-c.org/ns/1.0"
+                    <placeName corresp="#rockchapel_co_cork"
                         ><!-- Data from field: V -->Rockchapel, County Cork, Ireland</placeName>
-                    <date xmlns="http://www.tei-c.org/ns/1.0">unknown</date>
+                    <date>unknown</date>
                 </correspAction>
                 <correspAction type="sending">
 
-                    <persName ref="#DJMurphy" xmlns="http://www.tei-c.org/ns/1.0">
+                    <persName ref="#DJMurphy">
                         <!-- Data from field: I --> D. J. Murphy </persName>
-                    <placeName xmlns="http://www.tei-c.org/ns/1.0"
+                    <placeName
                         ><!-- Data from field: W -->unknown</placeName>
-                    <date xmlns="http://www.tei-c.org/ns/1.0" when="1916-02-26"
+                    <date when="1916-02-26"
                         ><!-- Data from field: X -->26 February 1916</date>
                 </correspAction>
             </correspDesc>
@@ -168,7 +167,9 @@
                             <address>                      
                         <addrLine>West End.Millstreet</addrLine> 
                     </address>
-                            <dateline><date when="1916-02-26">26.2.16</date></dateline>
+                            <dateline>
+                                <date when="1916-02-26">26.2.16</date>
+                            </dateline>
                             <salute>My Dear Cousin.</salute>
                         </opener>
                         <p>I got your P.C.<lb/> this morning and the following<lb/> are the

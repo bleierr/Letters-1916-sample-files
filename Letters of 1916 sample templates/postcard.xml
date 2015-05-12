@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <!-- Data from field: E - Letter ID-->
@@ -74,27 +74,26 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc
-                xmlns="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc">
+            <correspDesc>
 
                 <correspAction type="receiving">
 
-                    <persName ref="#PiarasBeaslai" xmlns="http://www.tei-c.org/ns/1.0">
+                    <persName ref="#PiarasBeaslai">
                         <!-- Data from field: U -->Piaras Béaslaí </persName>
-                    <placeName ref="#dublin_Ire" xmlns="http://www.tei-c.org/ns/1.0">
+                    <placeName ref="#dublin_Ire">
                         <!-- Data from field: V -->Dublin, Ireland </placeName>
                     <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
                         and in a human readable form as content of the date element (e.g. 12 April 1916)
-                        <date when="" xmlns="http://www.tei-c.org/ns/1.0"></date>
+                        <date when=""></date>
                     -->
                 </correspAction>
                 <correspAction type="sending">
 
-                    <persName ref="#m" xmlns="http://www.tei-c.org/ns/1.0">
+                    <persName ref="#m">
                         <!-- Data from field: I -->M. </persName>
-                    <placeName ref="#belfast_Ire" xmlns="http://www.tei-c.org/ns/1.0">
+                    <placeName ref="#belfast_Ire">
                         <!-- Data from field: W --> Belfast, Ireland </placeName>
-                    <date when="1916-01-11" xmlns="http://www.tei-c.org/ns/1.0">
+                    <date when="1916-01-11">
                         <!-- X: '1916-01-11, date has to be changed into human readable format -->
                         11 January 1916</date>
                 </correspAction>
@@ -147,7 +146,9 @@
                     <address>
                 <addrLine>Piaras Béaslaí, 25 Lindsay Rd, <del>L</del> Glasnevin, <hi rend="underline">Dublin</hi></addrLine>
                 </address>
-                    <dateline><date when="1916-01-11">11-1-16</date></dateline>
+                    <dateline>
+                        <date when="1916-01-11">11-1-16</date>
+                    </dateline>
                 </opener>
                 <p> Annso dhom arís &amp; uaigneas orm indiaidh B. Átha Cliath. Níor bhuail an
                     taingeal liom. Is dóca go raibh sé imthighte go luath. Ar thugais cuairt ar P. Ó

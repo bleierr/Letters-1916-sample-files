@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <!-- Data from field: E - Letter ID-->
     <teiHeader xml:id="L1916_1156">
@@ -69,41 +69,40 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc
-                xmlns="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc">
+            <correspDesc>
 
                 <correspAction type="receiving">
                     <!-- the person name should be generated from field: U
                         @ref on <persName> contains refernce to a detailed description of the person
                         in this example no data is available for <persName>, it should be excluded from <correspAction>
-                    <persName ref="" xmlns="http://www.tei-c.org/ns/1.0">
+                    <persName ref="">
                     </persName>-->
                     <!-- the place name should be generated from field: V
                         @ref on <placeName> contains a reference to a detailed description of the place
                         with coordinates, normalised name, etc.
                         if V is empty the element is not included in <correspAction
-                    <placeName xmlns="http://www.tei-c.org/ns/1.0">
+                    <placeName>
                     </placeName>-->
                     <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
                         and in a human readable form as content of the date element (e.g. 12 April 1916)
-                        <date when="" xmlns="http://www.tei-c.org/ns/1.0"></date>
+                        <date when=""></date>
                     -->
-                    <note xmlns="http://www.tei-c.org/ns/1.0">No details of receiver are
+                    <note>No details of receiver are
                         available</note>
                 </correspAction>
                 <correspAction type="sending">
                     <!-- the person name should be generated from field: I
                         @ref on <persName> contains refernce to a detailed description of the person
                         in this example no data is available for <persName>, it should be excluded from <correspAction>
-                    <persName ref="" xmlns="http://www.tei-c.org/ns/1.0">
+                    <persName ref="">
                     </persName>-->
                     <!-- the place name should be generated from field: W
                         @ref on <placeName> contains a reference to a detailed description of the place
                         with coordinates, normalised name, etc.
                         if V is empty the element is not included in <correspAction
-                    <placeName xmlns="http://www.tei-c.org/ns/1.0">
+                    <placeName>
                     </placeName>-->
-                    <date when="1916-06-20" xmlns="http://www.tei-c.org/ns/1.0"
+                    <date when="1916-06-20"
                         ><!-- X: '1916-06-20, date has to be changed into human readable format -->
                         20 June 1916</date>
                 </correspAction>

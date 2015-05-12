@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:corresp="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc" xml:id="L1916_108">
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1916_108">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -80,20 +79,20 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <corresp:correspDesc>
-                <corresp:correspAction type="receiving">
+            <correspDesc>
+                <correspAction type="receiving">
 
                     <persName ref="#P2">Mary MacDonagh</persName>
 
                     <placeName>unknown</placeName>
                     <date>unknown</date>
-                </corresp:correspAction>
-                <corresp:correspAction type="sending">
+                </correspAction>
+                <correspAction type="sending">
                     <persName ref="#P3">Joseph MacDonagh</persName>
                     <placeName>unknown</placeName>
                     <date when="1916-05-04"> 4 May 1916</date>
-                </corresp:correspAction>
-            </corresp:correspDesc>
+                </correspAction>
+            </correspDesc>
 
             <langUsage>
                 <language ident="en-EN">English</language>

@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:corresp="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc" xml:id="L1916_1590">
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="L1916_1590">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -74,24 +75,20 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <corresp:correspDesc>
+            <correspDesc>
+                <correspAction type="receiving">
 
-                <corresp:correspAction type="receiving">
-
-                    <persName ref="#P4"> D. J.
-                        Murphy</persName>
-                    <placeName corresp="#Loc3">Rockchapel, County
-                        Cork, Ireland</placeName>
+                    <persName ref="#P4"> D. J. Murphy</persName>
+                    <placeName corresp="#Loc3">Rockchapel, County Cork, Ireland</placeName>
                     <date>unknown</date>
-                </corresp:correspAction>
-                <corresp:correspAction type="sending">
+                </correspAction>
+                <correspAction type="sending">
 
                     <persName ref="#P6"> David G. Curtin </persName>
                     <placeName>unknown</placeName>
-                    <date when="1916-02-26">26 February
-                        1916</date>
-                </corresp:correspAction>
-            </corresp:correspDesc>
+                    <date when="1916-02-26">26 February 1916</date>
+                </correspAction>
+            </correspDesc>
 
             <langUsage>
                 <!-- language of the letter -->

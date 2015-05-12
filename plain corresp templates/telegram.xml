@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" 
-    xmlns:corresp="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc" xml:id="L1916_619">
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="L1916_619">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Telegram to Lieutenant James R. Fair from
-                    Richard Atwell, 1 February 1916</title>
+                <title>Telegram to Lieutenant James R. Fair from Richard Atwell, 1 February
+                    1916</title>
                 <author ref="#P1">Robert Atwell</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
@@ -57,33 +57,30 @@
                             27,290</idno>
                     </msIdentifier>
                 </msDesc>
-                
+
                 <bibl>
-                    <ref target="http://letteredition/#L1916_619">Telegram to Lieutenant James R. Fair from
-                        Richard Atwell, 1 February 1916 </ref>
+                    <ref target="http://letteredition/#L1916_619">Telegram to Lieutenant James R.
+                        Fair from Richard Atwell, 1 February 1916 </ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <corresp:correspDesc>
+            <correspDesc>
 
-                <corresp:correspAction type="receiving">
+                <correspAction type="receiving">
 
                     <persName ref="#P5">James R. Fair</persName>
                     <placeName ref="#Loc5">Bere Island</placeName>
-                   
-                </corresp:correspAction>
-                <corresp:correspAction type="sending">
 
-                    <persName ref="#RobertAtwell">
-                        Robert Atwell</persName>
-                    <placeName ref="#haddington"
-                        >Haddington</placeName>
-                    <date when="1916-02-01"
-                        >01 February 1916</date>
-                </corresp:correspAction>
-            </corresp:correspDesc>
-           
+                </correspAction>
+                <correspAction type="sending">
+
+                    <persName ref="#RobertAtwell"> Robert Atwell</persName>
+                    <placeName ref="#haddington">Haddington</placeName>
+                    <date when="1916-02-01">01 February 1916</date>
+                </correspAction>
+            </correspDesc>
+
             <langUsage>
                 <language ident="en-EN">English</language>
             </langUsage>

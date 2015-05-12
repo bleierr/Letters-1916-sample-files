@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1916_listperson">
     <teiHeader>
         <fileDesc>
@@ -92,14 +92,12 @@
                         <affiliation/>
                     </person>
                     <person xml:id="P7">
-                        <persName>Piaras Béaslaí
-                        </persName>
+                        <persName>Piaras Béaslaí </persName>
                         <sex value="M">male</sex>
                         <affiliation/>
                     </person>
                     <person xml:id="P8">
-                        <persName>M.
-                        </persName>
+                        <persName>M. </persName>
                         <!-- sex unknown -->
                         <affiliation/>
                     </person>

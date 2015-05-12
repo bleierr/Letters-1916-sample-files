@@ -1,12 +1,10 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="corresp_proposal.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:corresp="http://wiki.tei-c.org/index.php/SIG:Correspondence/task-force-correspDesc" xml:id="L1916_267">
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1916_267">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Postcard from M. in Belfast to Piaras
-                    Béaslaí, January 1916</title>
+                <title>Postcard from M. in Belfast to Piaras Béaslaí, January 1916</title>
                 <author>M.</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
@@ -39,10 +37,9 @@
                     collection</p>
             </seriesStmt>
             <notesStmt>
-                <note type="summary">
-                    Post card from M. to
-                    Piaras from Belfast. M. misses Dublin and at the end of the post card tells
-                    Piaras to 'Tell Tadhg Scannell to do that thing'. </note>
+                <note type="summary"> Post card from M. to Piaras from Belfast. M. misses Dublin and
+                    at the end of the post card tells Piaras to 'Tell Tadhg Scannell to do that
+                    thing'. </note>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
@@ -55,34 +52,29 @@
                 </msDesc>
 
                 <bibl>
-                    <ref target="http://letteredition/L1916_267">
-                        Postcard from M. in Belfast to Piaras Béaslaí,
-                        January 1916 [Digital Edition] </ref>
+                    <ref target="http://letteredition/L1916_267"> Postcard from M. in Belfast to
+                        Piaras Béaslaí, January 1916 [Digital Edition] </ref>
                 </bibl>
 
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <corresp:correspDesc>
+            <correspDesc>
 
-                <corresp:correspAction type="receiving">
+                <correspAction type="receiving">
 
-                    <persName ref="#P7">
-                        Piaras Béaslaí</persName>
+                    <persName ref="#P7"> Piaras Béaslaí</persName>
                     <placeName ref="#Loc2">Dublin, Ireland </placeName>
                     <date>unknown</date>
-                </corresp:correspAction>
-                <corresp:correspAction type="sending">
+                </correspAction>
+                <correspAction type="sending">
 
-                    <persName ref="#P7">
-                        M.</persName>
-                    <placeName ref="#Loc1">
-                        Belfast, Ireland </placeName>
-                    <date when="1916-01-11">
-                        11 January 1916</date>
-                </corresp:correspAction>
-            </corresp:correspDesc>
-            
+                    <persName ref="#P7"> M.</persName>
+                    <placeName ref="#Loc1"> Belfast, Ireland </placeName>
+                    <date when="1916-01-11"> 11 January 1916</date>
+                </correspAction>
+            </correspDesc>
+
             <langUsage>
                 <language ident="ga-GA">Irish</language>
             </langUsage>
@@ -102,7 +94,7 @@
     <text type="postcard">
         <body>
             <div>
-                <pb type="page" n="1" facs="#L1916_267_img_1" />
+                <pb type="page" n="1" facs="#L1916_267_img_1"/>
                 <opener>
                     <address>
                 <addrLine>Piaras Béaslaí, 25 Lindsay Rd, <del>L</del> Glasnevin, <hi rend="underline">Dublin</hi></addrLine>
@@ -114,11 +106,11 @@
                     Shoin. Abair le Tadgh Scannell an rud sin a dhéanamh </p>
                 <signed>M.</signed>
             </div>
-             <div>
-                    <pb type="picture" n="2" facs="#L1916_267_img_2"/>
+            <div>
+                <pb type="picture" n="2" facs="#L1916_267_img_2"/>
                 <desc>picture postcard with caption</desc>
                 <caption>"Donegal Square &amp; Wellington Place, Belfast."</caption>
-                
+
             </div>
         </body>
     </text>

@@ -90,7 +90,7 @@
                         </location>
                     </place>
 
-                    <place>
+                    <place xml:id="FriarSt_Thurles">
                         <!-- data from field: W: Friar St, Thurles, County Tipperary -->
                         <placeName>Friar St, Thurles</placeName>
                         <region>County Tipperary</region>
@@ -181,6 +181,136 @@
                         <country>Ireland</country>
                         <location>
                             <geo>53.397737, -8.334626</geo>
+                        </location>
+                    </place>
+                    <place xml:id="DingleKerry">
+                        <settlement>Dingle</settlement>
+                        <region>County Kerry</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>52.1408, -10.2689</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Drumbaragh_Kells">
+                        <settlement>Drumbaragh, Kells</settlement>
+                        <region>County Meath</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.732808, -6.934981; </geo>
+                        </location>
+                    </place>
+                    <place xml:id="CarsonCity">
+                        <settlement>Carsn City</settlement>
+                        <region>County Nevada</region>
+                        <country>USA</country>
+                        <location>
+                            <geo>39.162909, -119.769306</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Clonakilty">
+                        <settlement>Tawnies, Clonakilty</settlement>
+                        <region>County Cork</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>51.6229346, -8.8870112</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Bangor">
+                        <settlement>Seacourt, Bangor</settlement>
+                        <region>County Down</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>54.6637, -5.6675</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Belfast">
+                        <settlement>Belfast</settlement>
+                        <region>County Antrim</region>
+                        <country>United Kingdom</country>
+                        <location>
+                            <geo>54.603134, -5.929207</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Cork">
+                        <settlement>Cork</settlement>
+                        <region>County Cork</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>51.8979282, -8.4705806</geo>
+                        </location>
+                    </place>
+                    <place xml:id="France">
+                        <settlement></settlement>
+                        <region></region>
+                        <country>France</country>
+                        <location>
+                            <geo>northlimit=51.31; eastlimit=8.42; southlimit=42.26;
+                                westlimit=--4.97;</geo><!--use the
+                                    http://boundingbox.klokantech.com/ to delimit a region --> 
+                        </location>
+                    </place>
+                    <place xml:id="Zossen">
+                        <settlement>Zossen</settlement>
+                        <region>Brandenburg</region>
+                        <country>Germany</country>
+                        <location>
+                            <geo>52.216113, 13.446288</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Wakefield">
+                        <settlement>Wakefield</settlement>
+                        <region>County  West Yorkshire</region>
+                        <country>United Kingdom</country>
+                        <location>
+                            <geo>53.686861, -1.505252</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Gort">
+                        <settlement>Gort</settlement>
+                        <region>County Galwway</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.067933, -8.818491</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Malta">
+                        <settlement>Malta</settlement>
+                        <region></region>
+                        <country>Malta</country>
+                        <location>
+                            <geo>westlimit=14.318884; southlimit=35.806184; eastlimit=14.576491; northlimit=35.9983</geo>
+                        </location>
+                    </place>
+                    <place xml:id="">
+                        <settlement></settlement>
+                        <region>County </region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo></geo>
+                        </location>
+                    </place>
+                    <place xml:id="">
+                        <settlement></settlement>
+                        <region>County </region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo></geo>
+                        </location>
+                    </place>
+                    <place xml:id="">
+                        <settlement></settlement>
+                        <region>County </region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo></geo>
+                        </location>
+                    </place>
+                    <place xml:id="">
+                        <settlement></settlement>
+                        <region>County </region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo></geo>
                         </location>
                     </place>
 

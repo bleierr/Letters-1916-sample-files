@@ -65,7 +65,8 @@
                     <place xml:id="belfast_Ire">
                         <!-- Belfast, Ireland -->
                         <settlement>Belfast</settlement>
-                        <country>Ireland</country>
+                        <country>United the Kingdom</country>
+                        <!--see in http://www.geonames.org/postalcode-search.html?q=belfast&country=GB -->
                         <location>
                             <geo>52.289376, -9.144230</geo>
                         </location>
@@ -76,7 +77,7 @@
                         <settlement>Dublin</settlement>
                         <country>Ireland</country>
                         <location>
-                            <geo>52.289376, -9.144230</geo>
+                            <geo>53.349330, -6.268020</geo>
                         </location>
                     </place>
 
@@ -226,7 +227,7 @@
                     <place xml:id="Belfast">
                         <settlement>Belfast</settlement>
                         <region>County Antrim</region>
-                        <country>United Kingdom</country>
+                        <country>Northern Ireland</country>
                         <location>
                             <geo>54.603134, -5.929207</geo>
                         </location>
@@ -240,13 +241,14 @@
                         </location>
                     </place>
                     <place xml:id="France">
-                        <settlement></settlement>
-                        <region></region>
+                        <settlement/>
+                        <region/>
                         <country>France</country>
                         <location>
                             <geo>northlimit=51.31; eastlimit=8.42; southlimit=42.26;
-                                westlimit=--4.97;</geo><!--use the
-                                    http://boundingbox.klokantech.com/ to delimit a region --> 
+                                westlimit=--4.97;</geo>
+                            <!--use the
+                                    http://boundingbox.klokantech.com/ to delimit a region -->
                         </location>
                     </place>
                     <place xml:id="Zossen">
@@ -259,7 +261,7 @@
                     </place>
                     <place xml:id="Wakefield">
                         <settlement>Wakefield</settlement>
-                        <region>County  West Yorkshire</region>
+                        <region>County West Yorkshire</region>
                         <country>United Kingdom</country>
                         <location>
                             <geo>53.686861, -1.505252</geo>
@@ -275,42 +277,43 @@
                     </place>
                     <place xml:id="Malta">
                         <settlement>Malta</settlement>
-                        <region></region>
+                        <region/>
                         <country>Malta</country>
                         <location>
-                            <geo>westlimit=14.318884; southlimit=35.806184; eastlimit=14.576491; northlimit=35.9983</geo>
+                            <geo>westlimit=14.318884; southlimit=35.806184; eastlimit=14.576491;
+                                northlimit=35.9983</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Bray">
+                        <settlement>Bray</settlement>
+                        <region>County Wiklow</region>
+                        <country>Ireland</country>
+                        <location>
+                            <geo>53.204347, -6.100353</geo>
                         </location>
                     </place>
                     <place xml:id="">
-                        <settlement></settlement>
+                        <settlement/>
                         <region>County </region>
                         <country>Ireland</country>
                         <location>
-                            <geo></geo>
+                            <geo/>
                         </location>
                     </place>
                     <place xml:id="">
-                        <settlement></settlement>
+                        <settlement/>
                         <region>County </region>
                         <country>Ireland</country>
                         <location>
-                            <geo></geo>
+                            <geo/>
                         </location>
                     </place>
                     <place xml:id="">
-                        <settlement></settlement>
+                        <settlement/>
                         <region>County </region>
                         <country>Ireland</country>
                         <location>
-                            <geo></geo>
-                        </location>
-                    </place>
-                    <place xml:id="">
-                        <settlement></settlement>
-                        <region>County </region>
-                        <country>Ireland</country>
-                        <location>
-                            <geo></geo>
+                            <geo/>
                         </location>
                     </place>
 

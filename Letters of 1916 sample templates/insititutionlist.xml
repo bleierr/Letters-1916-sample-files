@@ -73,7 +73,7 @@
                         <desc>info about collection</desc>
                     </org>
                     <org xml:id="LDA">
-                        <orgName>Limerick Diocesan Archives</orgName>
+                        <orgName ref="http://www.limerickdiocese.org/diocesan-archives.html">Limerick Diocesan Archives</orgName>
                         <desc>info about collection</desc>
                     </org>
                     <org xml:id="IJA">
@@ -97,7 +97,7 @@
                         <desc>info about collection</desc>
                     </org>
                     <org xml:id="NMI">
-                        <orgName>National Museum of Ireland</orgName>
+                        <orgName ref="http://www.museum.ie">National Museum of Ireland</orgName>
                         <desc>info about collection</desc>
                     </org>
                     <org xml:id="MUL">

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+{% for item in XXXXX %} <!-- variable?-->
+<teiHeader xml:id="L1916_{{Letter}}">
+ <fileDesc>
+            <titleStmt>
+                <title>{{Title}}</title>
+                {% if Creator %}
+                <author>{{Creator}}</author>
+                {% else %}
+                <author>not known????</author>
+                {% endif %}
+                <editor></editor>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_{{Letter}}"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Series statement ?-->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    <p>{{Description}}</p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>{{Source}}</repository>
+                        {{% if Document_Collection_Number %}}
+                        <idno type="collection">{{Document_Collection_Number}}</idno><!-- NOT ALWAYS -->
+                    	{{% endif %}}
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+ <profileDesc>
+            <correspDesc>
+				<correspAction type="receiving">
+				{% if Recipient %}
+            		<persName>{{Recipient}}</persName>
+            	{% endif %}
+            	{% if Recipient_s_location %}
+                    <placeName>{{Recipient_s_location}}</placeName>
+                {% endif %}  
+                <!-- <date>WE DON'T HAVE A DEVOTED FILE!!!</date> -->
+                </correspAction>
+				<correspAction type="sending">
+					{% if Creator %} 
+                    <persName>{{Creator}}</persName>
+                    {% endif %}
+                    {% if Sender_s_location %} 
+                    <placeName>{{Sender_s_location}}</placeName>
+                    {% endif %}
+                    {% if DATE_created %}
+                    <date when="{{DATE_created}}">{{DATE_created}}</date>
+                    {% endif %}
+            	</correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                    {% if Authors_gender %}
+                        <item n="gender">{{Authors_gender}}</item><!--put an IF -->
+                    {% endif %}    
+                        <item n="assigned_category">{{Collection}}</item>{# who decide the collection?? #}
+                    {% if Topics %}
+                    	{% for topic in Topics %}
+                        	<item n="tag">{{Topics|e}}</item>
+                    	{% endfor %}
+                    {% endif %}       
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">{{Language}}</language>
+            </langUsage>
+	 </profileDesc>
+ <encodingDesc>
+        <samplingDecl>
+            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.
+            </ab>
+        </samplingDecl>
+    </encodingDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+{% for transcription in translations %}<!-- name of variables?? -->
+    <text>
+        <group>
+            <text type="letter"><!-- issue to resolve with a previous process? -->
+                <body>
+                    <div><!-- attributes? n, type, facs -->
+                    {% if address or date or salute %} {# add instructions: before <p>? it is always true?#}
+                       <opener>
+                      {% if  address %}
+                        <address> 
+                        {% if lb %}
+                        	{% for lb in address %}<!-- how is the loop? -->
+                        	<addrLine>{{address.lb}}</addrLine>
+                        	{% endfor %}
+                        {$ endif $}
+                        	<addrLine>{{address}}</addrLine>
+                        </address>
+                    	{% endif %}
+                    	{% if date %}
+                        <dateline>
+                            <date when="">{{date}}</date>
+                        </dateline>
+                        {% endif %}
+                        {% if salute %}
+                        <salute>{{salute}}</salute>
+                        {% endif %}
+                      </opener>
+                	{% endif %}
+                	
+                	{% if p %}
+                	<p>{{p}}
+                	{% if lb %}
+                        	{% for lb in p %}<!-- how is the loop? -->
+                        	{{p.lb}}</lb>
+                        	{% endfor %}
+                        {$ endif $}
+                    {% if pb %}
+                        	{% for pb in p %}<!-- how is the loop? -->
+                        	{{p.pb}}</pb>
+                        	{% endfor %}
+                        {$ endif $}
+                        {% if gap %}
+                        	{% for gap in p %}<!-- how is the loop? -->
+                        	{{gap.pb}}</gap>
+                        	{% endfor %}
+                        {$ endif $}
+                    {% if add %}
+                        	{% for add in p %}<!-- how is the loop? -->
+                        	<add>{{p.add}}</add>
+                        	{% endfor %}
+                	{$ endif $}
+                	{% if del %}
+                        	{% for del in p %}<!-- how is the loop? -->
+                        	<del>{{p.del}}</del>
+                        	{% endfor %}
+                        {$ endif $} 
+                    {% if unclear %}
+                        	{% for unclear in p %}<!-- how is the loop? -->
+                        	<unclear>{{p.unclear}}</unclear>
+                        	{% endfor %}
+                        {$ endif $} 
+                    {% if sic%}
+                        	{% for sic in p %}<!-- how is the loop? -->
+                        	<sic>{{p.sic}}</sic>
+                        	{% endfor %}
+                        {$ endif $}           
+                    {% if note %}
+                        	{% for note in p %}<!-- how is the loop? -->
+                        	<note>{{p.note}}</note>
+                        	{% endfor %}
+                        {$ endif $}     
+                   {% if foreign %}
+                        	{% for foreign in p %}<!-- how is the loop? -->
+                        	<foreign>{{p.add}}</foreign>
+                        	{% endfor %}
+                        {$ endif $} 
+                        {% if hi %} {# attribute of hi ...#}
+                        	{% for hi in p %}<!-- how is the loop? -->
+                        	<hi>{{p.hi}}</hi>
+                        	{% endfor %}
+                        {$ endif $} 
+                   </p>
+                    {% endif %}
+                  
+
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+{% endfor %}
+{% endfor %}
+</TEI>
+
+
+    

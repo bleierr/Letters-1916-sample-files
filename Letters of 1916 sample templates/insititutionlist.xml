@@ -81,7 +81,7 @@
                         <desc>info about collection</desc>
                     </org>
                     <org xml:id="MMM">
-                        <orgName>Medical Missionaries of Mary</orgName>
+                        <orgName ref="http://mmmworldwide.org/">Medical Missionaries of Mary</orgName>
                         <desc>info about collection</desc>
                     </org>
                     <org xml:id="MAI">

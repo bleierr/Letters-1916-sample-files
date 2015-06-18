@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_32">
+ <fileDesc>
+            <titleStmt>
+                <title>Letter from Nannie Beazley née Hickey to Piaras Béaslaí, 7 February 1916</title>
+                <author>Nannie Beazley nee Hickey</author><!--decide with Shane and team if the tag can leave empty; possible formula: 'anonymous' -->
+                <editor></editor><!--to add-->
+            </titleStmt>
+            <editionStmt>
+                <p/><!--to add-->
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <address>
+                        <name>An Foras Feasa</name>
+                        <orgName>Maynooth University</orgName>
+                        <postBox>Co. Kildare</postBox>
+                        <placeName>
+                            <country>IRE</country>
+                            <settlement>Maynooth</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <idno n="L1916_32"/>
+                <availability status="restricted">
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+        transmitted in any form or by any means, including photocopying, recording, or other
+        electronic or mechanical methods, without the prior written permission of the institutional
+        or private owner of the image and the Letters of 1916 project. For permission requests,
+        write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
+                </availability>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- to add -->
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>
+            <notesStmt>
+                <note type="summary">
+                    <p>Letter from Nannie Beazely, who was based in the English midlands,  to her son, Piaras Béaslaí (1881–1965). This letter is part of a collection of letters by Piaras’ parents, mostly during  Béaslai’s internment. Béaslaí was an English born influential member of the IRB. In February of 1916 he published the Fàinne, a publication to organise Gaelic speakers. He soon abandoned it and became involved in politics and would later fight in the Easter Rising. </p>
+                    <p>The German navy had carried out a large raid across the English midlands on the night of the 31 of January. People dimmed their lights to avoid destruction from further Zeppelin raids as a response.</p>
+                    <p>The conscription mentioned refers to the Military Service Act of 1916 that conscripted men between the ages of 18 and 40, fighting age, into the British Army. Married men were originally exempt but the bill changed in June 1916 to include them.</p>
+                    <p>John Castlereagh may be Viscount C S H Castlereagh, originally Captain of the Royal Horse Guards, promoted to Major in the General Staff. He was awarded the 1914 Star.</p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Library of Ireland</repository>
+                        <idno type="collection">NLI 33,973/5</idno><!-- NOT ALWAYS -->
+                    </msIdentifier>
+                </msDesc>
+           </sourceDesc>
+        </fileDesc>
+ <profileDesc>
+            <correspDesc>
+                <correspAction type="receiving"><!--decide with Shane and team if the tag can leave empty or the formulas to fill-->
+				    <persName>Piaras Béaslaí</persName>
+				    <placeName/>
+            	<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> WE CAN COMPLETELY DELETED -->
+                </correspAction>
+                <correspAction type="sending"><!--decide with Shane and team if the tag can leave empty or the formulas to fill-->
+					<persName>Nannie Beazley nee Hickey</persName>
+                    <placeName>Cheshire</placeName>
+                    <date when="1916-02-07">1916-02-07</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                        <item n="gender">Female</item><!--put an IF -->
+                        <item n="tag">World War 1: 1914-1918</item>
+                        <!-- it isn't worth distinct the assigned category to other eventually tags!! 
+                            deleted assigned category: issue with the redundance between 'collection' and 'topics': to verify-->
+                    </list>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en-EN">English</language>
+            </langUsage>
+	 </profileDesc>
+ <encodingDesc>
+        <samplingDecl>
+            <ab>TO ADD</ab>
+        </samplingDecl>
+    </encodingDesc>
+</teiHeader>
+<!-- problem of images...<facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+            
+               <div n="1" type="page" facs="#L1916_32.0_img_1" xml:id="L1916_32_1"><!--how to create the id for single pages?-->
+                   <opener><address>
+                       <addrLine>"Glengariff."</addrLine> 
+                       <addrLine>Rudgrave Square,</addrLine>
+                       <addrLine>Egremont,</addrLine>
+                       <addrLine>Cheshire.</addrLine>
+                   </address>
+                       <dateline>
+                          Feb 7 1916
+                       </dateline>
+                   <salute> Darling Pierce</salute>
+                   </opener>   
+                   <p>Many happy returns
+                       of the day!  I am at a 
+                       loss to know what to send
+                       you; but I think this <lb/> 
+                       little gold safety pin, with<lb/> 
+                       a real ruby, will come<lb/> in handy, &amp; will not get <lb/> lost so easily as the <lb/> ordinary pin.  They are <lb/> much worn here.</p>
+</div>
+             
+            <div n="2" type="page" facs="#L1916_32.0_img_2" xml:id="L1916_32_2">
+                <p> We have queer times <lb/>here now.  Darkness <lb/> every where for fear of the <lb/> "bogie man overhead". <lb/> Not a gas jet in the <lb/> streets, &amp; the houses all <lb/> blinded up.</p>
+                
+                <p>Oh dear! What a <lb/> time it is! Conscription<lb/> commences in March &amp; all must come in married &amp; single of fighting age.</p>
+                
+                <p>I predict that John Castlereagh is going <lb/>in for a title.</p>
+                
+                <p>God bless you my <lb/>darling boy, &amp; may every blessing &amp; grace be yours.</p>
+                
+                <p>Take care of your health.</p>
+                <salute>Fond love from<lb/>
+                    Mother
+                </salute>  
+                </div>
+            
+        </body>
+    </text>
+     
+
+</TEI>
+
+
+    

@@ -102,10 +102,7 @@
                         if V is empty the element is not included
                     <placeName>
                     </placeName>-->
-                    <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
-                        and in a human readable form as content of the date element (e.g. 12 April 1916)
-                        <date when=""></date>
-                    -->
+                   
                 </correspAction>
                 <correspAction type="sending">
                     <persName ref="#JosephMacDonagh">
@@ -123,7 +120,7 @@
             <textClass>
                 <keywords>
                     <list>
-                        <item n="assigned_category">
+                        <item n="tag">
                             <!-- Data from field: B -->Easter Rising Ireland 1916 </item>
                         <item n="tag">
                             <!-- Data from field: G - subject, not present in most letters -->
@@ -178,7 +175,8 @@
                 <p>I will go up to Dublin <lb/>when the restrictions are off.</p>
                 <p>Let me know of Muriel and Jack.</p>
                 <closer>
-                    <lb/>Your fond brother, <lb/>Joe. </closer>
+                    <salute>
+                        <lb/>Your fond brother, <lb/>Joe. </salute></closer>
 
             </div>
         </body>

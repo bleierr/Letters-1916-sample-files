@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-{% for item in XXXXX %} <!-- variable?-->
 <teiHeader xml:id="L1916_{{Letter}}">
  <fileDesc>
             <titleStmt>
-                <title>{{Title}}</title>
+                <title>{{Title|e}}</title>
                 {% if Creator %}
-                <author>{{Creator}}</author>
+                <author>{{Creator|e}}</author>
                 {% else %}
                 <author>not known????</author>
                 {% endif %}
@@ -28,14 +27,14 @@
                         </placeName>
                     </address>
                 </publisher>
-                <idno n="L1916_{{Letter}}"/>
+                <idno n="L1916_{{Letter|e}}"/>
                 <availability status="restricted">
                     <p>All rights reserved. No part of this image may be reproduced, distributed, or
         transmitted in any form or by any means, including photocopying, recording, or other
         electronic or mechanical methods, without the prior written permission of the institutional
         or private owner of the image and the Letters of 1916 project. For permission requests,
         write to the Letters of 1916 at letters1916@gmail.com. </p>
-                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
                 </availability>
                 <date when="2015">2015</date>
             </publicationStmt>
@@ -45,16 +44,18 @@
             </seriesStmt>
             <notesStmt>
                 <note type="summary">
-                    <p>{{Description}}</p>
+                    {% for desc_para in Description.split('\n\n') %}
+                        <p>{{desc_para|e}}</p>
+                    {% endfor %}
                 </note>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>{{Source}}</repository>
-                        {{% if Document_Collection_Number %}}
-                        <idno type="collection">{{Document_Collection_Number}}</idno><!-- NOT ALWAYS -->
-                    	{{% endif %}}
+                        <repository>{{Source|e}}</repository>
+                        {% if Document_Collection_Number %}
+                        <idno type="collection">{{Document_Collection_Number|e}}</idno><!-- NOT ALWAYS -->
+                    	{% endif %}
                     </msIdentifier>
                 </msDesc>
            </sourceDesc>
@@ -63,22 +64,22 @@
             <correspDesc>
 				<correspAction type="receiving">
 				{% if Recipient %}
-            		<persName>{{Recipient}}</persName>
+            		<persName>{{Recipient|e}}</persName>
             	{% endif %}
             	{% if Recipient_s_location %}
-                    <placeName>{{Recipient_s_location}}</placeName>
+                    <placeName>{{Recipient_s_location|e}}</placeName>
                 {% endif %}  
-                <!-- <date>WE DON'T HAVE A DEVOTED FILE!!!</date> -->
+                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
                 </correspAction>
 				<correspAction type="sending">
 					{% if Creator %} 
-                    <persName>{{Creator}}</persName>
+                    <persName>{{Creator|e}}</persName>
                     {% endif %}
                     {% if Sender_s_location %} 
-                    <placeName>{{Sender_s_location}}</placeName>
+                    <placeName>{{Sender_s_location|e}}</placeName>
                     {% endif %}
                     {% if DATE_created %}
-                    <date when="{{DATE_created}}">{{DATE_created}}</date>
+                    <date when="{{DATE_created}}">{{DATE_created|e}}</date>
                     {% endif %}
             	</correspAction>
             </correspDesc>
@@ -87,19 +88,19 @@
                 <keywords>
                     <list>
                     {% if Authors_gender %}
-                        <item n="gender">{{Authors_gender}}</item><!--put an IF -->
+                        <item n="gender">{{Authors_gender|e}}</item><!--put an IF -->
                     {% endif %}    
-                        <item n="assigned_category">{{Collection}}</item>{# who decide the collection?? #}
+                        <item n="assigned_category">{{Collection|e}}</item>{# who decide the collection?? #}
                     {% if Topics %}
-                    	{% for topic in Topics %}
-                        	<item n="tag">{{Topics|e}}</item>
+                    	{% for topic in Topics.split(',') %}
+                        	<item n="tag">{{topic|e}}</item>
                     	{% endfor %}
                     {% endif %}       
                     </list>
                 </keywords>
             </textClass>
             <langUsage>
-                <language ident="en-EN">{{Language}}</language>
+                <language ident="en-EN">{{Language|e}}</language>
             </langUsage>
 	 </profileDesc>
  <encodingDesc>
@@ -113,98 +114,19 @@
 <!-- problem of images...<facsimile> 
         <graphic />
 </facsimile> -->
-{% for transcription in translations %}<!-- name of variables?? -->
-    <text>
-        <group>
-            <text type="letter"><!-- issue to resolve with a previous process? -->
-                <body>
-                    <div><!-- attributes? n, type, facs -->
-                    {% if address or date or salute %} {# add instructions: before <p>? it is always true?#}
-                       <opener>
-                      {% if  address %}
-                        <address> 
-                        {% if lb %}
-                        	{% for lb in address %}<!-- how is the loop? -->
-                        	<addrLine>{{address.lb}}</addrLine>
-                        	{% endfor %}
-                        {$ endif $}
-                        	<addrLine>{{address}}</addrLine>
-                        </address>
-                    	{% endif %}
-                    	{% if date %}
-                        <dateline>
-                            <date when="">{{date}}</date>
-                        </dateline>
-                        {% endif %}
-                        {% if salute %}
-                        <salute>{{salute}}</salute>
-                        {% endif %}
-                      </opener>
-                	{% endif %}
-                	
-                	{% if p %}
-                	<p>{{p}}
-                	{% if lb %}
-                        	{% for lb in p %}<!-- how is the loop? -->
-                        	{{p.lb}}</lb>
-                        	{% endfor %}
-                        {$ endif $}
-                    {% if pb %}
-                        	{% for pb in p %}<!-- how is the loop? -->
-                        	{{p.pb}}</pb>
-                        	{% endfor %}
-                        {$ endif $}
-                        {% if gap %}
-                        	{% for gap in p %}<!-- how is the loop? -->
-                        	{{gap.pb}}</gap>
-                        	{% endfor %}
-                        {$ endif $}
-                    {% if add %}
-                        	{% for add in p %}<!-- how is the loop? -->
-                        	<add>{{p.add}}</add>
-                        	{% endfor %}
-                	{$ endif $}
-                	{% if del %}
-                        	{% for del in p %}<!-- how is the loop? -->
-                        	<del>{{p.del}}</del>
-                        	{% endfor %}
-                        {$ endif $} 
-                    {% if unclear %}
-                        	{% for unclear in p %}<!-- how is the loop? -->
-                        	<unclear>{{p.unclear}}</unclear>
-                        	{% endfor %}
-                        {$ endif $} 
-                    {% if sic%}
-                        	{% for sic in p %}<!-- how is the loop? -->
-                        	<sic>{{p.sic}}</sic>
-                        	{% endfor %}
-                        {$ endif $}           
-                    {% if note %}
-                        	{% for note in p %}<!-- how is the loop? -->
-                        	<note>{{p.note}}</note>
-                        	{% endfor %}
-                        {$ endif $}     
-                   {% if foreign %}
-                        	{% for foreign in p %}<!-- how is the loop? -->
-                        	<foreign>{{p.add}}</foreign>
-                        	{% endfor %}
-                        {$ endif $} 
-                        {% if hi %} {# attribute of hi ...#}
-                        	{% for hi in p %}<!-- how is the loop? -->
-                        	<hi>{{p.hi}}</hi>
-                        	{% endfor %}
-                        {$ endif $} 
-                   </p>
-                    {% endif %}
-                  
 
-                    </div>
-                </body>
-            </text>
-        </group>
+   
+    <text type="letter"><!-- issue to resolve with a previous process? -->
+        <body>
+           {% for page_id in Letter_page_ids %} 
+               <div n="{{loop.index}}" type="page" facs="#L1916_{{Letter|e}}_img_{{loop.index}}" xml:id="{{Letter|e}}-{{page_id}}">
+                   <p>{{Translation[page_id]}}</p>
+                </div>
+            {% endfor %}
+        </body>
     </text>
-{% endfor %}
-{% endfor %}
+     
+
 </TEI>
 
 

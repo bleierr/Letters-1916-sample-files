@@ -1,132 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:id="L1916_{{Letter}}">
+<teiHeader xml:id="L1916_{{Letter|e}}">
  <fileDesc>
-            <titleStmt>
-                <title>{{Title|e}}</title>
-                {% if Creator %}
-                <author>{{Creator|e}}</author>
-                {% else %}
-                <author>not known????</author>
-                {% endif %}
-                <editor></editor>
-            </titleStmt>
-            <editionStmt>
-                <p/>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>
-                    <address>
-                        <name>An Foras Feasa</name>
-                        <orgName>Maynooth University</orgName>
-                        <postBox>Co. Kildare</postBox>
-                        <placeName>
-                            <country>IRE</country>
-                            <settlement>Maynooth</settlement>
-                        </placeName>
-                    </address>
-                </publisher>
-                <idno n="L1916_{{Letter|e}}"/>
-                <availability status="restricted">
-                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
-        transmitted in any form or by any means, including photocopying, recording, or other
-        electronic or mechanical methods, without the prior written permission of the institutional
-        or private owner of the image and the Letters of 1916 project. For permission requests,
-        write to the Letters of 1916 at letters1916@gmail.com. </p>
-                    <p>Copyright  2015, Letters of 1916, Maynooth</p>
-                </availability>
-                <date when="2015">2015</date>
-            </publicationStmt>
-            <seriesStmt>
-                <!-- Series statement ?-->
-                <p>PUT A STATEMENT</p>
-            </seriesStmt>
-            <notesStmt>
-                <note type="summary">
-                    {% for desc_para in Description.split('\n\n') %}
-                        <p>{{desc_para|e}}</p>
-                    {% endfor %}
-                </note>
-            </notesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository>{{Source|e}}</repository>
-                        {% if Document_Collection_Number %}
-                        <idno type="collection">{{Document_Collection_Number|e}}</idno><!-- NOT ALWAYS -->
-                    	{% endif %}
-                    </msIdentifier>
-                </msDesc>
-           </sourceDesc>
-        </fileDesc>
- <profileDesc>
-            <correspDesc>
-				<correspAction type="receiving">
-				{% if Recipient %}
-            		<persName>{{Recipient|e}}</persName>
-            	{% endif %}
-            	{% if Recipient_s_location %}
-                    <placeName>{{Recipient_s_location|e}}</placeName>
-                {% endif %}  
-                <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
-                </correspAction>
-				<correspAction type="sending">
-					{% if Creator %} 
-                    <persName>{{Creator|e}}</persName>
-                    {% endif %}
-                    {% if Sender_s_location %} 
-                    <placeName>{{Sender_s_location|e}}</placeName>
-                    {% endif %}
-                    {% if DATE_created %}
-                    <date when="{{DATE_created}}">{{DATE_created|e}}</date>
-                    {% endif %}
-            	</correspAction>
-            </correspDesc>
-            <textClass>
-                <!-- Type of the letter should be separate -->
-                <keywords>
-                    <list>
-                    {% if Authors_gender %}
-                        <item n="gender">{{Authors_gender|e}}</item><!--put an IF -->
-                    {% endif %}    
-                        <item n="assigned_category">{{Collection|e}}</item>{# who decide the collection?? #}
-                    {% if Topics %}
-                    	{% for topic in Topics.split(',') %}
-                        	<item n="tag">{{topic|e}}</item>
-                    	{% endfor %}
-                    {% endif %}       
-                    </list>
-                </keywords>
-            </textClass>
-            <langUsage>
-                <language ident="en-EN">{{Language|e}}</language>
-            </langUsage>
-	 </profileDesc>
- <encodingDesc>
-        <samplingDecl>
-            <ab>SAMPLE: This electronic transcription was created as part of the crowdsourced project
-                    Letters of 1916: creating history.
-            </ab>
-        </samplingDecl>
-    </encodingDesc>
+     <titleStmt>
+        <title>{{Title|e}}</title>{% if Creator %}
+        <author>{{Creator|e}}</author>{% else %}
+        <author>Anonymous</author>{% endif %}
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_{{Letter|e}}"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">{% for desc_para in Description.split('\n\n') %}
+            <p>{{desc_para|e}}</p>{% endfor %}
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>{% if 'Private' in Source %}
+                <repository></repository>
+                <collection type='private'>{{Source|e}}</collection><!--MANDATORY-->{% else %}
+                <repository>{{Source|e}}</repository>{% if Document_Collection_Number %}
+                <collection type='public'>{{Document_Collection_Number|e}}</collection><!--MANDATORY -->
+                <idno>{{Document_Collection_Number|e}}</idno>{% endif %}{% endif %}
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">{% if Recipient %}
+        <persName>{{Recipient|e}}</persName>{% endif %}{% if Recipient_s_location %}
+        <placeName>{{Recipient_s_location|e}}</placeName>{% endif %}  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending">{% if Creator %} 
+            <persName>{{Creator|e}}</persName>{% endif %}{% if Sender_s_location %} 
+            <placeName>{{Sender_s_location|e}}</placeName>{% endif %}{% if DATE_created %} 
+            <date when="{{DATE_created}}">{{DATE_created|e}}</date>{% endif %}
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>{% if Authors_gender %}
+                <item n="gender">{{Authors_gender|e}}</item>{% endif %}    
+                <item n="tag">{{Collection|e}}</item>{# who decide the collection?? #}
+                        <!-- NB! check for redundance -->{% if Topics %}{% for topic in Topics.split(',') %}
+                <item n="tag">{{topic|e}}</item>{% endfor %}{% endif %}       
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">{{Language|e}}</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
 </teiHeader>
-<!-- problem of images...<facsimile> 
+<!-- <facsimile> 
         <graphic />
 </facsimile> -->
 
    
-    <text type="letter"><!-- issue to resolve with a previous process? -->
-        <body>
-           {% for page_id in Letter_page_ids %} 
-               <div n="{{loop.index}}" type="page" facs="#L1916_{{Letter|e}}_img_{{loop.index}}" xml:id="{{Letter|e}}-{{page_id}}">
+    <text type="letter">
+        <body>{% for page_id in Letter_page_ids %} 
+            <div n="{{loop.index}}" type="page" facs="#L1916_{{Letter|e}}_img_{{loop.index}}" xml:id="L1916_{{Letter|e}}_{{page_id}}"><!-- or loop.index? -->
                    <p>{{Translation[page_id]}}</p>
-                </div>
-            {% endfor %}
+           </div>{% endfor %}
         </body>
     </text>
-     
-
 </TEI>
 
 

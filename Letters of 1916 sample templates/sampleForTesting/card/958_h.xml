@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_958">
+ <fileDesc>
+     <titleStmt>
+        <title>Postcard from Tom Dolan to his father, 11 May 1916</title>
+        <author>Tom Dolan</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_958"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This is a postcard sent by Tom Dolan (d. 1917),a private in the Northumberland Fusiliers while he was in Dublin. Dolan was killed in action in Belgium over a year later. The letter is addressed to Dolan&#39;s father in Derby, England. Dolan is a British soldier serving in Dublin, most probably with the Sherwood Foresters who were the Nottinghamshire and Derbyshire regiment. The Foresters suffered heavy casualties during the Easter Rising in an engagement on Mount Street Bridge. </p>
+            <p></p>
+            <p>The postcard was written on 11 May, the day before the final executions of the leaders of the Rising. Tom writes to ensure his father that he is safe and to let him know that he will be staying in Dublin over the summer. The postcard is an image of the destroyed interior of the General Post Office on Sackville (O&#39;Connell) Street.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository></repository>
+                <collection type='private'>Liam Smith, Private Collection</collection><!--MANDATORY-->
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Mr Dolan</persName>
+        <placeName>22 Western Road, Derby, England</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Tom Dolan</persName> 
+            <placeName>Dublin, Ireland</placeName> 
+            <date when="1916-05-11">11 May 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>    
+                <item n="tag">Easter Rising Ireland 1916</item>
+                        <!-- NB! check for redundance -->
+                <item n="tag">World War 1: 1914-1918</item>       
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="postcard">
+        <body> 
+            <div n="1" type="back" facs="#L1916_958.0_img_1" xml:id="L1916_958.1"><!-- or loop.index? -->
+                  
+<opener>
+    <dateline>
+     <date>May 11<hi rend="superscript">th</hi> 1916</date>
+    </dateline>
+    <salute>Dear Dad,</salute>
+</opener>
+
+<p>Just a line<lb/> 
+to let you know<lb/> 
+I am alright. It looks<lb/> 
+as if we shall be<lb/> 
+here this summer. <lb/>
+worse luck. Its such a<lb/> 
+long way from home</p>
+                <closer>
+                <salute>Your loving son</salute>
+                <signed>Tom</signed></closer>
+                
+                <cb/>
+                <closer>
+                <address>
+                    
+                       <addrLine>Mr Dolan</addrLine>
+                       <addrLine>22 Western Rd</addrLine>
+                       <addrLine>Derby</addrLine>       
+                       <addrLine>England</addrLine>
+                      
+                    </address>
+                </closer>
+           </div> 
+            <div n="2" type="front" facs="#L1916_958.0_img_2" xml:id="L1916_958.2"><!-- or loop.index? -->
+                   <caption>After the Insurrection &#x2014; Interior General Post Office, Dublin.</caption>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

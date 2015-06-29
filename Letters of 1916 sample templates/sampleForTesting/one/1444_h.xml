@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1444">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from Sir Hubert Gough to Augustine Birrell, 28 April 1916</title>
+        <author>Anonymous</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_1444"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This letter was written by Sir Hubert de la Poer Gough (1870 - 1963). Gough was a senior officer in the British Army in the First World War. In 1916 he was promoted to lead the Reserve Army, renamed the ‘Fifth Army’, from the Somme offensive to the retreat of March 1918.</p>
+            <p>The letter was addressed to Augustine Birrell (1850 - 1933). Birrell was the chief secretary for Ireland from 1907 until his retirement in 1916 following the aftermath of the Easter Rising.</p>
+            <p>This letter is an inquiry into what is happening in areas around Galway. As there are no ports, telegraphs or railways are open, Gough fears that &#39;regrettable events are occurring&#39;. </p>
+            <p>A note on the letter indicates that the letter was received by the General Secretary&#39;s Office quite late (10 May), and is therefore not being answered as it is presumed the county is now quiet.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>National Archives of Ireland</repository>
+                <collection type='public'>Chief Secretary&#39;s Office Registered Papers</collection><!--MANDATORY -->
+                <idno>CSO RP/1916/5611/7967/1</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Augustine Birrell</persName>
+        <placeName>Dublin Castle, Dublin, Ireland</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <placeName>Lough Curta Castel, Gort, County Galway</placeName> 
+            <date when="1916-04-28">28 April 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>    
+                <item n="tag">Easter Rising Ireland 1916</item>
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_1444.0_img_1" xml:id="L1916_1444.1"><!-- or loop.index? -->
+                   <note>A.U.S.<lb/> 
+                    This has only reached us now as Lord Gough<lb/>
+                     has since written to the<lb/>
+                    C. Sec. I am not answering<lb/>
+                    This letter. I presume all is<lb/>
+                    quiet now. APM 10/1/16</note>
+<!-- enquiry how manage stamp!! -->
+            <note>STATION &amp; TELEGRAMS<lb/>
+                    GORT, 3 MILES.<lb/></note>
+            <opener>
+                <seg type="pre-printedText">
+              <address>
+                
+                <addrLine>LOUGH CUTRA CASTLE,</addrLine>
+                <addrLine>GORT,</addrLine>
+                <addrLine>CO: GALWAY</addrLine><lb/>
+                
+            </address>
+                </seg>
+            <dateline>
+                <date>April. 28. 1916</date> 
+            </dateline>
+            <salute>My dear Sir,</salute>
+            </opener>
+<p>I should be obliged if you<lb/>
+would &#x2014; provided there be no objection &#x2014;<lb/>
+inquire into the proceedings since<lb/>
+Easter Monday, April 24, in the following<lb/>
+places near Lough Cutra viz: Athenry<lb/>
+Craughwell, Moyode Castle, and Kinvara.<lb/>
+No post or telegraph or railway is open<lb/>
+and there is good reason to think that<lb/>
+regrettable events are occurring.</p><lb/>
+<closer>
+    <salute>I am<lb/>
+        Yours faithfully<lb/>
+     </salute> 
+    <signed>Gough</signed>
+</closer>
+                <note>The Rt Hon<hi rend="superscript">ble</hi> Birrell M.P.<lb/>
+                    etc etc etc<lb/></note>
+                <note><address><addrLine>Dublin Castle</addrLine></address></note>
+<note>As Under Secretary<lb/>
+at this date<lb/>
+no notice seems<lb/>
+to be called<lb/>
+for. <unclear>WML</unclear>11/5</note>
+<note>EOF<lb/>
+11.V.16</note>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1198">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from Marie Martin to her mother Mary Lewis Martin, 27 August 1916</title>
+        <author>Marie Martin</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_1198"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>Letter from Marie Martin to her mother Mary Lewis Martin (née Moore). Marie (1892-1975) was later the founder of the Medical Missionaries of Mary. At the outbreak of war in 1914 Marie joined the Voluntary Aid Detachment, a division of the Red Cross. She returned home briefly in 1916 following the death of her brother in battle until be called to serve again two months later in a field hospital in Heraldo, France.</p>
+            <p>In this letter Marie mentions her mother being ill with the mumps and that her brother Laurence John, also referred to as Jack, had a fever.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>Medical Missionaries of Mary</repository>
+                <collection type='public'></collection><!--MANDATORY -->
+                <idno>B/F/1/58</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Mary Martin</persName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Marie Martin</persName> 
+            <placeName>France</placeName> 
+            <date when="1916-08-27">27 August 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Female</item>    
+                <item n="tag">World War 1: 1914-1918</item>
+                        <!-- NB! check for redundance -->
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_1198.0_img_1" xml:id="L1916_1198.1"><!-- or loop.index? -->
+                   <opener>
+                       <dateline><date>27.8.16</date></dateline>
+                       <salute>My very dearest mother,</salute>
+                   </opener>
+                <p>Ever so many<lb/> 
+                    thanks for your letters. I am<lb/> 
+                    very distressed to hear of<lb/> 
+                    all your worry &amp; trouble<lb/> 
+                    with the mumps etc. but<lb/> 
+                    was delighted to receive<lb/> 
+                    your card saying they were<lb/> 
+                    all better. When you are so<lb/> 
+                    busy &amp; worried just get<lb/> 
+                    someone to drop me a card<lb/> 
+                    to say how you all are.</p>
+                <p>It is too bad about Jack<lb/> 
+                    I cannot quite understand<lb/> 
+                    how his temperature goes up<lb/>
+                    he really does not seem<lb/>
+                    very strong. I shall write<lb/> 
+                    you a long letter in my<lb/> 
+                    off time to-day but want<lb/>
+                    this to catch the post</p><pb/>
+           </div> 
+            <div n="2" type="page" facs="#L1916_1198.0_img_2" xml:id="L1916_1198.2"><!-- or loop.index? -->
+                   <p>It must be a great upset<lb/> 
+                       to Ethel but a great use<lb/> 
+                       to you to have her at<lb/> 
+                       home. Have you had another<lb/> 
+                       cold, do take care of your-<lb/> 
+                       self. Hoping you continue<lb/> 
+                       to have good news of<lb/> 
+                       Tommy.</p>
+                    <closer>
+                        <salute>My fondest love in<lb/> great haste<lb/></salute>
+                        <signed><hi rend="underline">Marie</hi></signed>
+                    </closer>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

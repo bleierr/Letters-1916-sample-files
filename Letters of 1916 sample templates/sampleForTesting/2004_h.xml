@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2004">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from Robert Monteith to Mollie Monteith, 25 December 1915</title>
+        <author>Robert Monteith</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_2004"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This letter is part of a rich correspondence between various members of the Duffin family, a large prosperous family living in Strandtown, Belfast. Several family members served in the war, including Major Terence Duffin, who served as a staff officer with 107 Brigade, and later with Royal Irish Rifles; Major Charles G Duffin MC, Royal Field Artillery; and their sisters Emma, Celia and Dorothy who served as Voluntary Aid Detachments (VADS) in Egypt and France, and with theYMCA.&amp;#xA;&amp;#xA; In this four page letter, Helen Duffin (b.1891) is writing to her sister Celia who is ill and who cannot be with the family for Christmas. Helen tells Celia about an &#34;odd&#34; incident she has had with an unexpected visitor to her office: a little man with a &#34;pale face&#34; and a &#34;fuz of red hair&#34; who is looking for some contributions to a poetry book for which Lavery (possibly John Lavery, the painter) is also providing a drawing. The man has requested that Celia provide a poem for the volume and their sister Ruth is also sending him one. Helen concludes the letter and encloses a humorous sketch.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>Allen Library</repository>
+                <collection type='public'>Br. Allen Collection</collection><!--MANDATORY -->
+                <idno>IE/AL/RM/2/18</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Mary Florence Monteith (née McEvoy)</persName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Robert Monteith</persName> 
+            <placeName>Zossen, Brandenburg, Germany</placeName> 
+            <date when="1915-12-25">25 December 1915</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>
+                <item n="tag">Family life</item>
+                <item n="tag">World War 1: 1914-1918</item>
+                <item n="tag">Love letters</item>       
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_2004.0_img_1" xml:id="L1916_2004.0_5008.0"><!-- or loop.index? -->
+                   <opener>
+                       <address>
+                           <addrLine>Zossen</addrLine>
+                       </address> 
+                       <date>Xmas Day 1915</date> 
+                       <salute>Dear old pet,</salute>
+                   </opener>
+                <p>No letter from you yet. I am so <lb/> 
+                    lonely today - you remember last year <lb/> 
+                    in 8 Hartstonge St. with the little ones running <lb/> 
+                    wild &#x2014; why do you grip me so much <lb/> 
+                    &amp; why are my thoughts so cluttered around <lb/> 
+                    you? Mollie write me, I do so want your <lb/> 
+                    sympathy, my work is so hard, and difficulties <lb/> 
+                    so many &#x2014; but of course if I had you here to <lb/> 
+                    tell all my worries to, things would run <lb/> 
+                    smoothly &#x2014; I trust you and all at home </p><pb/>
+
+
+           </div> 
+            <div n="2" type="page" facs="#L1916_2004.0_img_2" xml:id="L1916_2004.0_5009.0"><!-- or loop.index? -->
+                   <p>are enjoying yourselves, even now as I write <lb/> 
+                       this letter &#x2014;</p> 
+                <p>I cant write more now, fondest love <lb/> 
+                    Kiss them all for me </p> 
+                <closer>
+                    <salute> Yours ever</salute>
+                    <signed><unclear>Cara</unclear></signed>
+                </closer>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

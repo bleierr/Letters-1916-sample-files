@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1898">
+ <fileDesc>
+     <titleStmt>
+        <title>Last letter from Con Colbert to his sister Lila, 7 May 1916</title>
+        <author>Con Colbert</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_1898"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This was the last written letter of Cornelius (&#39;Con&#39;) Colbert (1888 - 1916). Mobilized on 24 April 1916 Colbert fought for the duration of the Rising until his open surrender on 30 April. Despite his marginal role in the fighting he was designated for severe treatment owing to his pre-rising activities and connection with Pearse. He was shot by firing squad in Kilmainham jail on 8 May and buried in the common grave in Arbour Hill jail. Aged twenty-seven, Colbert was among the youngest of the insurgent leaders to be executed. Owing to his youth and relatively junior rank, his execution was one of the most shocking to public opinion.</p>
+            <p>This letter was sent to Colbert&#39;s sister Elizabeth, &#39;Lila&#39; (1888 - 1974). After the Rising Elizabeth served on the committee of the Irish Volunteers Dependents’ Fund. </p>
+            <p>In this letter, Colbert explains that he did not want his sister to visit him before his execution as &#39;it would grieve us both too much&#39;. Colbert asks his sister to pray for him and hopes that he can &#39;die well&#39;.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>National Museum of Ireland</repository>
+                <collection type='public'></collection><!--MANDATORY -->
+                <idno>HE:EW.501</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Lila Colbert</persName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Con Colbert</persName> 
+            <placeName>Kilmainham Goal, Kilmainham, Dublin</placeName> 
+            <date when="1916-05-07">7 May 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>    
+                <item n="tag">Last letters before death</item>      
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_1898.0_img_1" xml:id="L1916_1898.1"><!-- or loop.index? -->
+                   <opener>
+                       <address>
+                           <addrLine>Kilmainham Goal</addrLine>
+                       </address>
+                       <dateline>
+                           <date>9th May 1916</date> 
+                       </dateline>    
+                       <salute>My dear Lila</salute> 
+                   </opener>
+<p>I did not like to call you to this gaol <lb/> 
+    to see me before I left this world, because I felt it would <lb/> 
+    grieve us both too much, so I am just dropping you a <lb/> 
+    line to ask you to forgive me anything I do love you and to <lb/> 
+    say goodbye to you &amp; all my friends &amp; to get you &amp; them to <lb/> 
+    say a prayer for my soul. Perhaps I'd never get the chance <lb/> 
+    knowing when I was to die again and so I'll try &amp; die <lb/> 
+    well. I received this morning, &amp; hope to do so again before <lb/> 
+    I die. Pray for me, ask Fr. Devine &amp; Fr. Healy &amp; Fr. O'Brien <lb/> 
+    to say a Mass for me also any priests you know. May God <lb/> 
+    Help us all to die well &#x2014; you to bear your sorrow.</p>
+<closer>
+    <salute>From Your loving Brother </salute>
+    <signed>Conn.</signed>
+</closer>
+                <note>I sent you a prayer book as tolken <lb/>
+                    Write to Nan Jack &amp; Willie &amp; all the others</note>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

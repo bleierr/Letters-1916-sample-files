@@ -5,20 +5,18 @@
     <teiHeader xml:id="L1916_1156">
         <fileDesc>
             <titleStmt>
-                <title><!-- Data from field: F: Title -->Telegraph</title>
-                <author><!-- Data from field: I -->unknown</author>
+                <title><!-- Data from field: Title -->Telegraph</title>
+                <author><!-- Data from field: Creator -->Anonymous</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
-                <!-- Edition statement ?-->
-                <p> </p>
+                <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
             </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <!-- Publisher statement ?-->
                     <address>
                         <name>An Foras Feasa</name>
-                        <orgName>NUI Maynooth</orgName>
+                        <orgName>Maynooth University</orgName>
                         <postBox>Co. Kildare</postBox>
                         <placeName>
                             <country>IRE</country>
@@ -28,82 +26,55 @@
                 </publisher>
                 <idno n="L1916_1156"/>
                 <availability status="restricted">
-                    <!-- Copyright statement ?-->
-                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                    <p>All rights reserved. No part of this image may be reproduced,
+                        distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                        or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+                    <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS
+                        <p>All rights reserved. The rightsholder could not be traced.</p>
+                     -->
                 </availability>
-                <date when="2015">2015</date>
+                <date>2015</date>
             </publicationStmt>
             <seriesStmt>
-                <!-- Series statement ?-->
-                <p>Machine-readable transcriptions of letters from the Letters of 1916
-                    collection</p>
+                <!--to add: -->
+                <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of
+                    letters from the Letters of 1916 collection</p>
             </seriesStmt>
             <notesStmt>
                 <note type="summary">
-                    <!-- Data from field: H - ISSUE: This example had no data in field H-->
+                    <!-- Data from field: Description -->
                     <p>No information supplied</p>
                 </note>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <!-- has to be generated from a list of collection information -->
-                        <country>???</country>
-                        <settlement>???</settlement>
-                        <!-- Data from field: J: Pat Carroll, Private Collection -->
-                        <repository ref="#Carroll_Pat">Pat Carroll, Private Collection</repository>
-                        <!-- Data from field: AD - Collection-->
-                        <idno type="collection">Carroll_Pat_12</idno>
+                        <!-- Data from field: Source -->
+                        <!-- @ref could be used on repository for identification -->
+                        <repository></repository>
+                        <!-- Data from field: Document Collection split before ","-->
+                        <collection type='private'>Pat Carroll, Private Collection</collection>
+                        <!-- Data from field: Document Collection split after ","-->
+                        <idno type="collection"></idno>
                     </msIdentifier>
                 </msDesc>
                 <!-- 
                     List of places and persons could go here for each document, 
                     maybe better in separate file?
-                -->
-                <bibl>
-                    <!-- the reference @target could contain a permalink for referencing this telegram -->
-                    <ref target="http://letteredition/#L1916_1156">
-                        <!-- generated from field F --> Telegraph</ref>
-                </bibl>
+                <bibl>the reference @target could contain a permalink for referencing this telegram 
+                    <ref target="http://letteredition/#L1916_1156">generated from field F  Telegraph</ref>
+                </bibl>-->
 
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
-
                 <correspAction type="receiving">
-                    <!-- the person name should be generated from field: U
-                        @ref on <persName> contains refernce to a detailed description of the person
-                        in this example no data is available for <persName>, it should be excluded from <correspAction>
-                    <persName ref="">
-                    </persName>-->
-                    <!-- the place name should be generated from field: V
-                        @ref on <placeName> contains a reference to a detailed description of the place
-                        with coordinates, normalised name, etc.
-                        if V is empty the element is not included in <correspAction
-                    <placeName>
-                    </placeName>-->
-                    <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
-                        and in a human readable form as content of the date element (e.g. 12 April 1916)
-                        <date when=""></date>
-                    -->
-                    <note>No details of receiver are
-                        available</note>
+                    <!-- <note>No details of receiver are available</note>-->
                 </correspAction>
                 <correspAction type="sending">
-                    <!-- the person name should be generated from field: I
-                        @ref on <persName> contains refernce to a detailed description of the person
-                        in this example no data is available for <persName>, it should be excluded from <correspAction>
-                    <persName ref="">
-                    </persName>-->
-                    <!-- the place name should be generated from field: W
-                        @ref on <placeName> contains a reference to a detailed description of the place
-                        with coordinates, normalised name, etc.
-                        if V is empty the element is not included in <correspAction
-                    <placeName>
-                    </placeName>-->
-                    <date when="1916-06-20"
-                        ><!-- X: '1916-06-20, date has to be changed into human readable format -->
+                     <date when="1916-06-20"><!-- date has to be changed into human readable format -->
                         20 June 1916</date>
                 </correspAction>
             </correspDesc>
@@ -111,27 +82,21 @@
                 <keywords>
                     <list>
                         <!-- Data from field: Z  male or female this would go into a person field-->
-                        <item n="assigned_category">
-                            <!-- Data from field: B --> World War 1: 1914-1918 </item>
-                        <item n="tag">
-                            <!-- Data from field: G - 
-                                subject, not present in most letters also not in this telgram-->
-                        </item>
+                        <item n="tag">World War 1: 1914-1918 </item>
                     </list>
                 </keywords>
             </textClass>
             <langUsage>
-                <!-- Data from field: Q: Irish -->
-                <language ident="en-EN">English</language>
+                <language ident="en">English</language>
             </langUsage>
         </profileDesc>
         <encodingDesc>
             <samplingDecl>
-                <ab>This electronic transcription was created as part of the crowdsourced project
+                <!--to add: -->
+                <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project
                     Letters of 1916: creating history.</ab>
             </samplingDecl>
         </encodingDesc>
-
     </teiHeader>
     <facsimile>
         <graphic xml:id="L1916_1156_img_1" url="#L1916_1156_img_1.png"/>

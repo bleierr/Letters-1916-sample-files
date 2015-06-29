@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1127">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from Patrick Pearse to Seán T. O&#39;Kelly, 22 April 1916</title>
+        <author>Patrick Pearse</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_1127"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This is a letter from Patrick Pearse (1879-1916), writer, educationalist and revolutionary, to Seán Thomas O&#39;Kelly (1182-1966), politician and later president of Ireland. Pearse was a leading member of the Irish Volunteers and the Irish Republican Brotherhood. He was one of the leaders of the Easter Rising, a signatory of the Proclamation of the Irish Republic, commander in chief of the rebel forces and declared president of the Provisional Government on the outbreak of the Rising. He was executed for his part in the Rising on 3 May 1916.</p>
+            <p>O&#39;Kelly was a founder member of Sinn Féin and joined the Irish Republican Brotherhood (IRB) in 1901 and served as aide-de-camp to Pearse duirng the Rising.</p>
+            <p>In this letter, written two days before the Easter Rising and on the eve of the original date for the Rising, Pearse asks if O&#39;Kelly can provide accommodation for the night for himself and his brother William (1881-1916), who was also later executed.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>Military Archives of Ireland</repository>
+                <collection type='public'>Bureau of Military History Contemporary Documents, Seán T. O&#39;Kelly Collection</collection><!--MANDATORY -->
+                <idno>BMH CD/95/2/1</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Seán T. O&#39;Kelly</persName>
+        <placeName>27 Upper Rutland Street, Dublin, Ireland</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Patrick Pearse</persName> 
+            <placeName>St. Enda&#39;s College, Rathfarnham, Dublin</placeName> 
+            <date when="1916-04-22">22 April 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>    
+                <item n="tag">Easter Rising Ireland 1916</item>       
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_1127.0_img_1" xml:id="L1916_1127.1"><!-- or loop.index? -->
+                   <opener>
+                       <address>
+                           
+                           <addrLine>SCOIL ÉANNA,</addrLine>
+                           <addrLine>RÁT FEARNÁIN.</addrLine>
+                           <addrLine>ST. ENDA'S COLLEGE,</addrLine>
+                           <addrLine>RATHFARNHAM.</addrLine>
+                        </address>
+                        <dateline>
+                            <date>22/4/16</date>
+                        </dateline>
+                       <salute><foreign>A Cara</foreign>,</salute>
+                   </opener>
+                <p>
+                    could you put my brother and myself<lb/>
+                    up tonight? It is important that we should <lb/> 
+                    be in town. If you cannot, can you get <lb/> 
+                    some friend to do it? Please let me know <lb/> 
+                    by bearer. We should send some traps in <lb/>
+                    the early evening, and arrive on bicycles <lb/> 
+                    ourselves later.
+                </p>
+                    <closer>
+                        <salute><foreign>Mise</foreign></salute>
+                        <signed><hi rend="underline">Pádraig Mac Piarsaig</hi></signed>
+                    </closer>
+<note>
+<address>
+    <addrLine>Seán T O Ceallaig</addrLine>
+    <addrLine>27 Upper Ruthland St.</addrLine>
+    <addrLine><hi rend="underline">Dublin</hi></addrLine>
+</address>
+</note>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

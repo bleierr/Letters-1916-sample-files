@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_930">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from Máire Ní Catháin to Mabel FitzGerald, 3 June 1916.</title>
+        <author>Máire Ní Catháin</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_930"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This letter was sent by Máire Ní Catháin (b. 1875) to Mabel FitzGerald (1884-1957). Mabel was the wife of Desmond FitzGerald (1888-1947), an Irish Volunteer who was present in the GPO during the Easter Rising. He was subsequently arrested, court-martialled and sentenced to 20 years penal servitude, later commuted to 10 years.</p>
+            <p>Máire sympathizes with Mrs FitzGerald on her husband&#39;s imprisonment but, she, as she writes, at least he is alive, unlike The O&#39;Rahilly. </p>
+            <p>Michael Joseph O&#39;Rahilly, self-described as &#39;The&#39; O&#39;Rahilly (1875-1916) was shot in Parnell/Moore Street on 28 April 1916 and died some time later. Both Fitzgerald and O&#39;Rahilly had tried to prevent the Rising but joined in once it started.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>University College Dublin Archives</repository>
+                <collection type='public'>FitzGerald Papers, P80/1599</collection><!--MANDATORY -->
+                <idno>P80/1599</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Mabel FitzGerald</persName>
+        <placeName>2 Loretto Villas, Bray, County Wicklow, Ireland.</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Máire Ní Catháin</persName> 
+            <placeName>Dingle, County Kerry, Ireland</placeName> 
+            <date when="1916-06-03">3 June 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Female</item>    
+                <item n="tag">Easter Rising Ireland 1916</item>
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="ga">Irish</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_930.0_img_1" xml:id="L1916_930.1"><!-- or loop.index? -->
+                   <opener>
+                       <address>
+                           <addrLine>Main St Dingle</addrLine>
+                            <addrLine>c/o Mrs.Adams</addrLine>
+                       </address>
+                       <dateline>
+                           <date>June 3<hi rend="superscript"><hi rend="underline">rd</hi></hi> 1916</date>
+                       </dateline>
+                        <salute>A bhean Ní Ghearailt a chara</salute>
+                   </opener>
+                <p>Tá brón mór <lb/>
+                orm i dtaobh an Gearaltach do bheith <lb/>
+                ins an priosuin &amp; go mór mhór <lb/>
+                muintir an Oileáin, ach is mór <lb/>
+                an ní ná bhfuil sé marbh mar <lb/>
+                an tÓ Rahaille. Bíonn daoine <lb/>
+                anseo ag ráth lion go raibh <lb/>
+                sé <del>a</del>na fhear Gearámnach</p><pb/>
+           </div> 
+            <div n="2" type="page" facs="#L1916_930.0_img_2" xml:id="L1916_930.2"><!-- or loop.index? -->
+                   <p>Acht bíonn mise ag ráth ná raibh <lb/>
+                       acht Éireannach ceart, &amp; deir chuid <lb/>
+                       eile aca go raibh sé ag fághail <lb/>
+                       airgead ó Germany agus Blythe <lb/>
+                       leis. Níl mórán fios agam anois <lb/>
+                       ón Oileán mat ní rabhar ann leí <lb/>
+                       tamall connas tá Dem &amp; Piaras <lb/>
+                       tá súil agam <lb/>
+                       tá siad go maith.<lb/></p>
+                    <closer>
+                        <salute>Slán leat anois<lb/>
+                        Mise do Chara<lb/>
+                        </salute>
+                        <signed>Máire Ní Cathain</signed></closer>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

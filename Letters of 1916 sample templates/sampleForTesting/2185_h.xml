@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2185">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from James Davidson to Clara Davidson, 27 January 1916</title>
+        <author>James Davidson</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_2185"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This letter is part of a large correspondence from Captain James Davidson to his parents. Davidson, who was Managing Director of the Sirocco Engineering Works in Belfast, served with 13 Royal Irish Rifles and the Machine Gun Corps. His letters describe his experiences while training in England and serving in France. He was killed on 1 July 1916, the first day of the Battle of the Somme.</p>
+            <p>In this letter Davidson recounts the effect of an acute ear infection on his work and the organisation of the Machine Gun Company. He also reports the rumour of an imminent move to the trenches.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>Public Record Office of Northern Ireland</repository>
+                <collection type='public'>Davidson Family Papers</collection><!--MANDATORY -->
+                <idno>D3642/B/8/25</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>S.C. Davidson</persName>
+        <placeName>Seacourt, Bangor, Co. Down</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>James Davidson</persName> 
+            <placeName>In the Field</placeName> 
+            <date when="1916-01-27">27 January 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>    
+                <item n="tag">World War 1: 1914-1918</item>       
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+<text>
+    <group>
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_2185.0_img_1" xml:id="L1916_2185.1"><!-- or loop.index? -->
+                   <opener>
+                       <dateline><date>27/1/16</date></dateline>
+                       <salute>My dearest Mother</salute> 
+                   </opener>
+
+<p>&#x2014; I have not written for<lb/>
+some days as I have had such a lot to do<lb/>
+&amp; think about &amp; now it is very late so<lb/>
+must make a very wee line do. Give<lb/>
+R. my love &amp; best thanks for her 2 letters &amp;<lb/>
+I had one from you today. Was so sorry<lb/>
+Mother dear that you had been poorly &#x2014; hope<lb/>
+you have since been keeping better. The<lb/>
+weather at this time of year is very trying<lb/>
+for everyone. My throat though still<lb/>
+troublesome is better than it was a few days<lb/>
+ago. The inflammation got into my ear<lb/>
+&amp; as I could not lie up owing to having to<lb/>
+make all arrangements for the Machine Gun<lb/>
+Company. I became quite deaf with the right<lb/>
+ear &amp; felt perfectly wretched. Thank<lb/>
+goodness it is rather better now but even<lb/>
+when there is not much the matter it adds very<lb/>
+considerably to the burden of ones work.<lb/>
+Well the Machine Gun Company has been formed. <lb/>
+The Units arrived yest. <!-- writers abbreviation -->&amp; by degrees things are<lb/>
+getting straightened out but there is so<lb/>
+much to be done in starting all the organisation<lb/>
+    that sometimes it seems as if I should never<lb/></p>
+<pb/>
+</div> 
+            <div n="2" type="page" facs="#L1916_2185.0_img_2" xml:id="L1916_2185.2"><!-- or loop.index? -->
+                   <p>get to the end of it. The other officers however<lb/>
+                    are working for all they are worth &amp; Dermot<lb/>
+                    Neill who is my Adjutant is splendid.<lb/>
+                    If we only get a few weeks to settle down<lb/>
+                    we shall be all right but there are strong<lb/>
+                    rumours going round of a move to the trenches<lb/>
+                    at an early date. Would you please<lb/>
+                    tell Furey when sending parcels to me not<lb/>
+                    to put 13<hi rend="superscript">th</hi> Royal Irish Rifles on the address.<lb/>
+                    I enclose the label that was on the last one<lb/>
+                    &amp; of course it went to the Batt &amp; then had<lb/>
+                    to be forwarded. My address is now<lb/>
+                    <!--<addrLine>-->Machine Gun Company, 108<hi rend="superscript">th</hi> Infantry Brigade<lb/>
+                    36<hi rend="superscript">th</hi> Division B. E. F. Would you please<lb/>
+                    tell them this in the Works.</p>
+            <closer>
+            <salute>With fondest love to all<lb/>
+                    Your loving son<lb/></salute>
+                    <signed>James</signed><lb/>
+            </closer>
+            </div>
+        </body>
+    </text>
+    <text type="envelope">
+        <body>
+            <div n="3" type="envelope" facs="#L1916_2185.0_img_3" xml:id="L1916_2185.3"><!-- or loop.index? -->
+                <note>On Active Service<lb/> rcd <date>1<hi rend="superscript">st</hi> Feb /16</date></note>
+                <ab>
+                    <address> 
+                        <addrLine>Mrs S C Davidson</addrLine>
+                        <addrLine>Seacourt</addrLine>
+                        <addrLine>Bangor</addrLine>
+                        <addrLine>Co Down</addrLine>
+                        <addrLine>Ireland</addrLine>
+                    </address>
+                </ab>
+
+<note>recd 1<hi rend="superscript">st</hi> Feb /16</note> <note>J Davidson</note> <note>27/1/16</note>
+
+<pb/>
+           </div>
+        </body>
+    </text>
+</group>
+    </text>
+</TEI>
+
+
+    

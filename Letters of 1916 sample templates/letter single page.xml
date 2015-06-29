@@ -6,21 +6,19 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                    <!-- Data from field: F: Title --> Letter from Joseph MacDonagh to Mary
-                    MacDonagh, 4 May 1916 </title>
-                <author ref="#JosephMacDonagh"><!-- Data from field: I -->Joseph MacDonagh</author>
+                    <!-- Data from field: Title --> Letter from Joseph
+                    MacDonagh to Mary MacDonagh, 4 May 1916 </title>
+                <author ref="#JosephMacDonagh"><!-- Data from field: Creator -->Joseph MacDonagh</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
-                <p>
-                    <!-- editorial statement has to be supplied ? -->
-                </p>
+                <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
             </editionStmt>
             <publicationStmt>
                 <publisher>
                     <address>
                         <name>An Foras Feasa</name>
-                        <orgName>NUI Maynooth</orgName>
+                        <orgName>Maynooth University</orgName>
                         <postBox>Co. Kildare</postBox>
                         <placeName>
                             <country>IRE</country>
@@ -28,28 +26,26 @@
                         </placeName>
                     </address>
                 </publisher>
-                <!-- Data from field: E
-                    Should the letter number be used as ID, short abbr for Letters of 1916? e.g. WeGA
-                -->
-                <idno n="L1916-108"/>
+                <idno n="L1916_108"/>
                 <availability status="restricted">
-                    <!-- Copyright statement???
-                    <p>This work is the property of the University of Nebraska—Lincoln. It may be copied freely by individuals for personal use, research, and teaching (including distribution to classes) as long as this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds, including for—profit works.</p>
-                    <p>Publishers, libraries, and other information providers interested in providing this text in a commercial or non—profit product or from an information server must contact the University of Nebraska—Lincoln for licensing and cost information.</p>
-                    <p> Scholars interested in changing or adding to these texts by, for example, creating a new edition of the text (electronically or in print) with substantive editorial changes, may do so with the permission of the University of Nebraska—Lincoln. This is the case whether the new publication will be made available at a cost or free of charge.</p>
-                
-                    -->
-                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                    <p>All rights reserved. No part of this image may be reproduced,
+                        distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                        or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+                    <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS
+                        <p>All rights reserved. The rightsholder could not be traced.</p>
+                     -->
                 </availability>
                 <date>2015</date>
             </publicationStmt>
             <seriesStmt>
-                <p>Machine-readable transcriptions of letters from the Letters of 1916
-                    collection</p>
+            <!--to add: -->
+                <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of
+                letters from the Letters of 1916 collection</p>
             </seriesStmt>
             <notesStmt>
                 <note type="summary">
-                    <!-- Data from field: H - ISSUE: <p> tags not in supplied text-->
+                    <!-- Data from field: Description-->
                     <p>The letter is from Joseph MacDonagh to his sister Mary MacDonagh.</p>
                     <p>The letter offers condolences after the execution of their brother Thomas
                         MacDonagh in Kilmainham Gaol for his part in the Easter Rising (3 May).
@@ -70,93 +66,56 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <!-- Data from field: J: National Library of Ireland -->
-                        <country>IRE</country>
-                        <settlement>Dublin</settlement>
+                        <!-- Data from field: Source -->
+                        <!-- @ref could be used on repository for identification -->
                         <repository>National Library of Ireland</repository>
-                        <!-- Data from field: AD -->
-                        <idno>Thomas MacDonagh Family Papers, Collection List No 131; Ms.
-                            20647/1</idno>
+                        <!-- Data from field: Document Collection split before ","-->
+                        <collection type='public'>Thomas MacDonagh Family Papers, Collection List No 131;</collection>
+                        <!-- Data from field: Document Collection split after ","-->
+                        <idno>Ms. 20647/1</idno>
                     </msIdentifier>
                 </msDesc>
-                <!-- 
-                    List of places and persons could go here for each document, 
-                    maybe better in separate file?
-                -->
-
-            </sourceDesc>
+          </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
-
-                <!-- Letter context could be included here -->
-
                 <correspAction type="receiving">
-
-                    <persName ref="#Mary_macDonagh">
-                        <!-- Data from field: U -->Mary MacDonagh </persName>
-
-                    <!-- the place name should be generated from field field: V
-                        @ref on <placeName> contains a reference to a detailed description of the place
-                        with coordinates, normalised name, etc.
-                        if V is empty the element is not included
-                    <placeName>
-                    </placeName>-->
-                   
+                    <persName ref="#Mary_macDonagh">Mary MacDonagh </persName>
                 </correspAction>
                 <correspAction type="sending">
                     <persName ref="#JosephMacDonagh">
-                        <!-- Data from field: I -->Joseph MacDonagh </persName>
-                    <!-- the place name should be generated from field: W
-                        @ref on <placeName> contains a reference to a detailed description of the place
-                        with coordinates, normalised name, etc.
-                        if V is empty the element is not included in <correspAction
-                    <placeName>
-                    </placeName>-->
-                    <date when="1916-05-04">
-                        <!-- Data from field: X -->4 May 1916 </date>
+                        <!-- Data from field: Creator -->Joseph MacDonagh </persName>
+                    <placeName/>
+                    <date when="1916-05-04">4 May 1916 </date>
                 </correspAction>
             </correspDesc>
             <textClass>
                 <keywords>
                     <list>
-                        <item n="tag">
-                            <!-- Data from field: B -->Easter Rising Ireland 1916 </item>
-                        <item n="tag">
-                            <!-- Data from field: G - subject, not present in most letters -->
-                            Country Life </item>
+                        <item n="gender">Male</item>
+                        <item n="tag"><!-- Data from field: Collection -->Easter Rising Ireland 1916 </item>
+                        <item n="tag"><!-- Data from field: Topics -->Country Life </item>
                     </list>
                 </keywords>
             </textClass>
             <langUsage>
-                <!-- Data from field: Q: English -->
-                <language ident="en-EN">English</language>
+                <language ident="en">English</language>
             </langUsage>
-
         </profileDesc>
         <encodingDesc>
-            <ab>This electronic transcription was created as part of the crowdsourced project
-                Letters of 1916: creating history.</ab>
+            <samplingDecl>
+                <!--to add: -->
+                <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.</ab>
+            </samplingDecl>
         </encodingDesc>
-
     </teiHeader>
     <facsimile>
         <graphic xml:id="L1916_108_img_1" url="#L1916_108_img_1.jpg"/>
     </facsimile>
     <text type="letter">
         <body>
-            <div n="1" type="page" facs="#L1916_108_img_1">
-
-                <!-- 
-                Friar St.
-                Thurles
-                4.5.16.
-                My Dear Mary,
-                <p>I only heard the news<lb/>to-day.</p><p>I hope you are not too grieved.<lb/>
-                The written or spoken word at such a time is useless.</p>
-                <p>I will go up to Dublin<lb/>when the restrictions are off.</p>
-                <p>Let me know of Muriel and Jack.</p>Your fond brother,<lb/>Joe.
-                -->
+            <div n="1" type="page" facs="#L1916_108_img_1" xml:id="L1916_108_img_1">
 
                 <opener>
                     <address>
@@ -169,16 +128,17 @@
                     <salute>My Dear Mary,</salute>
                 </opener>
                 <p>I only heard the news<lb/>to-day.</p>
-                <p>I hope you are not too grieved. <lb/>The written or spoken word at such a time is
-                    useless.</p>
-
-                <p>I will go up to Dublin <lb/>when the restrictions are off.</p>
+                <p>I hope you are not too grieved. <lb/>
+                    The written or spoken word at such a time is useless.</p>
+                <p>I will go up to Dublin <lb/>
+                    when the restrictions are off.</p>
                 <p>Let me know of Muriel and Jack.</p>
                 <closer>
                     <salute>
-                        <lb/>Your fond brother, <lb/>Joe. </salute></closer>
-
-            </div>
+                        <lb/>Your fond brother, <lb/></salute>
+                    <signed>Joe.</signed> 
+                </closer>
+             </div>
         </body>
     </text>
 </TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2005">
+ <fileDesc>
+     <titleStmt>
+        <title>Postcard from Fr Willie Doyle SJ to Sister M. Anthony, 7 April 1916</title>
+        <author>Willie Doyle</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_2005"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This letter is part of a large correspondence from Captain James Davidson to his parents. Davidson, who was Managing Director of the Sirocco Engineering Works in Belfast, served with 13 Royal Irish Rifles and the Machine Gun Corps. His letters describe his experiences while training in England and serving in France. He was killed on 1 July 1916, the first day of the Battle of the Somme.</p>
+            <p>This letter to his mother recounts a recent illness. He writes of Dermot Neill, his Adjutant, whom he writes is &#39;splendid&#39;. He also writes of a strong rumor of a move to the trenches at an early date. He asks his mother to instruct Furey on the correct address for parcels as they are going astray.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>Irish Jesuit Archives</repository>
+                <collection type='public'></collection><!--MANDATORY -->
+                <idno>IE IJA/J2/24/2</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>M. Anthony</persName>
+        <placeName>St. Maries of the Isle, Sharman Crawford Street, Cork</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Willie Doyle</persName> 
+            <placeName>France</placeName> 
+            <date when="1916-04-07">7 April 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>    
+                <item n="tag">Family life</item>
+                <item n="tag">World War 1: 1914-1918</item>
+                <item n="tag">Love letters</item>       
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="postcard">
+        <body> 
+            <div n="1" type="back" facs="#L1916_2005.0_img_1" xml:id="L1916_2005.0_5010.0"><!-- or loop.index? -->
+                <opener>
+                    <address>
+                               <addrLine>Sister M. Anthony.</addrLine>
+                               <addrLine>St Maries of the Isle, </addrLine>
+                               <addrLine>Cork,</addrLine>
+                               <addrLine>Ireland.</addrLine>
+                           </address>  
+               
+                <cb/>
+                
+                    <address>
+                        <addrLine>Thurs.</addrLine>
+                    </address>
+                    </opener>
+                <p>I am ever so <lb/> 
+                well and safe <lb/> as Cork itself! <lb/></p>
+                    <closer>
+                        <salute>Great haste.</salute>
+                        <signed>W. D.</signed>
+                    </closer>
+<note>W. Doyle C. T.</note>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

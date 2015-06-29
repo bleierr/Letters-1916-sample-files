@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1063">
+ <fileDesc>
+     <titleStmt>
+        <title>Christmas card from Lawrence Brown to his sisters, Christmas 1915</title>
+        <author>Laurence Browne</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_1063"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This Christmas card contains a brief message from Laurence Browne to his sisters Mary and Nellie. The card was written on board the H.M.S. Defence and Lawrence writes that he was on his way to Malta or the Dardanelles.</p>
+            <p>Lawrence was a gunner in the Royal Marine Artillery. On 31 May 1916 the HMS Defence was sunk during the Battle of Jutland, the largest naval battle of the Great War, and Lawrence was killed. His body was never recovered.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository></repository>
+                <collection type='private'>Lawrence Scott, Private Collection</collection><!--MANDATORY-->
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Mary and Nellie Brown</persName>
+        <placeName>Phoenix Park, Dublin, Ireland</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Laurence Browne</persName> 
+            <placeName>H.M.S. Defence</placeName> 
+            <date when="1915-12">1915-12</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>    
+                <item n="tag">World War 1: 1914-1918</item>     
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_1063.0_img_1" xml:id="L1916_1063.1"><!-- or loop.index? -->
+                   <p>Fondest memories ever cling<lb/> Through all the changes<lb/> time may bring</p>
+           </div> 
+            <div n="2" type="page" facs="#L1916_1063.0_img_2" xml:id="L1916_1063.2"><!-- or loop.index? -->
+                <ab><seg type="pre-printedText"><date>Christmas, 1915</date>
+                "Times change and circumstances alter, but the <lb/> 
+                kindly thoughts and pleasant memories that are<lb/> 
+                associated with Christmas grow deeper year by <lb/> 
+                year."
+
+                With Kind Regards<lb/> 
+                and<lb/> 
+                Best Wishes for Christmas<lb/> 
+                and the coming Year.<lb/>
+                    From<lb/></seg></ab>
+                
+                <closer>
+                <signed>Lawrence</signed>
+                To his dear little sisters Mary and Nellie <lb/> 
+                with love. Will write later<lb/> 
+                on as we are on our way <lb/> 
+                to malta or the <sic>dardnells</sic> 
+                <salute><sic>good By</sic> XXXXXXX</salute>
+                
+                
+               <seg type="pre-printedText">H. M. S. "Defence"</seg>
+                </closer>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

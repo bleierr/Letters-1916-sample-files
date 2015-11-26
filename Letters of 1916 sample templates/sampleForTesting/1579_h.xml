@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_1579">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from Clair Ní Modhráin to Eamonn O&#39;Modhráin, 30 May 1916</title>
+        <author>Clair Ní Modhráin</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_1579"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This is a letter from Clair Ní Modhráin (b. 1891) to her brother, Eamonn O&#39;Modhráin (Edward Moran) (1881-1954). Eamonn O&#39;Modhráin had been arrested after the Easter Rising and imprisoned, spending time in Wakefield Prison and Frongach Internment Camp. This letter was sent while he was in Wakefield. Eamonn and Clair&#39;s brother Lewis (Louis) (1893-1959) was also imprisoned in Wakefield at this time although he was soon released.</p>
+            <p>Clair writes about letters sent to and received by the family and notes that their mother is &#39;managing wonderfully well&#39;. She also writes that a &#39;chap&#39; going over to visit his brother had tried to visit Eamonn but did not succeed.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository></repository>
+                <collection type='private'>Private Collection</collection><!--MANDATORY-->
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Eamonn O&#39;Modhráin</persName>
+        <placeName>Wakefield Prison, England</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Clair Ní Modhráin</persName> 
+            <date when="1916-05-30">30 May 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Female</item>    
+                <item n="tag">Easter Rising Ireland 1916</item>       
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_1579.0_img_1" xml:id="L1916_1579.1"><!-- or loop.index? -->
+                   <opener>
+                       <dateline>
+                           <date>30.5.16</date> 
+                       </dateline>
+                       <salute>My dear Eamonn,</salute>
+                   </opener>
+                <p> We posted today a parcel each for<lb/>
+                    you &amp; Louie. Hope they will reach you<lb/>
+                    safely without delay. The letters take<lb/>
+                    at least a week to come from England<lb/>
+                    Louie mentioned he got a letter from<lb/>
+                    Maire, that seems to be the only<lb/>
+                    one that reached you, although we<lb/>
+                    wrote almost every day but I<lb/> 
+                    suppose there are so many to be<lb/>
+                    delivered some of them get lost.</p>
+                <p>We had another letter from<lb/>
+                    Maire to day. She got your letter<lb/>
+                    on Friday.</p>
+                <p>We were home on Sunday</p><pb/>
+           </div> 
+            <div n="2" type="page" facs="#L1916_1579.0_img_2" xml:id="L1916_1579.2"><!-- or loop.index? -->
+                   <p>and found all well. Mother is<lb/>
+                       managing wonderfully well.<lb/>
+                       Louie's letter was a great relief<lb/>
+                       to her. He mentioned you were<lb/>
+                       alright as regards clothes. You<lb/>
+                       must be a great toff in your old<lb/> 
+                       hat.</p>
+                <p>Una asked a chap who was going<lb/>
+                    over to see his brother to see you,<lb/>
+                    but he did not succeed.</p>
+                <p>I must write a line to Louie<lb/> 
+                    now.</p>
+                <closer>
+                    <salute>With warmest love<lb/> Your loving sister</salute>
+                    <signed>Clair</signed>
+                </closer>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

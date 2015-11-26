@@ -6,21 +6,19 @@
     <teiHeader xml:id="L1916_267">
         <fileDesc>
             <titleStmt>
-                <title><!-- Data from field: F: Title --> Postcard from M. in Belfast to Piaras
+                <title><!-- Data from field: Title --> Postcard from M. in Belfast to Piaras
                     Béaslaí, January 1916</title>
-                <author ref="#m"><!-- Data from field: I -->M.</author>
+                <author ref="#m"><!-- Data from field: Creator -->M.</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
-                <p>
-                    <!-- Edition statement ? -->
-                </p>
+                <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
             </editionStmt>
             <publicationStmt>
                 <publisher>
                     <address>
                         <name>An Foras Feasa</name>
-                        <orgName>NUI Maynooth</orgName>
+                        <orgName>Maynooth University</orgName>
                         <postBox>Co. Kildare</postBox>
                         <placeName>
                             <country>IRE</country>
@@ -30,98 +28,71 @@
                 </publisher>
                 <idno n="L1916_267"/>
                 <availability status="restricted">
-                    <!-- Copyright statement ?-->
-                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                    <p>All rights reserved. No part of this image may be reproduced,
+                        distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                        or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+                    <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS
+                        <p>All rights reserved. The rightsholder could not be traced.</p>
+                     -->
                 </availability>
                 <date>2015</date>
             </publicationStmt>
             <seriesStmt>
-                <p>Machine-readable transcriptions of letters from the Letters of 1916
-                    collection</p>
+                <!--to add: -->
+                <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of
+                    letters from the Letters of 1916 collection</p>
             </seriesStmt>
             <notesStmt>
                 <note type="summary">
-                    <!-- Data from field: H - make multiple paragraphs--> Post card from M. to
-                    Piaras from Belfast. M. misses Dublin and at the end of the post card tells
+                    <!-- Data from field: Description --> Postcard from M. to
+                    Piaras from Belfast. M. misses Dublin and at the end of the postcard tells
                     Piaras to 'Tell Tadhg Scannell to do that thing'. </note>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country>IRE</country>
-                        <!-- This field has to be generated -->
-                        <settlement>Dublin</settlement>
-                        <!-- This field has to be generated -->
-                        <!-- Data from field: J: National Library of Ireland -->
+                       <!-- Data from field: Source -->
+                        <!-- @ref could be used on repository for identification -->
                         <repository ref="#NLI">National Library of Ireland</repository>
-                        <!-- Data from field: AD - Collection-->
-                        <idno type="collection">NLI MS 33,977/7; Collection List 44</idno>
+                        <!-- Data from field: Document Collection split before ","-->
+                        <collection type='public'></collection>
+                        <!-- Data from field: Document Collection split after ","-->
+                        <idno>NLI MS 33,977/7; Collection List 44</idno>
                     </msIdentifier>
                 </msDesc>
-
-                <!-- 
-                    List of places and persons could go here for each document, 
-                    maybe better in separate file?
-                -->
-
-                <bibl>
-                    <!-- the reference @target could contain a permalink for referencing this postcard -->
-                    <ref target="http://letteredition/L1916_267">
-                        <!-- Data from field F --> Postcard from M. in Belfast to Piaras Béaslaí,
-                        January 1916 [Digital Edition] </ref>
-                </bibl>
-
             </sourceDesc>
-        </fileDesc>
+         </fileDesc>
         <profileDesc>
             <correspDesc>
-
                 <correspAction type="receiving">
-
-                    <persName ref="#PiarasBeaslai">
-                        <!-- Data from field: U -->Piaras Béaslaí </persName>
-                    <placeName ref="#dublin_Ire">
-                        <!-- Data from field: V -->Dublin, Ireland </placeName>
-                    <!-- if a date is known the date should be supplied in @when (yyyy-mm-dd), 
-                        and in a human readable form as content of the date element (e.g. 12 April 1916)
-                        <date when=""></date>
-                    -->
+                    <persName ref="#PiarasBeaslai">Piaras Béaslaí</persName>
+                    <placeName ref="#dublin_Ire">Dublin, Ireland</placeName>
                 </correspAction>
                 <correspAction type="sending">
-
-                    <persName ref="#m">
-                        <!-- Data from field: I -->M. </persName>
-                    <placeName ref="#belfast_Ire">
-                        <!-- Data from field: W --> Belfast, Ireland </placeName>
-                    <date when="1916-01-11">
-                        <!-- X: '1916-01-11, date has to be changed into human readable format -->
-                        11 January 1916</date>
+                    <persName ref="#m">M. </persName>
+                    <placeName ref="#belfast_Ire">Belfast, Northern Ireland</placeName>
+                    <date when="1916-01-11">11 January 1916</date>
                 </correspAction>
             </correspDesc>
             <textClass>
-                <!-- Type of the letter should be separate -->
                 <keywords>
                     <list>
-                        <item n="assigned_category"><!-- Data from field: B -->Easter Rising Ireland
-                            1916</item>
-                        <item n="tag">
-                            <!-- Data from field: G - subject, not present in most letters also not in this telgram-->
-                        </item>
+                        <item n="tag">City and town life</item>
                     </list>
                 </keywords>
             </textClass>
             <langUsage>
-                <!-- Data from field: Q: Irish -->
-                <language ident="ga-GA">Irish</language>
+                <language ident="ga">Irish</language>
             </langUsage>
-
         </profileDesc>
         <encodingDesc>
-            <ab>This electronic transcription was created as part of the crowdsourced project
-                Letters of 1916: creating history.</ab>
-
+            <samplingDecl>
+                <!--to add: -->
+                <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project
+                    Letters of 1916: creating history.</ab>
+            </samplingDecl>
         </encodingDesc>
-
     </teiHeader>
     <facsimile>
         <graphic xml:id="L1916_267_img_1" url="#L1916_267_img_1.jpg"/>
@@ -129,19 +100,7 @@
     </facsimile>
     <text type="postcard">
         <body>
-            <!-- The page numbers will have to be generated somehow -->
             <div type="page" n="1" facs="#L1916_267_img_1">
-
-                <!-- 
-                11-1-16
-                Annso dhom arís & uaigneas orm indiaidh B. Átha Cliath. 
-                Níor bhuail an taingeal liom. Is dóca go raibh sé imthighte go luath. 
-                Ar thugais cuairt ar P. Ó Shoin. Abair le Tadgh Scannell an rud sin a dhéanamh
-                M.
-                
-                Piaras Béaslaí, 25 Lindsay Rd, <del>L</del> Glasnevin, <hi rend="underline">Dublin</hi>
-                -->
-
                 <opener>
                     <address>
                 <addrLine>Piaras Béaslaí, 25 Lindsay Rd, <del>L</del> Glasnevin, <hi rend="underline">Dublin</hi></addrLine>
@@ -157,10 +116,6 @@
                 <!-- a problem could be that the address line is transcribed at the end of the text -->
             </div>
             <div type="picture" n="2" facs="#L1916_267_img_2">
-                <!-- 
-                <note>picture postcard with caption</note>
-                Caption : "Donegal Square & Wellington Place, Belfast."
-                -->
                 <desc>picture postcard with caption</desc>
                 <caption>"Donegal Square &amp; Wellington Place, Belfast."</caption>
             </div>

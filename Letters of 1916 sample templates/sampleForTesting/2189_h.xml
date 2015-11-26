@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2189">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from Alice Fitzgerald to her son Seamus Fitzgerald, 19 June 1916</title>
+        <author>Alice Fitzgerald</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_2189"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This letter was written to Seamus Fitzgerald (1896–1972). Fitzgerald, a Cork politician who channeled his patriotism into day to day efforts to establish Ireland as a modern nation. Fitzgerald joined the Irish Volunteers and Sinn Féin after Easter Week 1916, he was then arrested and sent to Frongoch, Wales, one of the seven places in which he was interned in subsequent years.</p>
+            <p>This is an emotive letter to Seamus from his mother Alice counselling him to keep his spirits up for fear &#34;you will make me worse than what I am&#34;. She hopes his friends will be sent to the same place so they could be company for him. His father has not been told of Seamus&#39; arrest &#34;God is good and Blessed Mother you may be home before him yet&#34;.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>Cork City and County Archives</repository>
+                <collection type='public'>Papers of Seamus Fitzgerald (1876-1972)</collection><!--MANDATORY -->
+                <idno>PR/6/3</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Seamus Fitzgerald</persName>
+        <placeName>Wakefield Prison Camp, West Yorkshire, England</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Alice Fitzgerald</persName> 
+            <placeName>3 East Hill, Queenstown, Co. Cork, Ireland</placeName> 
+            <date when="1916-06-19">19 June 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Female</item>    
+                <item n="tag">Easter Rising Ireland 1916</item>       
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_2189.0_img_1" xml:id="L1916_2189.1"><!-- or loop.index? -->
+                   <opener>
+                       <address>
+                            <addrLine>3 Coast Hill</addrLine>
+                            <addrLine>Queenstown</addrLine>
+                       </address> 
+                       <dateline>
+                           <date>June.19.1916</date>
+                       </dateline>
+                       <salute>My Own Dearest Jim</salute>
+                   </opener> 
+                <p>So your shifted <lb/>after all.<lb/>
+                    Now Jim <hi rend="underline">What</hi><lb/>
+                    <hi rend="underline">ever</hi> <hi rend="underline">you</hi> <hi rend="underline">do</hi> I dont want<lb/>
+                    you to feel down hearted<lb/>
+                    Keep your spirit up &amp; the<lb/>
+                    Great God in his mercy is<lb/> 
+                    Great. We wont despair<lb/>
+                    yet. More mind cheer<lb/>
+                    up if you'll get downhearted<lb/> 
+                    you will make me worse<lb/> 
+                    than what I am. I dare <lb/> 
+                    say you have seen Liel &amp;Thom<lb/> 
+                    by now. They will tell you all.</p><pb/>
+           </div>
+            <div n="2" type="page" facs="#L1916_2189.0_img_2" xml:id="L1916_2189.2"><!-- or loop.index? -->
+                <p>Tis strange your not getting<lb/> 
+                    my letters. Mick Leahy has the same to say<lb/>
+                    about his mothers. I can't<lb/>
+                    understand it. Is <gap/><gap/><lb/>
+                    O'Brien with you.I hope<lb/> 
+                    they are for they would<lb/> 
+                    be company for you.<lb/> 
+                    Now Lily will make<lb/> 
+                    arrangements with some one<lb/>
+                    outside to visit you &amp;<lb/> 
+                    see to you &amp; dont at all<lb/> 
+                    fear him But everything<lb/> 
+                    that possibly can be done<lb/> 
+                    <hi rend="underline">will be done</hi> for you love <lb/>
+                    I'm giving you great hope<pb/> 
+                    &amp; another thing if you are<lb/> 
+                    kept there very long Bob<lb/> 
+                    &amp; myself &amp; maybe Patrick<lb/> 
+                    will go over to see you <lb/> 
+                    for we are all dying to<lb/> 
+                    see you. I haven't told<lb/> 
+                    your father anything about<lb/> 
+                    you up to the present<lb/> 
+                    God is good &amp; Blessed Mother<lb/> 
+                    you may be home before <lb/>
+                    him yet. Poor Bob has<lb/> 
+                    missed you terrible We<lb/> 
+                    havent done a thing since <lb/>
+                    you left. You must have<lb/> 
+                    felt in a terrible way<lb/> 
+                    when you heard of this shift<lb/> 
+                    again that's why I'm</p><pb/>
+            </div> 
+            <div n="3" type="page" facs="#L1916_2189.0_img_3" xml:id="L1916_2189.3"><!-- or loop.index? -->
+                <p>warning <add><hi rend="superscript">you</hi></add> not to despair<lb/>
+                    don't take it to heart Jim <lb/>
+                    for mercy sake, that's <lb/>
+                    what I'm grieving for.<lb/>
+                    I will be dying for Liel &amp;<lb/>
+                    Thom to come home to tell<lb/> 
+                    me all about you. So I<lb/> 
+                    will now conclude with<lb/> 
+                    fondest Love from all<lb/> 
+                    at home &amp; again asking <lb/> 
+                    you to cheer up &amp; with<lb/> 
+                    God's help you may be <lb/>
+                    with us sooner than what you <lb/>
+                    expect is this dearest. </p> 
+                    <closer>
+                        <salute>
+                            Wish of your loving <lb/> Mother 
+                        </salute>
+                            <signed>
+                                A. Fitzgerald
+                            </signed>
+                            <salute>xxxxxxx</salute>
+                    </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

@@ -5,21 +5,19 @@
     <teiHeader xml:id="L1916_1590">
         <fileDesc>
             <titleStmt>
-                <title><!-- Data from field: F: Title -->Letter from D. J. Murphy to David G.
+                <title><!-- Data from field: Title -->Letter from D. J. Murphy to David G.
                     Curtin, 26 February 1916</title>
-                <author ref="#DavidGCurtis"><!-- Data from field: I -->David G. Curtin</author>
+                <author><!-- Data from field: Creator -->David G. Curtin</author>
                 <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
-                <p>
-                    <!-- A general edition statement has to be added here, same statement for all letters -->
-                </p>
+                <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
             </editionStmt>
             <publicationStmt>
                 <publisher>
                     <address>
                         <name>An Foras Feasa</name>
-                        <orgName>NUI Maynooth</orgName>
+                        <orgName>Maynooth University</orgName>
                         <postBox>Co. Kildare</postBox>
                         <placeName>
                             <country>IRE</country>
@@ -29,23 +27,24 @@
                 </publisher>
                 <idno n="L1916_1590"/>
                 <availability status="restricted">
-                    <!-- Copyright statement? Example:
-                        <p>This work is the property of the University of Nebraska—Lincoln. It may be copied freely by individuals for personal use, research, and teaching (including distribution to classes) as long as this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds, including for—profit works.</p>
-                        <p>Publishers, libraries, and other information providers interested in providing this text in a commercial or non—profit product or from an information server must contact the University of Nebraska—Lincoln for licensing and cost information.</p>
-                        <p> Scholars interested in changing or adding to these texts by, for example, creating a new edition of the text (electronically or in print) with substantive editorial changes, may do so with the permission of the University of Nebraska—Lincoln. This is the case whether the new publication will be made available at a cost or free of charge.</p>
-                    -->
-                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                    <p>All rights reserved. No part of this image may be reproduced,
+                        distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                        or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+                    <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+                    <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS
+                        <p>All rights reserved. The rightsholder could not be traced.</p>
+                     -->
                 </availability>
                 <date when="2015">2015</date>
             </publicationStmt>
             <seriesStmt>
-                <!-- Series statement ?-->
-                <p>Machine-readable transcriptions of letters from the Letters of 1916
-                    collection</p>
+                <!--to add: -->
+                <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of
+                    letters from the Letters of 1916 collection</p>
             </seriesStmt>
             <notesStmt>
                 <note type="summary">
-                    <!-- Data from field: H - ISSUE: <p> tags not in supplied text-->
+                    <!-- Data from field: Description -->
                     <p>This is a letter from D. J. Murphy to David G. Curtin.</p>
                     <p>Murphy writes to Curtain responding to a query regarding the eviction of a
                         member of Murphy's family in 1908. Murphy offers the information requested
@@ -56,65 +55,48 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <!-- Data from field: J: National Archives of Ireland -->
-                        <country>IRE</country>
-                        <settlement>Dublin</settlement>
+                        <!-- Data from field: Source-->
                         <!-- @ref could be used on repository for identification -->
                         <repository ref="#NAI">National Archives of Ireland</repository>
-                        <!-- Data from field: AD -->
-                        <idno type="collection">Chief Secretary’s Office Registered Papers, CSO
-                            RP/1916/8645/1</idno>
+                        <!-- Data from field: Document Collection split before ","-->
+                        <collection type='public'>Chief Secretary’s Office Registered Papers, </collection>
+                        <!-- Data from field: Document Collection split after ","-->
+                        <idno>CSO RP/1916/8645/1</idno>
                     </msIdentifier>
                 </msDesc>
-                <!-- 
-                    List of places and persons could go here for each document, 
-                    maybe better in separate file?
-                -->
-            </sourceDesc>
+           </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
-
-                <correspAction type="receiving">
-
-                    <persName ref="#DavidGCurtis">
-                        <!-- Data from field: U --> David G. Curtin </persName>
-                    <placeName corresp="#rockchapel_co_cork"
-                        ><!-- Data from field: V -->Rockchapel, County Cork, Ireland</placeName>
-                    <date>unknown</date>
+               <correspAction type="receiving">
+                    <persName ref="#DavidGCurtis">David G. Curtin </persName>
+                    <placeName corresp="#rockchapel_co_cork">Rockchapel, County Cork, Ireland</placeName>
+                    <date/>
                 </correspAction>
                 <correspAction type="sending">
-
-                    <persName ref="#DJMurphy">
-                        <!-- Data from field: I --> D. J. Murphy </persName>
-                    <placeName
-                        ><!-- Data from field: W -->unknown</placeName>
-                    <date when="1916-02-26"
-                        ><!-- Data from field: X -->26 February 1916</date>
+                    <persName ref="#DJMurphy">D. J. Murphy </persName>
+                    <placeName/>
+                    <date when="1916-02-26">26 February 1916</date>
                 </correspAction>
             </correspDesc>
             <textClass>
-                <!-- Type of the letter should be separate -->
                 <keywords>
                     <list>
-                        <item n="gender"><!-- Data from field: Z -->Male</item>
-                        <item n="assigned_category"><!-- Data from field: B -->Easter Rising Ireland
-                            1916</item>
-                        <item n="tag"
-                            ><!-- Data from field: G - subject, not present in most letters -->Country
-                            Life</item>
+                        <item n="gender">Male</item>
+                        <item n="tag"><!-- Data from field: Collection -->Easter
+                            Rising Ireland 1916</item>
+                        <item n="tag"><!-- Data from field: Topics -->Country Life</item>
                     </list>
                 </keywords>
             </textClass>
             <langUsage>
-                <!-- Data from field: Q: English -->
-                <language ident="en-EN">English</language>
+                <language ident="en">English</language>
             </langUsage>
-
         </profileDesc>
         <encodingDesc>
             <samplingDecl>
-                <ab>This electronic transcription was created as part of the crowdsourced project
+                <!--to add: -->
+                <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project
                     Letters of 1916: creating history.</ab>
             </samplingDecl>
         </encodingDesc>
@@ -128,14 +110,8 @@
     </facsimile>
     <text>
         <group>
-            <text type="envelop">
+            <text type="envelope">
                 <body>
-                    <!--  
-                    David G. Curtin Esq.R.D.C,<lb/>
-                    Stagmount House.<lb/>
-                    Rockchapel.<lb/>
-                    Co. Cork.
-                    -->
                     <div facs="#L1916_1590_img_4">
                         <ab>
                             <address>
@@ -150,90 +126,65 @@
             </text>
             <text type="letter">
                 <body>
-                    <div n="1" type="page" facs="#L1916_1590_img_1">
-                        <!-- 
-                        <address>West End.Millstreet</address>
-                        <date>26.2.16</date>
-                        <salute>My Dear Cousin.</salute>
-                        <p>I got your P.C.<lb/> this morning and the following<lb/> are the
-                            particulars you ask for.<lb/> Landladies:- Mrs Harriet Orpen,
-                            <address>24 Elgin Road. Dublin.</address> and Mrs Norman Thompson
-                            <address>Kindlestown, Delgany, Co. Wicklow.
-                            </address>
-                            </p>
-                        <pb/>
-                        -->
+                    <div n="1" type="page" facs="#L1916_1590_img_1" xml:id="L1916_1590_img_1">
                         <opener>
                             <address>                      
-                        <addrLine>West End.Millstreet</addrLine> 
-                    </address>
+                                <addrLine>West End.Millstreet</addrLine> 
+                            </address>
                             <dateline>
                                 <date when="1916-02-26">26.2.16</date>
                             </dateline>
                             <salute>My Dear Cousin.</salute>
                         </opener>
-                        <p>I got your P.C.<lb/> this morning and the following<lb/> are the
-                            particulars you ask for.<lb/> Landladies:- Mrs Harriet Orpen,
-                                <!-- ??? --><placeName>24 Elgin Road. Dublin.</placeName> and Mrs
+                        <p>I got your P.C.<lb/> 
+                            this morning and the following<lb/> 
+                            are the particulars you ask for.<lb/> 
+                            Landladies:- Mrs Harriet Orpen,<placeName>24 Elgin Road. Dublin.</placeName> and Mrs
                             Norman Thompson <placeName>Kindlestown, Delgany, Co.
                                 Wicklow.</placeName>
                         </p>
                         <pb/>
                     </div>
                     <div n="2" type="page" facs="#L1916_1590_img_2">
-                        <!-- 
-                        <pb/><p>would accept my aunt that is<lb/> my Step- mother as tenant if<lb/> 
-                        a settlement was arrived at and<lb/> the answer he got from the agent<lb/> 
-                        was that <hi rend="underline">under any circumstances<lb/> 
-                        would he again deal with the<lb/> Murphy Family.</hi>.</p><p>But that he <add>the agent</add> would be willing<lb/> 
-                        <del>to</del> if our good-will was<lb/> bought out to let it to any one<lb/> 
-                        that would buy <del>it</del>our good-will.<lb/> Of course I need not say that<lb/> 
-                        we will not surrender our<pb/> acres 140<lb/> Rent. £66.0-0<lb/> valuation £62.0.0<lb/>
-                        Board of Works Annuity £13.0.0<lb/> yearly. And the date of eviction<lb/> 
-                        is 26<hi rend="superscript">th</hi> of February 1908<lb/> exactly this day 8 years.<lb/>
-                        I must say that I am anxious<lb/> to know for what purpose you<lb/> 
-                        want the above information.<lb/> 
-                        As our P.P. Canon Casey<lb/> wrote to the agent ( H.D.M. Barton,<lb/> 
-                        The Bush, Antrim) a few<lb/> weeks ago. asking if he <pb/>
-                        ***Missing </p> ***
-                        -->
-                        <pb/>
-                        <p>would accept my aunt that is<lb/> my Step- mother as tenant if<lb/> a
-                            settlement was arrived at and<lb/> the answer he got from the agent<lb/>
-                            was that <hi rend="underline">under any circumstances<lb/> would he
-                                again deal with the<lb/> Murphy Family.</hi>.</p>
+                        <p>would accept my aunt that is<lb/> 
+                            my Step- mother as tenant if<lb/> 
+                            a settlement was arrived at and<lb/> 
+                            the answer he got from the agent<lb/>
+                            was that <hi rend="underline">under any circumstances<lb/> 
+                            would he again deal with the<lb/> 
+                                Murphy Family.</hi>.</p>
                         <p>But that he <add>the agent</add> would be willing<lb/>
-                            <del>to</del> if our good-will was<lb/> bought out to let it to any
-                            one<lb/> that would buy <del>it</del>our good-will.<lb/> Of course I
-                            need not say that<lb/> we will not surrender our
-                            <pb/><!-- ??? pb within page <div> --> acres 140<lb/> Rent. £66.0-0<lb/>
-                            valuation £62.0.0<lb/> Board of Works Annuity £13.0.0<lb/> yearly. And
-                            the date of eviction<lb/> is 26<hi rend="superscript">th</hi> of
-                            February 1908<lb/> exactly this day 8 years.<lb/> I must say that I am
-                            anxious<lb/> to know for what purpose you<lb/> want the above
-                            information.<lb/> As our P.P. Canon Casey<lb/> wrote to the agent (
-                            H.D.M. Barton,<lb/> The Bush, Antrim) a few<lb/> weeks ago. asking if he </p>
+                            <del>to</del> if our good-will was<lb/> 
+                            bought out to let it to any one<lb/> 
+                            that would buy <del>it</del>our good-will.<lb/> 
+                            Of course I need not say that<lb/> 
+                            we will not surrender our<pb/><!-- pb within page <div> --> 
+                            acres 140<lb/> Rent. £66.0-0<lb/>
+                            valuation £62.0.0<lb/> Board of Works Annuity £13.0.0<lb/> 
+                            yearly. And the date of eviction<lb/> 
+                            is 26<hi rend="superscript">th</hi> of February 1908<lb/> 
+                            exactly this day 8 years.<lb/> 
+                            I must say that I am anxious<lb/> 
+                            to know for what purpose you<lb/> 
+                            want the above information.<lb/> 
+                            As our P.P. Canon Casey<lb/> 
+                            wrote to the agent (H.D.M. Barton,<lb/> 
+                            The Bush, Antrim) a few<lb/> 
+                            weeks ago. asking if he </p>
                         <pb/>
                     </div>
                     <div n="3" type="page" facs="#L1916_1590_img_3">
-                        <!--
-                            <pb/><p>claim as easily as that.<lb/> I will expect a letter from<lb/> you by return of post.<lb/> Do not keep me in suspense<lb/> With best regards to<lb/> yourself and all my<lb/> cousins at the Rock.<lb/></p>
-                            <salute>I remain<lb/>
-                            Your Cousin <lb/>
-                            D. J. Murphy</salute> 
-                            To D. G. Curtin Esq. <unclear>R.D.6.</unclear>Note <sic>adress</sic>
-                        -->
-
-                        <pb/>
                         <p>claim as easily as that.<lb/> I will expect a letter from<lb/> you by
                             return of post.<lb/> Do not keep me in suspense<lb/> With best regards
                             to<lb/> yourself and all my<lb/> cousins at the Rock.<lb/>
                         </p>
-                        <salute>I remain<lb/> Your Cousin <lb/> D. J. Murphy</salute>
+                        <closer><salute>I remain<lb/> 
+                            Your Cousin <lb/> </salute>
+                            <signed>D. J. Murphy</signed>
+                        </closer>
                         <note>To D. G. Curtin Esq. <unclear>R.D.6.</unclear>Note
                             <sic>adress</sic></note>
-
-                    </div>
+                   </div>
                 </body>
             </text>
         </group>

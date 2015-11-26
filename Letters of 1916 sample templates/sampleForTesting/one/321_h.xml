@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_321">
+ <fileDesc>
+     <titleStmt>
+        <title>List of demands made by Thomas MacDonagh at Richmond Barracks</title>
+        <author>Thomas MacDonagh</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_321"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This is a list of demands written by Thomas MacDonagh (1878-1916), one of the executed leaders of the Rising. MacDonagh was a poet and teacher. A leading member of the Dublin Brigade of the Irish Volunteers, he was one of the principle organizers of the Easter Rising and one of the seven signatories of the Proclamation of the Irish Republic. He was executed on 3 May 1916.</p>
+            <p>This note was conveyed to the commanding officer of Richmond Barracks by Father Columbus. Later, in his &#39;My experiences in the 1916 Rising by Father Columbus OSFC&#39;  he wrote about how this came into his possession: </p>
+            <p>&#39;As he [MacDonagh] was second in command he asked me to go as his delegate and to demand to have them recognised as prisoners of war; and to get the rights of such. The he wrote down for the several headings he wished me to have seen to. These I proposed to submit to the officer in charge of the barracks, to see what could be immediately righted for them; and then to go on to Dublin Castle. Here is the document as it lies before me’.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>Irish Capuchin Provincial Archives</repository>
+                <collection type='public'></collection><!--MANDATORY -->
+                <idno>CA/IR/1/2/2</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Commandant, Richmond Barracks via Fr. Columbus Murphy OFM Cap.</persName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Thomas MacDonagh</persName> 
+            <placeName>Richmond Barracks, Dublin</placeName> 
+            <date when="1916-05-01">1 May 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>    
+                <item n="tag">Easter Rising Ireland 1916</item>
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+
+   
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_321.0_img_1" xml:id="L1916_321.1"><!-- or loop.index? -->
+                   <p>1. Visits to prisoners<lb/>
+2. Treatment of officers<lb/>
+3. Dependents &amp;and relations<lb/>
+4. Blankets<lb/>
+5. Books<lb/>
+6. The wearing of red cross badge who<lb/> were not combatants<lb/>
+<del>7. A</del>
+7. Washing arrangements<lb/></p>
+                       <closer><signed>Thomas Mac Donough<lb/>
+                           Jacobs Factory<lb/></signed></closer>
+
+
+ <note>No 7 will be allowed.<lb/> Other complaints cannot<lb/> be dealt with here<lb/> Louis [Ramsey?]<lb/>1/C. Richmond Bks, 1/5/16</note>
+           </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

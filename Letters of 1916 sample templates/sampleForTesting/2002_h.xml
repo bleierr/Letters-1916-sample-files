@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:id="L1916_2002">
+ <fileDesc>
+     <titleStmt>
+        <title>Letter from Fr Francis M Browne SJ to Fr Thomas V Nolan SJ, 21 August 1916</title>
+        <author>Francis M Browne</author>
+        <editor>Susan Schreibman</editor>
+    </titleStmt>
+    <editionStmt>
+         <p>TO ADD: Letters of 1916: creating history [...]</p><!--to add-->
+    </editionStmt>
+    <publicationStmt>
+        <publisher>
+            <address>
+                <name>An Foras Feasa</name>
+                <orgName>Maynooth University</orgName>
+                <postBox>Co. Kildare</postBox>
+                <placeName>
+                    <country>IRE</country>
+                    <settlement>Maynooth</settlement>
+                </placeName>
+            </address>
+        </publisher>
+        <idno n="L1916_2002"/>
+        <availability status="restricted">
+            <p>All rights reserved. No part of this image may be reproduced,
+                 distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
+                 or mechanical methods, without the prior written permission of the institutional or private owner of the image and the Letters of 1916 project. For permission requests, write to the Letters of 1916 at letters1916@gmail.com. </p>
+            <p>All rights reserved. 2015, Letters of 1916, Maynooth</p>
+             <!-- ADD THE FOLLOWING OPTIONAL FORMULA FOR ORPHAN WORKS<p>All rights reserved. The rightsholder could not be traced.</p>-->
+         </availability>
+         <date when="2015">2015</date>
+     </publicationStmt>
+     <seriesStmt>
+         <!--to add: -->
+         <p>PUT A STATEMENT, e.g. Machine-readable transcriptions of letters from the Letters of 1916 collection</p>
+     </seriesStmt>
+     <notesStmt>
+        <note type="summary">
+            <p>This letter was written by Fr Francis M Browne SJ (1880-1960). Browne was an Irish Jesuit chaplain who served in the First World War. Known as the photographer of the &#39;Titanic&#39;, the Cork-born Jesuit was ordained in 1915 and in 1916 went as chaplain to the Irish Guards in France and Flanders and later to the 9th Battalion of the Royal Dublin Fusiliers. Fr Browne was the most decorated Catholic chaplain in the First World War, earning the Military Cross with two bars, the Belgian Croix de Guerre and the French Croix de Guerre (with Palm).</p>
+            <p>Fr Browne wrote to his Provincial, Fr Thomas V Nolan SJ (1867-1941), during his time as a chaplain giving him news about his work, health and religious endeavours. </p>
+            <p>In this letter Browne is telling his superior about his duties and everyday activities as a chaplain. He includes the remarks of a &#39;companion&#39; who notes the differentiating treatment between the priests and himself. Browne goes on to describe a horrible sight when one of the observation balloons began to sail towards German lines and the two occupants were forced to jump out.</p>
+        </note>
+    </notesStmt>
+    <sourceDesc>
+        <msDesc>
+            <msIdentifier>
+                <repository>Irish Jesuit Archives</repository>
+                <collection type='public'></collection><!--MANDATORY -->
+                <idno>IE IJA/CHP1/9/16</idno>
+            </msIdentifier>
+        </msDesc>
+    </sourceDesc>
+</fileDesc>
+<profileDesc>
+    <correspDesc>
+        <correspAction type="receiving">
+        <persName>Thomas V Nolan</persName>
+        <placeName>St Francis Xavier&#39;s, Upper Gardiner Street, Dublin</placeName>  
+<!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
+        </correspAction>
+        <correspAction type="sending"> 
+            <persName>Francis M Browne</persName> 
+            <placeName>France</placeName> 
+            <date when="1916-08-21">21 August 1916</date>
+        </correspAction>
+    </correspDesc>
+    <textClass>
+        <keywords>
+            <list>
+                <item n="gender">Male</item>    
+                <item n="tag">Faith</item>
+                <item n="tag">World War 1: 1914-1918</item>
+            </list>
+        </keywords>
+    </textClass>
+    <langUsage>
+        <language ident="en">English</language>
+    </langUsage>
+</profileDesc>
+<encodingDesc>
+    <samplingDecl>
+            <!--to add: -->
+        <ab>to ADD: e.g. This electronic transcription was created as part of the crowdsourced project Letters of 1916: creating history.</ab>
+    </samplingDecl>
+</encodingDesc>
+</teiHeader>
+<!-- <facsimile> 
+        <graphic />
+</facsimile> -->
+    <text type="letter">
+        <body> 
+            <div n="1" type="page" facs="#L1916_2002.0_img_1" xml:id="L1916_2002.1"><!-- or loop.index? -->
+                   <opener>
+                       <address>
+                           <addrLine>1<hi rend="superscript">st</hi> BATT<hi rend="superscript">N</hi> IRISH GUARDS, </addrLine>
+                           <addrLine>B. E. F. </addrLine>
+                       </address>
+                       <dateline>
+                           <date>21/8/16</date>
+                       </dateline>
+                       <salute> Very Reverend and dear Fr. Provincial <lb/> P.C. </salute>
+                   </opener>
+                <p>Many thanks for your short note. <lb/> 
+                    So Fr. Morris is getting into harness very soon. <lb/> 
+                    I'm sure the life out here with its variety, <lb/> 
+                    constant exercise, &amp; open air will do his <lb/> 
+                    health much good, while he with his pleasing <lb/> 
+                    manner &amp; zeal will do a <hi rend="underline">great deal</hi> of good <lb/> 
+                    here. Chaplains — that is <hi rend="underline">R.C.</hi> — are <lb/> 
+                    wanted here. We are all kept going night <lb/>
+                    &amp; morning, &amp; there is plenty of room for more.</p>
+                <p>Our Confreres are of course much more <lb/> 
+                    leisured — Sunday is <hi rend="underline">their</hi> busy day, except <lb/> 
+                    those who take charge of the Canteens &amp;c. &#x2014; but <lb/> 
+                    that is not strictly ministerial work, is it? <lb/> 
+                    Some of them are very anxious to do their best. </p> <pb/>                      
+            </div> 
+            <div n="2" type="page" facs="#L1916_2002.0_img_2" xml:id="L1916_2002.2"><!-- or loop.index? -->
+                   <p>They are I think spurred on by the R.Cs. I was <lb/> 
+                       told to <foreign>totidem verbis</foreign> by one of the Officers of the <lb/> 
+                       VI Division ( he is <hi rend="underline">not</hi> a Catholic ) that since <lb/> 
+                       Fr. Fitzgibbon's arrival his Confreres have <lb/> 
+                       <hi rend="underline">" bucked up a lot".</hi> Before he came, their <lb/> 
+                       visits to the Ambulance were more or less irregular.<lb/> 
+                       Now they go the rounds regularly. Thank God it <lb/> 
+                       is so. The majority of them are really fine fellows <lb/> 
+                       &amp; anxious to do what they can— but it is so <lb/> 
+                       little that they <hi rend="underline">can</hi> do. My companion with <lb/> 
+                       1<hi rend="superscript">st</hi> Brigade comes up to the trenches &amp;c. &amp; has regular <lb/>
+                       services for the brigade, his only grievance is that <lb/> 
+                       I am treated better than he is (sic) " you priests <lb/> 
+                       are alright" he said to me once "You have a home <lb/> 
+                       with a regiment wherever it goes, we have to <hi rend="underline">look</hi> <lb/>
+                       "for a shelter if we want to come up near the <lb/> 
+                       front, they leave us with the Ambulances."</p>
+                <p>When I was cycling down from the trenches yester—<lb/>
+                    —day morning to say Mass in a little village for <lb/> 
+                    those of my parish not actually in the line, I met <lb/>
+                    him trudging bravely along carrying his kit.</p>
+                <p>By the way, I may not long be <hi rend="underline">his</hi> confrere, for <lb/> 
+                    I have heard that Fr. Lane Fox has got a dispensation</p><pb/>
+            </div> 
+            <div n="3" type="page" facs="#L1916_2002.0_img_3" xml:id="L1916_2002.3"><!-- or loop.index? -->
+                   <p>to say Mass, &amp; is nearly strong enough to come out <lb/> 
+                       again. Of course if he can take up the work, I shall <lb/> 
+                       have to leave the Batt<hi rend="superscript">n</hi>, as I was distinctly told that <lb/> 
+                       I was only an <hi rend="underline"><foreign>interim loc tenens</foreign></hi> It will seem <lb/> 
+                       funny as he was had been only 3 weeks with the B<hi rend="superscript">n</hi>. when <lb/> 
+                       he met with his accident, &amp; I have been with <lb/> 
+                       it almost six months now.</p>
+                <p>I have been very busy of late — we have been <lb/> 
+                    moving about a great deal. This has the advantage <lb/> 
+                    of variety, but even variety has its disadvantages &#x2014; <lb/> 
+                    difficulty in trying to find a laundry for instance!</p>
+                <p>A short time ago we were witnesses of a <lb/> 
+                    horrible sight. One of our Observation Balloons <lb/> 
+                    broke loose in a high wind &amp; began to sail towards <lb/> 
+                    the German lines. The thing rose rapidly the while &amp; <lb/> 
+                    the two occupants had to get out. We saw one <lb/> 
+                    man drop with his parachute. For about 500 ft. <lb/> 
+                    he seemed to fall like a stone: then the parachute <lb/> 
+                    opened &amp; he fell fairly rapidly a little less than a <lb/> 
+                    mile from us. He must have got a good shaking for <lb/> 
+                    he was flying very fast as he approached the ground.</p>
+                <p>He was about 1,000 feet from the ground when we<lb/> 
+                    saw another black object fall from the balloon, which <lb/>
+                    at the time was well over 6000 feet above us. No <lb/> 
+                    parachute appeared, &amp; we thought it was a box &#x2014; mere</p><pb/>
+           </div> 
+            <div n="4" type="page" facs="#L1916_2002.0_img_4" xml:id="L1916_2002.4"><!-- or loop.index? -->
+                   <p>a little speck: Suddenly the C.O. (who was his using his glasses)<lb/>
+                       exclaimed 'Good God it's a man'. We all looked &amp; <lb/>
+                       could then see him falling, hoisting &amp; tumbling. It<lb/> 
+                       was sickening &#x2014; down, down, down &#x2014;&#x2014;&#x2014;</p>
+                <p>We heard afterwards that he had been a<lb/> 
+                    well known actor. Most of us are pretty well<lb/> 
+                    accustomed to queer sights, but this was too much.<lb/> 
+                    Next morning at breakfast &#x2014; 'who was dreaming<lb/>
+                    of <del>the</del> yesterdays scene'? was the question asked.</p>
+                <p>I certainly had been dreaming of it: the C.O. said<lb/> 
+                    that it was the very first thing he thought of on<lb/> 
+                    awakening.</p>
+                <p>Now, my dear Fr. Provincial, I must ask you<lb/>
+                    to remember me in your prayers, I want them<lb/> 
+                    very badly. I shall always be glad to hear<lb/> 
+                    of any news from the Province.</p>
+                <p>Frs Shaw &amp; Fitzgibbon &amp; I had a very pleasant<lb/> 
+                    meeting. As Fr Fitzgibbon &amp; I are always<lb/> 
+                    close together, we meet fairly often. I saw<lb/> 
+                    Fr Gill for some moments about 15 days ago.<lb/> 
+                    We are to have a new Chaplain in 3<hi rend="superscript">rd</hi> Guards Bde<lb/> 
+                    he is, I believe, Fr Butler O.S.B., a son of General<lb/> 
+                    Sir W. Butler. I have not seen him yet.</p>
+                <closer>
+                    <salute>Please send your blessing to Yrs obediently in Xt</salute>
+                    <signed>F.M. Browne S.J.C.F.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+    

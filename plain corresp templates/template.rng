@@ -126,7 +126,10 @@
                 <oneOrMore>
                   <element name="item">
                     <attribute name="n">
-                      <data type="NCName"/>
+                      <choice>
+                        <value>gender</value>
+                        <value>tag</value>
+                      </choice>
                     </attribute>
                     <text/>
                   </element>
@@ -266,7 +269,7 @@
     <element name="date">
       <optional>
         <attribute name="when">
-          <data type="NMTOKEN"/>
+          <ref name="dateValue"></ref>
         </attribute>
       </optional>
       <oneOrMore>
@@ -590,7 +593,6 @@
 <value>#Rome</value>
 <value>#Roscommon</value>
 <value>#Roscrea</value>
-<value>#</value>
 <value>#Rosscarbery</value>
 <value>#Rostrevor</value>
 <value>#Rugby</value>
@@ -621,7 +623,6 @@
 <value>#Strangford</value>
 <value>#Swords</value>
 <value>#Templemore</value>
-<value>#</value>
 <value>#Thurles</value>
 <value>#Tigris</value>
 <value>#Tipperary</value>
@@ -708,7 +709,16 @@
           <value>underline</value>
         </choice>
       </attribute>
-      <text/>
+      <oneOrMore>
+        <choice>
+          <ref name="del"></ref>
+          <ref name="add"></ref>
+          <ref name="sic"></ref>
+          <ref name="unclear"></ref>
+          <ref name="lb"></ref>
+          <text/>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   <define name="foreign">
@@ -728,7 +738,11 @@
   </define>
   <define name="pb">
     <element name="pb">
-      <attribute name="facs"/>
+      <attribute name="facs">
+        <data type="string">
+          <param name="pattern">#L1916_[0-9]+_img_[0-9]+</param>
+        </data>
+      </attribute>
       <attribute name="n">
         <data type="integer"/>
       </attribute>
@@ -847,7 +861,11 @@
         <optional>
           <ref name="closer"/>
         </optional>
+        
         <ref name="cbpb"></ref>
+        <optional>
+          <oneOrMore><ref name="note"></ref></oneOrMore>
+        </optional>
         <optional>
           <ref name="postscript"/>
         </optional>
@@ -905,8 +923,12 @@
   
   <define name="postscript">
     <element name="postscript">
-    <ref name="hi"></ref>
-    <ref name="lb"></ref>
+      <oneOrMore>
+        <choice>
+          <ref name="p"></ref>
+          <ref name="lb"></ref>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   
@@ -1020,6 +1042,9 @@
       </optional>
       <ref name="cbpb"></ref>
       <optional>
+        <oneOrMore><ref name="note"></ref></oneOrMore>
+      </optional>
+      <optional>
         <ref name="postscript"/>
       </optional>
       <ref name="cbpb"></ref>
@@ -1040,8 +1065,8 @@
   <define name="persName">
     <element name="persName">
       <attribute name="ref">
-        <optional>
           <choice>
+            <value>#Curtin_D_G</value>
             <value>#Moynihan_M</value>
 <value>#Moynihan_J</value>
 <value>#Ceannt_E</value>
@@ -1343,10 +1368,16 @@
 <value>#Duke_H</value>
 <value>#SpencerSmith_C</value>
           </choice>
-        </optional>
+        
       </attribute>
       <text/>
     </element>
+  </define>
+  
+  <define name="dateValue">
+    <data type="token">
+      <param name="pattern">(191[56]-[01][0-9]-[012][0-9])|(191[56])|(2015)</param>
+    </data>
   </define>
   
 </grammar>

@@ -129,6 +129,7 @@
                       <choice>
                         <value>gender</value>
                         <value>tag</value>
+                        <value>death</value>
                       </choice>
                     </attribute>
                     <text/>
@@ -755,17 +756,19 @@
   </define>
   <define name="head">
     <element name="head">
-      <oneOrMore><choice><optional>
+      <oneOrMore>
+        <choice>
         <ref name="hi"></ref>
-      </optional>
-      <optional>
+      
         <ref name="del"></ref>
-      </optional>
-      <optional>
+      
         <ref name="add"></ref>
-      </optional>
-      <text/>
-      </choice></oneOrMore>
+          
+          <ref name="lb"></ref>
+      
+        <text/>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   <define name="opener">

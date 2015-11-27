@@ -44,6 +44,8 @@
           </element>
           <element name="notesStmt">
             <ref name="note"/>
+            <optional><ref name="note"/></optional>
+            
           </element>
           <element name="sourceDesc">
             <element name="msDesc">
@@ -142,9 +144,15 @@
           <element name="langUsage">
             <element name="language">
               <attribute name="ident">
-                <data type="NCName"/>
+                <choice>
+                  <value>en</value>
+                  <value>ga</value>
+                </choice>
               </attribute>
-              <data type="NCName"/>
+              <choice>
+                <value>English</value>
+                <value>Irish</value>
+              </choice>
             </element>
           </element>
         </element>
@@ -280,7 +288,10 @@
     <element name="note">
       <optional>
         <attribute name="type">
-          <value>summary</value>
+          <choice>
+            <value>summary</value>
+            <value>translation</value>
+          </choice>
         </attribute>
       </optional>
       <oneOrMore>
@@ -741,7 +752,12 @@
   </define>
   <define name="ab">
     <element name="ab">
-      <ref name="address"/>
+      <oneOrMore>
+        <choice><ref name="address"/>
+        <ref name="lineLevel"></ref>
+        <text></text>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   <define name="head">
@@ -1324,6 +1340,7 @@
 <value>#Parr_T</value>
 <value>#Pearse_M</value>
 <value>#Pearse_P_H</value>
+            <value>#Beaslai_P</value>
 <value>#person_Id</value>
 <value>#Phillips_Jo</value>
 <value>#Pim_C</value>

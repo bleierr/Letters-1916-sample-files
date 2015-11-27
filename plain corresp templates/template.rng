@@ -747,7 +747,10 @@
         </data>
       </attribute>
       <attribute name="n">
-        <data type="integer"/>
+        <choice>
+          <data type="integer"/>
+          <empty></empty>
+        </choice>
       </attribute>
     </element>
   </define>

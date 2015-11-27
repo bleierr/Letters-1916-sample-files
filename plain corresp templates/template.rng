@@ -83,6 +83,7 @@
                         <value>#OLaoghaireFamily</value>
                         <value>#McGrath</value>
                         <value>#KellyFamily</value>
+                        <value>#Garland</value>
                       </choice>
                   </attribute>
                   <text/>
@@ -674,6 +675,7 @@
 <value>#FourCourts</value>
 <value>#CentralDublin</value>
 <value>#ship_HMS_Defence</value>
+            <value>#Portobello_Dublin</value>
           </choice>
         </attribute>
       </optional>
@@ -1390,6 +1392,8 @@
 <value>#SpencerSmith_C</value>
             <value>#Kelly_S</value>
             <value>#McCarthy_J</value>
+            <value>#Delaney_T_F</value>
+            <value>#McCann_J</value>
           </choice>
         
       </attribute>

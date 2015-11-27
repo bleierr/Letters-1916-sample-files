@@ -253,15 +253,9 @@
       <oneOrMore>
         <choice>
           <text/>
-          <ref name="cb"/>
+          <ref name="breaks"/>
           <ref name="hi"/>
-          <ref name="lb"/>
-          <ref name="pb"/>
-          <ref name="unclear"/>
-          <ref name="gap"></ref>
-          <ref name="add"></ref>
-          <ref name="sic"></ref>
-          <ref name="del"></ref>
+          <ref name="lineLevel"></ref>
           </choice>
       </oneOrMore>
     </element>
@@ -291,15 +285,10 @@
       <oneOrMore>
         <choice>
           <text/>
-          <ref name="lb"/>
-          <ref name="cbpb"/>
+          <ref name="breaks"/>
           <ref name="p"/>
-          <ref name="unclear"/>
-          <ref name="hi"/>
-          <ref name="sic"/>
-          <ref name="add"/>
-          <ref name="del"/>
           <ref name="address"></ref>
+          <ref name="lineLevel"></ref>
         </choice>
       </oneOrMore>
     </element>
@@ -856,23 +845,24 @@
         <zeroOrMore>
           <choice>
             <ref name="ab"/>
-            <ref name="lb"/>
             <ref name="p"/>
-            <ref name="cbpb"></ref>
+            <ref name="breaks"></ref>
           </choice>
         </zeroOrMore>
         <optional>
           <ref name="closer"/>
         </optional>
         
-        <ref name="cbpb"></ref>
+        <ref name="cb"></ref>
+        <ref name="pb"></ref>
         <optional>
           <oneOrMore><ref name="note"></ref></oneOrMore>
         </optional>
         <optional>
           <ref name="postscript"/>
         </optional>
-        <ref name="cbpb"></ref>
+        <ref name="cb"></ref>
+        <ref name="pb"></ref>
         <optional>
           <oneOrMore><ref name="note"></ref></oneOrMore>
         </optional>
@@ -974,14 +964,6 @@
       </oneOrMore>
     </element>
   </define>
-  <define name="cbpb">
-    <zeroOrMore>
-      <choice>
-        <ref name="pb"></ref>
-        <ref name="cb"></ref>
-      </choice>
-    </zeroOrMore>
-  </define>
   <define name="graphic">
     <element name="graphic">
       <attribute name="url"/>
@@ -997,7 +979,6 @@
         <choice>
           <value>letter</value>
           <value>envelope</value>
-          <value>picture</value>
           <value>document</value>
           <value>additional</value>
           <value>telegram</value>
@@ -1008,7 +989,10 @@
   
   <define name="textAttr" combine="choice">
     <attribute name="type">
-        <value>postcard</value>
+        <choice>
+          <value>postcard</value>
+          <value>picture</value>
+        </choice>
       </attribute>
       <ref name="bodyDiv"/>
   </define>
@@ -1035,22 +1019,23 @@
       <zeroOrMore>
         <choice>
           <ref name="ab"/>
-          <ref name="lb"/>
           <ref name="p"/>
-          <ref name="cbpb"></ref>
+          <ref name="breaks"></ref>
         </choice>
       </zeroOrMore>
       <optional>
         <ref name="closer"/>
       </optional>
-      <ref name="cbpb"></ref>
+      <ref name="cb"></ref>
+      <ref name="pb"></ref>
       <optional>
         <oneOrMore><ref name="note"></ref></oneOrMore>
       </optional>
       <optional>
         <ref name="postscript"/>
       </optional>
-      <ref name="cbpb"></ref>
+      <ref name="cb"></ref>
+      <ref name="pb"></ref>
       <optional>
         <oneOrMore><ref name="note"></ref></oneOrMore>
       </optional>
@@ -1382,5 +1367,22 @@
       <param name="pattern">(191[56]-[01][0-9]-[012][0-9])|(191[56])|(2015)</param>
     </data>
   </define>
+  
+  <define name="lineLevel">
+    <ref name="unclear"/>
+    <ref name="gap"></ref>
+    <ref name="hi"/>
+    <ref name="sic"/>
+    <ref name="add"/>
+    <ref name="del"/>
+  </define>
+  
+  <define name="breaks">
+    <ref name="lb"/>
+    <ref name="pb"></ref>
+    <ref name="cb"/>
+  </define>
+  
+  
   
 </grammar>

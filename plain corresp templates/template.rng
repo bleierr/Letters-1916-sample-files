@@ -853,16 +853,24 @@
           <ref name="closer"/>
         </optional>
         
-        <ref name="cb"></ref>
-        <ref name="pb"></ref>
+        <optional>
+          <choice>
+            <ref name="cb"></ref>
+            <ref name="pb"></ref>
+          </choice>
+        </optional>
         <optional>
           <oneOrMore><ref name="note"></ref></oneOrMore>
         </optional>
         <optional>
           <ref name="postscript"/>
         </optional>
-        <ref name="cb"></ref>
-        <ref name="pb"></ref>
+        <optional>
+          <choice>
+            <ref name="cb"></ref>
+            <ref name="pb"></ref>
+          </choice>
+        </optional>
         <optional>
           <oneOrMore><ref name="note"></ref></oneOrMore>
         </optional>
@@ -1026,16 +1034,24 @@
       <optional>
         <ref name="closer"/>
       </optional>
-      <ref name="cb"></ref>
-      <ref name="pb"></ref>
+      <optional>
+        <choice>
+          <ref name="cb"></ref>
+          <ref name="pb"></ref>
+        </choice>
+      </optional>
       <optional>
         <oneOrMore><ref name="note"></ref></oneOrMore>
       </optional>
       <optional>
         <ref name="postscript"/>
       </optional>
-      <ref name="cb"></ref>
-      <ref name="pb"></ref>
+      <optional>
+        <choice>
+          <ref name="cb"></ref>
+          <ref name="pb"></ref>
+        </choice>
+      </optional>
       <optional>
         <oneOrMore><ref name="note"></ref></oneOrMore>
       </optional>
@@ -1369,18 +1385,26 @@
   </define>
   
   <define name="lineLevel">
-    <ref name="unclear"/>
-    <ref name="gap"></ref>
-    <ref name="hi"/>
-    <ref name="sic"/>
-    <ref name="add"/>
-    <ref name="del"/>
+    <zeroOrMore>
+      <choice>
+      <ref name="unclear"/>
+      <ref name="gap"></ref>
+      <ref name="hi"/>
+      <ref name="sic"/>
+      <ref name="add"/>
+      <ref name="del"/>
+      </choice>
+    </zeroOrMore>
   </define>
   
   <define name="breaks">
-    <ref name="lb"/>
-    <ref name="pb"></ref>
-    <ref name="cb"/>
+    <zeroOrMore>
+      <choice>
+        <ref name="lb"/>
+        <ref name="pb"></ref>
+        <ref name="cb"/>
+      </choice>
+    </zeroOrMore>
   </define>
   
   

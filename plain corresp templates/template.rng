@@ -228,8 +228,7 @@
                 <text/>
                 <ref name="date"/>
                 <ref name="foreign"/>
-                <ref name="hi"/>
-                <ref name="unclear"/>
+                <ref name="lineLevel"></ref>
               </choice>
             </oneOrMore>
           </element>

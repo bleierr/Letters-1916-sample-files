@@ -785,6 +785,7 @@
           <ref name="address"/>
           <ref name="dateline"></ref>
           <ref name="salute"/>
+          <ref name="hi"/>
           <text></text>
         </choice>
       </oneOrMore>
@@ -797,9 +798,7 @@
           <text></text>
           <ref name="salute"/>
           <ref name="lb"/>
-          <ref name="sic"></ref>
-          <ref name="add"></ref>
-          <ref name="del"></ref>
+          <ref name="lineLevel"></ref>
           <ref name="signed"></ref>
           <ref name="address"></ref>
             <ref name="dateline"></ref>

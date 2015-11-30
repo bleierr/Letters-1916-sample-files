@@ -726,7 +726,12 @@
   </define>
   <define name="foreign">
     <element name="foreign">
-      <data type="NCName"/>
+      <oneOrMore>
+        <choice>
+          <text></text>
+          <ref name="lineLevel"></ref>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   <define name="lb">
@@ -1416,7 +1421,7 @@
   
   <define name="dateValue">
     <data type="token">
-      <param name="pattern">(191[56]-[01][0-9]-[012][0-9])|(191[567])|(2015)</param>
+      <param name="pattern">(191[567]-[01][0-9]-[012][0-9])|(191[567])|(2015)</param>
     </data>
   </define>
   

@@ -1081,7 +1081,9 @@
   <define name="bodyDiv">
     <element name="body">
         <oneOrMore>
-          <ref name="div"></ref>
+          <choice><ref name="div"></ref>
+          <ref name="pb"></ref>
+          <ref name="cb"></ref></choice>
         </oneOrMore>
     </element>
   </define>

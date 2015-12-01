@@ -828,6 +828,7 @@
           <ref name="lb"/>
           <ref name="unclear"/>
           <ref name="sic"/>
+          <ref name="gap"></ref>
         </choice>
       </oneOrMore>
     </element>
@@ -962,7 +963,10 @@
   
   <define name="add">
     <element name="add">
-      <text/>
+      <choice>
+        <ref name="address"></ref>
+        <text/>
+      </choice>
     </element>
   </define>
   
@@ -1425,7 +1429,7 @@
   
   <define name="dateValue">
     <data type="token">
-      <param name="pattern">(191[567]-[01][0-9]-[0123][0-9])|(191[567])|(2015)</param>
+      <param name="pattern">(191[567]-[01][0-9]-[0123][0-9])|(191[567]-[01][0-9])|(191[567])|(2015)</param>
     </data>
   </define>
   

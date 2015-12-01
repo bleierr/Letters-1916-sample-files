@@ -963,12 +963,12 @@
   </define>
   
   <define name="add">
-    <optional>
-      <attribute name="place">
-        <value>margin</value>
-      </attribute>
-    </optional>
     <element name="add">
+      <optional>
+        <attribute name="place">
+          <value>margin</value>
+        </attribute>
+      </optional>
       <oneOrMore>
         <choice>
         <ref name="address"></ref>

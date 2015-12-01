@@ -1,19 +1,29 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="L1916_1590">
-    <teiHeader>
+<?oxygen RNGSchema="template.rng" type="xml"?>
+<!--  
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="L1916_1590">
         <fileDesc>
             <titleStmt>
-                <title><!-- Title of the transcription -->Letter from D. J. Murphy to David G.
-                    Curtin, 26 February 1916</title>
-                <author ref="#P6"><!-- author of the letter -->David G. Curtin</author>
-                <editor>Susan Schreibman</editor>
+                <title>Letter from D. J. Murphy to David G. Curtin, 26 February 1916</title>
+                <author><!-- author of the letter -->David G. Curtin</author>
             </titleStmt>
             <editionStmt>
-                <p>
-                    <!-- A general edition statement has to be added here, most likely the same statement for all letters -->
-                </p>
+                <edition/>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>Susan Schreibman</name>
+                </respStmt>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>Roman Bleier</name>
+                </respStmt>
+                <respStmt>
+                    <resp>contributor</resp>
+                    <name>schreibs</name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>
@@ -21,7 +31,7 @@
                     <address>
                         <name>An Foras Feasa</name>
                         <orgName>NUI Maynooth</orgName>
-                        <postBox>Co. Kildare</postBox>
+                        <region>Co. Kildare</region>
                         <placeName>
                             <country>IRE</country>
                             <settlement>Maynooth</settlement>
@@ -30,21 +40,18 @@
                 </publisher>
                 <idno n="L1916_1590"/>
                 <availability status="restricted">
-                    <!-- Copyright statement example:
-                        <p>This work is the property of the University of Nebraska—Lincoln. It may be copied freely by individuals for personal use, research, and teaching (including distribution to classes) as long as this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds, including for—profit works.</p>
-                        <p>Publishers, libraries, and other information providers interested in providing this text in a commercial or non—profit product or from an information server must contact the University of Nebraska—Lincoln for licensing and cost information.</p>
-                        <p> Scholars interested in changing or adding to these texts by, for example, creating a new edition of the text (electronically or in print) with substantive editorial changes, may do so with the permission of the University of Nebraska—Lincoln. This is the case whether the new publication will be made available at a cost or free of charge.</p>
-                    -->
-                    <!-- short version -->
-                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                    <p><!-- Copyright status-specific thing... --></p>
+
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+                        transmitted in any form or by any means, including photocopying, recording,
+                        or other electronic or mechanical methods, without the prior written
+                        permission of the institutional or private owner of the image and the
+                        Letters of 1916 project. For permission requests, write to the Letters of
+                        1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
                 </availability>
                 <date when="2015">2015</date>
             </publicationStmt>
-            <seriesStmt>
-                <!-- Series statement, optional-->
-                <p>Machine-readable transcriptions of letters from the Letters of 1916
-                    collection</p>
-            </seriesStmt>
             <notesStmt>
                 <note type="summary">
                     <!-- a note statement could contain a short summary, optional -->
@@ -54,55 +61,83 @@
                         and notes that the and agent had previously agreed that he would deal with
                         the family if a settlement was arranged.</p>
                 </note>
+                <note type="translation">
+                    <p></p>
+                </note>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <!-- information about the repository that holds the letter currently -->
-                        <country>IRE</country>
-                        <settlement>Dublin</settlement>
-                        <repository>National Archives of Ireland</repository>
-                        <idno type="collection">Chief Secretary’s Office Registered Papers, CSO
-                            RP/1916/8645/1</idno>
+                        <repository ref="#NAI">National Archives of Ireland</repository>
+                        <collection type="public">Chief Secretary’s Office Registered
+                            Papers</collection>
+                        <idno>CSO RP/1916/8645/1</idno>
                     </msIdentifier>
-                    <physDesc>
-                        <handDesc>
-                            <handNote xml:id="h1"> </handNote>
-                        </handDesc>
-                    </physDesc>
                 </msDesc>
 
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
-                <correspAction type="receiving">
+                <correspAction type="received">
 
-                    <persName ref="#P4"> D. J. Murphy</persName>
-                    <placeName corresp="#Loc3">Rockchapel, County Cork, Ireland</placeName>
-                    <date>unknown</date>
+                    <persName ref="#Murphy_J_J"> D. J. Murphy</persName>
+                    <placeName ref="#Rockchapel">Rockchapel, County Cork, Ireland</placeName>
                 </correspAction>
-                <correspAction type="sending">
+                <correspAction type="sent">
 
-                    <persName ref="#P6"> David G. Curtin </persName>
-                    <placeName>unknown</placeName>
+                    <persName ref="#Curtin_D_G"> David G. Curtin </persName>
                     <date when="1916-02-26">26 February 1916</date>
                 </correspAction>
             </correspDesc>
-
+            <textClass>
+                <!-- Type of the letter should be separate -->
+                <keywords>
+                    <list>
+                        <item n="gender">Male</item>
+                        <!--put an IF -->
+                        <item n="tag">Business</item>
+                        <item n="tag">Official documents</item>
+                        <item n="death">1947</item>
+                    </list>
+                </keywords>
+            </textClass>
             <langUsage>
-                <!-- language of the letter -->
-                <language ident="en-EN">English</language>
+                <language ident="en">English</language>
             </langUsage>
-
         </profileDesc>
         <encodingDesc>
-            <samplingDecl>
-                <ab>This electronic transcription was created as part of the crowdsourced project
-                    Letters of 1916: creating history.</ab>
-            </samplingDecl>
+            <editorialDecl>
+                <p>
+                    <!-- Write this -->
+                </p>
+            </editorialDecl>
+            <projectDesc>
+                <p><!-- Was done by crowdsourcing, Python, magic, etc. --></p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <listBibl>
+                        <bibl>Tags taken from Library of Congress!!! <!-- sort this out --></bibl>
+                    </listBibl>
+                </taxonomy>
+            </classDecl>
+            <appInfo>
+                <application xml:id="smthing" ident="rh" version="1">
+                    <desc>Richard's Python Editing Tool</desc>
+                </application>
+            </appInfo>
+            <tagsDecl>
+                <rendition>
+                    <!-- Some stuff... -->
+                </rendition>
+            </tagsDecl>
         </encodingDesc>
+        <revisionDesc>
 
+            <change when="2015-11-18T14:56:57" who="#RB"> Template changed </change>
+
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic xml:id="L1916_1590_img_1" url="L1916_1590_img_1.png"/>
@@ -112,68 +147,64 @@
     </facsimile>
     <text>
         <group>
-            <text type="envelop">
+            <pb n="123" facs="#L1916_1590_img_4"/>
+            <text type="envelope">
                 <body>
-                    <div>
-                        <pb facs="#L1916_1590_img_4"/>
-                        <ab>
-                            <address>
+                    <head>this is a text<lb/> this too</head>
+                    <ab>
+                        <address>
                             <addrLine>David G. Curtin Esq.R.D.C,</addrLine>
                             <addrLine>Stagmount House.</addrLine>
                             <addrLine>Rockchapel.</addrLine>
                             <addrLine>Co. Cork.</addrLine>
                         </address>
-                        </ab>
-                    </div>
+                    </ab>
                 </body>
             </text>
+            <pb n="1" facs="#L1916_1590_img_1"/>
             <text type="letter">
                 <body>
-
-                    <div>
-                        <pb n="1" facs="#L1916_1590_img_1"/>
-                        <opener>
-                            <address>                      
+                    
+                    <opener>
+                        <address>                      
                         <addrLine>West End.Millstreet</addrLine> 
                     </address>
-                            <dateline><date when="1916-02-26">26.2.16</date></dateline>
-                            <salute>My Dear Cousin.</salute>
-                        </opener>
-                        <p>I got your P.C.<lb/> this morning and the following<lb/> are the
-                            particulars you ask for.<lb/> Landladies:- Mrs Harriet Orpen,
-                                <placeName>24 Elgin Road. Dublin.</placeName> and Mrs Norman
-                            Thompson <placeName>Kindlestown, Delgany, Co. Wicklow.</placeName>
-                        </p>
-                        <pb n="2" facs="#L1916_1590_img_2"/>
-                        <p>would accept my aunt that is<lb/> my Step- mother as tenant if<lb/> a
-                            settlement was arrive d at and<lb/> the answer he got from the
-                            agent<lb/> was that <hi rend="underline">under any circumstances<lb/>
-                                would he again deal with the<lb/> Murphy Family.</hi>.</p>
-                        <p>But that he <add place="above">the agent</add> would be willing<lb/>
-                            <del rend="underline">to</del> if our good-will was<lb/> bought out to
-                            let it to any one<lb/> that would buy <del>it</del>our good-will.<lb/>
-                            Of course I need not say that<lb/> we will not surrender our <pb/> acres
-                            140<lb/> Rent. £66.0-0<lb/> valuation £62.0.0<lb/> Board<handShift
-                                corresp="#h1"/> of Works Annuity £13.0.0<lb/> yearly. And the date
-                            of eviction<lb/> is 26<hi rend="superscript">th</hi> of February
-                            1908<lb/> exactly this d ay 8 years.<lb/> I must say that I am
-                            anxious<lb/> to know for what purpose you<lb/> want the above
-                            information.<lb/> As our P.P. Canon Casey<lb/> wrote to the agent (
-                            H.D.M. Barton,<lb/> The Bush, Antrim) a few<lb/> weeks ago. asking if he </p>
-                        <pb n="3" facs="#L1916_1590_img_3"/>
-                        <p>claim as easily as that.<lb/> I will expect a letter from<lb/> you by
-                            return of post.<lb/> Do not keep me in suspense<lb/> With best regards
-                            to<lb/> yourself and all my<lb/> cousins at the Rock.<lb/>
-                        </p>
-                        <salute>I remain<lb/> Your Cousin <lb/> D. J. Murphy</salute>
-                        <note place="bottom">To D. G. Curtin Esq. <unclear>R.D.6.</unclear>Note
-                                <sic>adress</sic></note>
-                        <postscript>
-                            <p>This is a postscript</p>
-                        </postscript>
+                        <dateline><date when="1916-02-26">26.2.16</date></dateline>
+                        <salute>My Dear Cousin.</salute>
+                    </opener>
+                    <p>I got your P.C.<lb/> this morning and the following<lb/> are the particulars
+                        you ask for.<lb/> Landladies:- Mrs Harriet Orpen, 24 Elgin Road. Dublin. and
+                        Mrs Norman Thompson Kindlestown, Delgany, Co. Wicklow. </p>
+                    <pb n="2" facs="#L1916_1590_img_2"/>
+                    <p>would accept my aunt that is<lb/> my Step- mother as tenant if<lb/> a
+                        settlement was arrive d at and<lb/> the answer he got from the agent<lb/>
+                        was that <hi rend="underline">under any circumstances<lb/> would he again
+                            deal with the<lb/> Murphy Family.</hi>.</p>
+                    <p>But that he <add>the agent</add> would be willing<lb/>
+                        <del>to</del> if our good-will was<lb/> bought out to let it to any one<lb/>
+                        that would buy <del>it</del>our good-will.<lb/> Of course I need not say
+                        that<lb/> we will not surrender our <pb n="234" facs="#L1916_1590_img_2"/>
+                        acres 140<lb/> Rent. £66.0-0<lb/> valuation £62.0.0<lb/> Board of Works
+                        Annuity £13.0.0<lb/> yearly. And the date of eviction<lb/> is 26<hi
+                            rend="superscript">th</hi> of February 1908<lb/> exactly this d ay 8
+                        years.<lb/> I must say that I am anxious<lb/> to know for what purpose
+                        you<lb/> want the above information.<lb/> As our P.P. Canon Casey<lb/> wrote
+                        to the agent ( H.D.M. Barton,<lb/> The Bush, Antrim) a few<lb/> weeks ago.
+                        asking if he </p>
+                    <pb n="3" facs="#L1916_1590_img_3"/>
+                    <p>claim as easily as that.<lb/> I will expect a letter from<lb/> you by return
+                        of post.<lb/> Do not keep me in suspense<lb/> With best regards to<lb/>
+                        yourself and all my<lb/> cousins at the Rock.<lb/>
+                    </p>
+                    <closer><salute>I remain<lb/> Your Cousin <lb/> D. J. Murphy</salute></closer>
+                    <note>To D. G. Curtin Esq. <unclear>R.D.6.</unclear>Note
+                        <sic>adress</sic></note>
+                    <postscript>
+                        <p>This is a postscript</p>
+                    </postscript>
+                    
 
 
-                    </div>
 
                 </body>
             </text>

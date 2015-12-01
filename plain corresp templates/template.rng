@@ -84,6 +84,7 @@
                         <value>#McGrath</value>
                         <value>#KellyFamily</value>
                         <value>#Garland</value>
+                        <value>#OModhrainFamily</value>
                       </choice>
                   </attribute>
                   <text/>
@@ -1099,6 +1100,8 @@
     <element name="persName">
       <attribute name="ref">
           <choice>
+            <value>#Thompson_J</value>
+            <value>#Officer_Commander_IV</value>
             <value>#Griffith_J</value>
             <value>#Curtin_D_G</value>
             <value>#Moynihan_M</value>
@@ -1132,6 +1135,7 @@
 <value>#OFarrell_E</value>
 <value>#Dowdall_J</value>
 <value>#Swift_MacNeill_J_G</value>
+            <value>#Farrell_J_J</value>
 <value>#Farrell_J_J_et_al</value>
 <value>#Wynne_H_A</value>
 <value>#Fitzgerald_Barry_R</value>
@@ -1353,7 +1357,6 @@
 <value>#Parr_T</value>
 <value>#Pearse_M</value>
 <value>#Pearse_P_H</value>
-            
 <value>#person_Id</value>
 <value>#Phillips_Jo</value>
 <value>#Pim_C</value>

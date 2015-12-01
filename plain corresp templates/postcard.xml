@@ -1,24 +1,28 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1916_267">
-    <teiHeader>
+<?oxygen RNGSchema="template.rng" type="xml"?>
+<!--  
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="L1916_267">
         <fileDesc>
             <titleStmt>
                 <title>Postcard from M. in Belfast to Piaras Béaslaí, January 1916</title>
                 <author>M.</author>
-                <editor>Susan Schreibman</editor>
             </titleStmt>
             <editionStmt>
-                <p>
-                    <!-- Edition statement ? -->
-                </p>
+                <edition/>
+                <respStmt>
+                    <resp/>
+                    <name/>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>
                     <address>
                         <name>An Foras Feasa</name>
                         <orgName>NUI Maynooth</orgName>
-                        <postBox>Co. Kildare</postBox>
+                        <region>Co. Kildare</region>
                         <placeName>
                             <country>IRE</country>
                             <settlement>Maynooth</settlement>
@@ -32,10 +36,6 @@
                 </availability>
                 <date>2015</date>
             </publicationStmt>
-            <seriesStmt>
-                <p>Machine-readable transcriptions of letters from the Letters of 1916
-                    collection</p>
-            </seriesStmt>
             <notesStmt>
                 <note type="summary"> Post card from M. to Piaras from Belfast. M. misses Dublin and
                     at the end of the post card tells Piaras to 'Tell Tadhg Scannell to do that
@@ -44,74 +44,100 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country>IRE</country>
-                        <settlement>Dublin</settlement>
-                        <repository>National Library of Ireland</repository>
-                        <idno type="collection">NLI MS 33,977/7; Collection List 44</idno>
+
+                        <repository ref="#PCMA">National Library of Ireland</repository>
+                        <collection type="private"/>
+                        <idno>NLI MS 33,977/7; Collection List 44</idno>
                     </msIdentifier>
                 </msDesc>
-
-                <bibl>
-                    <ref target="http://letteredition/L1916_267"> Postcard from M. in Belfast to
-                        Piaras Béaslaí, January 1916 [Digital Edition] </ref>
-                </bibl>
 
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
 
-                <correspAction type="receiving">
+                <correspAction type="received">
 
-                    <persName ref="#P7"> Piaras Béaslaí</persName>
-                    <placeName ref="#Loc2">Dublin, Ireland </placeName>
+                    <persName ref="#Beaslai_P"> Piaras Béaslaí</persName>
+                    <placeName ref="#Dublin">Dublin, Ireland </placeName>
                     <date>unknown</date>
                 </correspAction>
-                <correspAction type="sending">
+                <correspAction type="sent">
 
-                    <persName ref="#P7"> M.</persName>
-                    <placeName ref="#Loc1"> Belfast, Ireland </placeName>
+                    <persName ref="#M_x"> M.</persName>
+                    <placeName ref="#Belfast"> Belfast, Ireland </placeName>
                     <date when="1916-01-11"> 11 January 1916</date>
                 </correspAction>
             </correspDesc>
-
+            <textClass>
+                <keywords>
+                    <list>
+                        <item n="death"/>
+                    </list>
+                </keywords>
+            </textClass>
             <langUsage>
-                <language ident="ga-GA">Irish</language>
+                <language ident="ga">Irish</language>
             </langUsage>
 
         </profileDesc>
         <encodingDesc>
-            <ab>This electronic transcription was created as part of the crowdsourced project
-                Letters of 1916: creating history.</ab>
-
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <listBibl>
+                        <bibl/>
+                    </listBibl>
+                </taxonomy>
+            </classDecl>
+            <appInfo>
+                <application xml:id="smthing" ident="rh" version="1">
+                    <desc/>
+                </application>
+            </appInfo>
+            <tagsDecl>
+                <rendition/>
+            </tagsDecl>
         </encodingDesc>
+        <revisionDesc>
+            <change when="2015-11-18T14:56:57" who="#RB"/>
+        </revisionDesc>
 
     </teiHeader>
     <facsimile>
         <graphic xml:id="L1916_267_img_1" url="#L1916_267_img_1.jpg"/>
         <graphic xml:id="L1916_267_img_2" url="#L1916_267_img_2.jpg"> </graphic>
     </facsimile>
-    <text type="postcard">
-        <body>
-            <div>
-                <pb type="page" n="1" facs="#L1916_267_img_1"/>
-                <opener>
-                    <address>
+    <text>
+        <group>
+            <pb n="123" facs="#L1916_267_img_1"/>
+            <text type="postcard">
+                <body>
+                    <div type="message">
+
+                        <opener>
+                            <address>
                 <addrLine>Piaras Béaslaí, 25 Lindsay Rd, <del>L</del> Glasnevin, <hi rend="underline">Dublin</hi></addrLine>
                 </address>
-                    <dateline><date when="1916-01-11">11-1-16</date></dateline>
-                </opener>
-                <p> Annso dhom arís &amp; uaigneas orm indiaidh B. Átha Cliath. Níor bhuail an
-                    taingeal liom. Is dóca go raibh sé imthighte go luath. Ar thugais cuairt ar P. Ó
-                    Shoin. Abair le Tadgh Scannell an rud sin a dhéanamh </p>
-                <signed>M.</signed>
-            </div>
-            <div>
-                <pb type="picture" n="2" facs="#L1916_267_img_2"/>
-                <desc>picture postcard with caption</desc>
-                <caption>"Donegal Square &amp; Wellington Place, Belfast."</caption>
+                            <dateline><date when="1916-01-11">11-1-16</date></dateline>
+                        </opener>
+                        <p> Annso dhom arís &amp; uaigneas orm indiaidh B. Átha Cliath. Níor bhuail
+                            an taingeal liom. Is dóca go raibh sé imthighte go luath. Ar thugais
+                            cuairt ar P. Ó Shoin. Abair le Tadgh Scannell an rud sin a dhéanamh </p>
+                        <closer><signed>M.</signed></closer>
+                    </div>
+                    <div type="imageCaption">
+                        <pb n="2" facs="#L1916_267_img_2"/>
+                        <p>"Donegal Square &amp; Wellington Place, Belfast."</p>
 
-            </div>
-        </body>
+                    </div>
+                </body>
+            </text>
+        </group>
     </text>
 </TEI>

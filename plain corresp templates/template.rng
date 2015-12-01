@@ -265,6 +265,7 @@
           <text/>
           <ref name="breaks"/>
           <ref name="lineLevel"></ref>
+          <ref name="foreign"></ref>
           </choice>
       </oneOrMore>
     </element>

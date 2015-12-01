@@ -311,6 +311,7 @@
       <optional>
         <attribute name="ref">
           <choice>
+            <value>#Ireland</value>
             <value>#Abbeyleix</value>
 <value>#Abingdon</value>
 <value>#Achill</value>
@@ -1103,6 +1104,11 @@
     <element name="persName">
       <attribute name="ref">
           <choice>
+            <value>#Ryan_x</value>
+            <value>#Maggie_x</value>
+            <value>#Cromien_J</value>
+            <value>#War_Employments_Inspector_x</value>
+            <value>#Aston_E_A</value>
             <value>#Thompson_J</value>
             <value>#Officer_Commander_IV</value>
             <value>#Griffith_J</value>
@@ -1156,7 +1162,6 @@
 <value>#Duffy_G</value>
 <value>#Colbert_L</value>
 <value>#ODuibhguin_M</value>
-<value>#Fr_Ryan</value>
 <value>#Daly_J</value>
 <value>#MacDermot_P_C</value>
 <value>#Moorhead_J_R</value>
@@ -1168,6 +1173,7 @@
 <value>#Nally_T</value>
 <value>#Nally_N</value>
 <value>#Connolly_W_M</value>
+            <value>#Connolly_J</value>
 <value>#ODriscoll_G</value>
 <value>#Stanley_J_M</value>
 <value>#Mr_Walker</value>

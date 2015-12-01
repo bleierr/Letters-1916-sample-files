@@ -281,6 +281,7 @@
         <choice>
           <text/>
           <ref name="hi"/>
+          <ref name="add"/>
         </choice>
       </oneOrMore>
     </element>
@@ -701,7 +702,7 @@
       <oneOrMore>
         <choice>
           <text/>
-          <ref name="pb"/>
+          <ref name="breaks"/>
         </choice>
       </oneOrMore>
     </element>
@@ -841,6 +842,7 @@
           <text/>
           <ref name="unclear"/>
           <ref name="hi"></ref>
+          <ref name="lb"></ref>
         </choice>
       </oneOrMore>
     </element>

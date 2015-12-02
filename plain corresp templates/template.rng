@@ -105,6 +105,9 @@
         </element>
         <element name="profileDesc">
           <element name="correspDesc">
+            <attribute name="xml:id">
+              <ref name="correspID"></ref>
+            </attribute>
             <oneOrMore>
               <element name="correspAction">
                 <attribute name="type">
@@ -165,15 +168,6 @@
           <element name="projectDesc">
             <ref name="p"/>
           </element>
-          <element name="classDecl">
-            <element name="taxonomy">
-              <element name="listBibl">
-                <element name="bibl">
-                  <text/>
-                </element>
-              </element>
-            </element>
-          </element>
           <element name="appInfo">
             <element name="application">
               <attribute name="ident">
@@ -189,11 +183,6 @@
               <element name="desc">
                 <text/>
               </element>
-            </element>
-          </element>
-          <element name="tagsDecl">
-            <element name="rendition">
-              <empty/>
             </element>
           </element>
         </element>
@@ -973,6 +962,8 @@
       </optional>
       <oneOrMore>
         <choice>
+         <ref name="unclear"></ref>
+          <ref name="hi"></ref>
         <ref name="address"></ref>
         <ref name="lb"/>
         <text/>
@@ -1034,6 +1025,7 @@
           <value>telegram</value>
         </choice>
       </attribute>
+        <attribute name="decls"></attribute>
       <ref name="bodyNoDiv"></ref>
   </define>
   
@@ -1044,6 +1036,7 @@
           <value>picture</value>
         </choice>
       </attribute>
+      <attribute name="decls"></attribute>
       <ref name="bodyDiv"/>
   </define>
   
@@ -1471,6 +1464,12 @@
         <ref name="cb"/>
       </choice>
     </zeroOrMore>
+  </define>
+  
+  <define name="correspID">
+    <data type="string">
+      <param name="pattern">corresp[0-9]+</param>
+    </data>
   </define>
   
   

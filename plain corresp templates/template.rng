@@ -759,11 +759,12 @@
   <define name="ab">
     <element name="ab">
       <oneOrMore>
-        <choice><ref name="address"/>
+        <choice>
+          <ref name="address"/>
           <ref name="name"/>
           <ref name="lb"></ref>
-        <ref name="lineLevel"></ref>
-        <text></text>
+          <ref name="lineLevel"/>
+          <text></text>
         </choice>
       </oneOrMore>
     </element>
@@ -1010,8 +1011,6 @@
         <choice>
           <value>letter</value>
           <value>envelope</value>
-          <value>document</value>
-          <value>additional</value>
           <value>telegram</value>
         </choice>
       </attribute>
@@ -1023,9 +1022,11 @@
     <attribute name="type">
       <choice>
         <value>additional</value>
+        <value>document</value>
         <value>picture</value>
       </choice>
     </attribute>
+    <optional><attribute name="decls"></attribute></optional>
     <ref name="bodyNoDiv"></ref>
   </define>
   

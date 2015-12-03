@@ -62,7 +62,7 @@
                         the family if a settlement was arranged.</p>
                 </note>
                 <note type="translation">
-                    <p></p>
+                    <p/>
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -78,7 +78,7 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc>
+            <correspDesc xml:id="corresp1">
                 <correspAction type="received">
 
                     <persName ref="#Murphy_J_J"> D. J. Murphy</persName>
@@ -115,23 +115,13 @@
             <projectDesc>
                 <p><!-- Was done by crowdsourcing, Python, magic, etc. --></p>
             </projectDesc>
-            <classDecl>
-                <taxonomy>
-                    <listBibl>
-                        <bibl>Tags taken from Library of Congress!!! <!-- sort this out --></bibl>
-                    </listBibl>
-                </taxonomy>
-            </classDecl>
+            
             <appInfo>
                 <application xml:id="smthing" ident="rh" version="1">
                     <desc>Richard's Python Editing Tool</desc>
                 </application>
             </appInfo>
-            <tagsDecl>
-                <rendition>
-                    <!-- Some stuff... -->
-                </rendition>
-            </tagsDecl>
+            
         </encodingDesc>
         <revisionDesc>
 
@@ -148,7 +138,7 @@
     <text>
         <group>
             <pb n="123" facs="#L1916_1590_img_4"/>
-            <text type="envelope">
+            <text type="envelope" decls="#corresp1">
                 <body>
                     <head>this is a text<lb/> this too</head>
                     <ab>
@@ -162,9 +152,9 @@
                 </body>
             </text>
             <pb n="1" facs="#L1916_1590_img_1"/>
-            <text type="letter">
+            <text type="letter" decls="corresp1">
                 <body>
-                    
+
                     <opener>
                         <address>                      
                         <addrLine>West End.Millstreet</addrLine> 
@@ -202,7 +192,7 @@
                     <postscript>
                         <p>This is a postscript</p>
                     </postscript>
-                    
+
 
 
 

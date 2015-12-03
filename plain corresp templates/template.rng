@@ -855,55 +855,35 @@
             <value>address</value>
           </choice>
         </attribute>
-        <interleave>
-          <optional>
+        <zeroOrMore>
+          <choice>
             <ref name="fw"/>
-          </optional>
-          <optional>
-            <ref name="div"></ref>
-          </optional>
-          <optional>
             <ref name="head"/>
-          </optional>
-          <zeroOrMore>
-            <ref name="lb"/>
-          </zeroOrMore>
-          <optional>
-            <ref name="opener"/>
-          </optional>
-        </interleave>
+            <ref name="note"/>
+          </choice>
+        </zeroOrMore>
+        <optional>
+          <ref name="opener"/>
+        </optional>
         <zeroOrMore>
           <choice>
             <ref name="ab"/>
             <ref name="p"/>
-            <ref name="breaks"></ref>
+            <ref name="breaks"/>
           </choice>
         </zeroOrMore>
         <optional>
           <ref name="closer"/>
         </optional>
         
-        <optional>
-          <choice>
-            <ref name="cb"></ref>
-            <ref name="pb"></ref>
-          </choice>
-        </optional>
-        <optional>
-          <oneOrMore><ref name="note"></ref></oneOrMore>
-        </optional>
         <zeroOrMore>
-          <ref name="postscript"/>
-        </zeroOrMore>
-        <optional>
           <choice>
-            <ref name="cb"></ref>
+            <ref name="breaks"></ref>
             <ref name="pb"></ref>
+            <ref name="note"></ref>
+            <ref name="postscript"/>
           </choice>
-        </optional>
-        <optional>
-          <oneOrMore><ref name="note"></ref></oneOrMore>
-        </optional>
+        </zeroOrMore>
       </element>
   </define>
   
@@ -1062,23 +1042,16 @@
   
   <define name="bodyNoDiv">
     <element name="body">
-      <interleave>
-        <optional>
-          <ref name="note"/>
-        </optional>
-        <optional>
+      <zeroOrMore>
+        <choice>
           <ref name="fw"/>
-        </optional>
-        <optional>
+          <ref name="note"/>
           <ref name="head"/>
-        </optional>
-        <zeroOrMore>
-          <ref name="lb"/>
-        </zeroOrMore>
-        <optional>
-          <ref name="opener"/>
-        </optional>
-      </interleave>
+        </choice>
+      </zeroOrMore>
+      <optional>
+        <ref name="opener"/>
+      </optional>
       <zeroOrMore>
         <choice>
           <ref name="note"></ref>
@@ -1090,27 +1063,13 @@
       <optional>
         <ref name="closer"/>
       </optional>
-      <optional>
-        <choice>
-          <ref name="cb"></ref>
-          <ref name="pb"></ref>
-        </choice>
-      </optional>
-      <optional>
-        <oneOrMore><ref name="note"></ref></oneOrMore>
-      </optional>
       <zeroOrMore>
-        <ref name="postscript"/>
-      </zeroOrMore>
-      <optional>
         <choice>
-          <ref name="cb"></ref>
-          <ref name="pb"></ref>
+          <ref name="breaks"></ref>
+          <ref name="note"></ref>
+          <ref name="postscript"></ref>
         </choice>
-      </optional>
-      <optional>
-        <oneOrMore><ref name="note"></ref></oneOrMore>
-      </optional>
+      </zeroOrMore>
     </element>
   </define>
   

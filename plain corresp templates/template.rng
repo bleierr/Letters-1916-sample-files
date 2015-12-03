@@ -533,7 +533,7 @@
 <value>#Monkstown</value>
 <value>#Mount_St_Marys</value>
 <value>#Mountjoy</value>
-<value>#Montjoy_Prison</value>
+<value>#Mountjoy_Prison</value>
 <value>#Mountmellick</value>
 <value>#Moyvore</value>
 <value>#Mudros</value>
@@ -802,8 +802,7 @@
           <ref name="lineLevel"></ref>
           <ref name="signed"></ref>
           <ref name="address"></ref>
-            <ref name="dateline"></ref>
-          
+          <ref name="dateline"></ref>
         </choice>
       </oneOrMore>
       
@@ -998,9 +997,9 @@
           <ref name="date"/>
           <ref name="foreign"/>
           <ref name="unclear"/>
-          <element name="time">
-            <text/>
-          </element>
+          <ref name="hi"/>
+          <ref name="time"></ref>
+          
         </choice>
       </oneOrMore>
     </element>
@@ -1061,6 +1060,7 @@
       </interleave>
       <zeroOrMore>
         <choice>
+          <ref name="note"></ref>
           <ref name="ab"/>
           <ref name="p"/>
           <ref name="breaks"></ref>
@@ -1472,6 +1472,16 @@
     </data>
   </define>
   
+  <define name="time">
+    <element name="time">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"></ref>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
   
   
 </grammar>

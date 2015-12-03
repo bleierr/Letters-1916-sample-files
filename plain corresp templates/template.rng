@@ -691,6 +691,8 @@
       <oneOrMore>
         <choice>
           <text/>
+          <ref name="add"></ref>
+          <ref name="hi"></ref>
           <ref name="breaks"/>
         </choice>
       </oneOrMore>
@@ -756,6 +758,8 @@
     <element name="ab">
       <oneOrMore>
         <choice><ref name="address"/>
+          <ref name="name"/>
+          <ref name="lb"></ref>
         <ref name="lineLevel"></ref>
         <text></text>
         </choice>
@@ -785,8 +789,12 @@
         <choice>
           <ref name="address"/>
           <ref name="dateline"></ref>
+          <ref name="name"/>
           <ref name="salute"/>
           <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="cb"/>
+          <ref name="gap"/>
           <text></text>
         </choice>
       </oneOrMore>
@@ -803,6 +811,7 @@
           <ref name="signed"></ref>
           <ref name="address"></ref>
           <ref name="dateline"></ref>
+          <ref name="gap"/>
         </choice>
       </oneOrMore>
       
@@ -881,9 +890,9 @@
         <optional>
           <oneOrMore><ref name="note"></ref></oneOrMore>
         </optional>
-        <optional>
+        <zeroOrMore>
           <ref name="postscript"/>
-        </optional>
+        </zeroOrMore>
         <optional>
           <choice>
             <ref name="cb"></ref>
@@ -1030,9 +1039,19 @@
   
   <define name="textAttr" combine="choice">
     <attribute name="type">
+      <choice>
+        <value>additional</value>
+        <value>picture</value>
+      </choice>
+    </attribute>
+    <ref name="bodyNoDiv"></ref>
+  </define>
+  
+  
+  <define name="textAttr" combine="choice">
+    <attribute name="type">
         <choice>
           <value>postcard</value>
-          <value>picture</value>
         </choice>
       </attribute>
       <attribute name="decls"></attribute>
@@ -1078,9 +1097,9 @@
       <optional>
         <oneOrMore><ref name="note"></ref></oneOrMore>
       </optional>
-      <optional>
+      <zeroOrMore>
         <ref name="postscript"/>
-      </optional>
+      </zeroOrMore>
       <optional>
         <choice>
           <ref name="cb"></ref>
@@ -1107,6 +1126,10 @@
     <element name="persName">
       <attribute name="ref">
           <choice>
+            <value>#Preston_M_N</value>
+            <value>#Woodman_A</value>
+            <value>#Seagda_Ua</value>
+            <value>#Daly_M</value>
             <value>#Ryan_x</value>
             <value>#Maggie_x</value>
             <value>#Cromien_J</value>
@@ -1141,7 +1164,7 @@
 <value>#Rainey_J_W</value>
 <value>#Ryan_J</value>
 <value>#Clerk_Crown_and_Peace_County_Down</value>
-<value>#O'Brien_Moran_H</value>
+<value>#OBrien_Moran_H</value>
 <value>#Chamberlain_N</value>
 <value>#McWeeney_E_J</value>
 <value>#OFarrell_E</value>
@@ -1177,6 +1200,7 @@
 <value>#Nally_N</value>
 <value>#Connolly_W_M</value>
             <value>#Connolly_J</value>
+            <value>#May_x</value>
 <value>#ODriscoll_G</value>
 <value>#Stanley_J_M</value>
 <value>#Mr_Walker</value>

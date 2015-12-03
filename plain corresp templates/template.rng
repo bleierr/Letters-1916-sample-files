@@ -104,7 +104,8 @@
           </element>
         </element>
         <element name="profileDesc">
-          <element name="correspDesc">
+          <oneOrMore>
+            <element name="correspDesc">
             <attribute name="xml:id">
               <ref name="correspID"></ref>
             </attribute>
@@ -128,6 +129,7 @@
               </element>
             </oneOrMore>
           </element>
+          </oneOrMore>
           <element name="textClass">
             <element name="keywords">
               <element name="list">

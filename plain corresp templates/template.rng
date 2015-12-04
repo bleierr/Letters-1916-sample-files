@@ -12,9 +12,11 @@
             <element name="title">
               <text/>
             </element>
-            <element name="author">
-              <text/>
-            </element>
+            <zeroOrMore>
+              <element name="author">
+                  <text/>
+              </element>
+            </zeroOrMore>
           </element>
           <element name="editionStmt">
             <element name="edition">
@@ -43,9 +45,7 @@
             <ref name="date"/>
           </element>
           <element name="notesStmt">
-            <ref name="note"/>
-            <optional><ref name="note"/></optional>
-            
+            <oneOrMore><ref name="note"></ref></oneOrMore>
           </element>
           <element name="sourceDesc">
             <element name="msDesc">
@@ -73,6 +73,7 @@
                         <value>#LawrenceScott</value>
                         <value>#LiamSmith</value>
                         <value>#Private_Collection</value>
+                        <value>#ClaireMissen</value>
                         <value>#MichaelHannah</value>
                         <value>#PatCarroll</value>
                         <value>#RoryOLoughlin</value>
@@ -298,6 +299,7 @@
       </oneOrMore>
     </element>
   </define>
+  
   <define name="placeName">
     <element name="placeName">
       <optional>
@@ -343,6 +345,7 @@
 <value>#Bath</value>
 <value>#Battersea</value>
 <value>#Bedford</value>
+            <value>#Ahogill</value>
 <value>#Belfast</value>
 <value>#Bere_Island</value>
 <value>#Berlin</value>
@@ -513,7 +516,8 @@
 <value>#Listowel</value>
 <value>#Liverpool</value>
 <value>#London</value>
-<value>#Londonberry</value>
+            <value>#Hertfordshire</value>
+<value>#Londonderry</value>
 <value>#Longford</value>
 <value>#Lough_Derg</value>
 <value>#Loughrea</value>
@@ -661,6 +665,7 @@
 <value>#Dolphins_Barn</value>
 <value>#Frongoch_Prison</value>
 <value>#Germany_Zossen</value>
+            <value>#Germany</value>
 <value>#Dublin_Castle</value>
 <value>#Calais_France</value>
 <value>#Clonakilty</value>
@@ -670,6 +675,7 @@
 <value>#CentralDublin</value>
 <value>#ship_HMS_Defence</value>
             <value>#Portobello_Dublin</value>
+            
           </choice>
         </attribute>
       </optional>
@@ -727,6 +733,7 @@
         <choice>
           <text></text>
           <ref name="lineLevel"></ref>
+          <ref name="breaks"></ref>
         </choice>
       </oneOrMore>
     </element>
@@ -798,6 +805,7 @@
           <ref name="lb"/>
           <ref name="cb"/>
           <ref name="gap"/>
+          <ref name="unclear"/>
           <text></text>
         </choice>
       </oneOrMore>
@@ -831,6 +839,7 @@
           <ref name="unclear"/>
           <ref name="sic"/>
           <ref name="gap"></ref>
+          <ref name="add"></ref>
         </choice>
       </oneOrMore>
     </element>
@@ -868,6 +877,7 @@
         </optional>
         <zeroOrMore>
           <choice>
+            <ref name="note"/>
             <ref name="ab"/>
             <ref name="p"/>
             <ref name="breaks"/>
@@ -880,7 +890,6 @@
         <zeroOrMore>
           <choice>
             <ref name="breaks"></ref>
-            <ref name="pb"></ref>
             <ref name="note"></ref>
             <ref name="postscript"/>
           </choice>
@@ -927,6 +936,7 @@
           <ref name="sic"></ref>
           <ref name="del"></ref>
           <ref name="add"></ref>
+          <ref name="address"></ref>
         </choice>
       </oneOrMore>
       
@@ -971,7 +981,12 @@
   
   <define name="sic">
     <element name="sic">
-      <text/>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="lb"></ref>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   
@@ -1088,6 +1103,10 @@
     <element name="persName">
       <attribute name="ref">
           <choice>
+            <value>#Mahaul_B_N</value>
+            <value>#Kalia_D_R</value>
+            <value>#Turpin_H</value>
+            <value>#Blake_and_Kenny</value>
             <value>#Preston_M_N</value>
             <value>#Woodman_A</value>
             <value>#Seagda_Ua</value>
@@ -1199,6 +1218,7 @@
 <value>#Churchill_G_I</value>
 <value>#Coffey_J</value>
 <value>#Collins_M</value>
+            <value>#Commandant_Richmond_Barracks</value>
 <value>#Corrigan_E</value>
 <value>#Dillon_A_C</value>
 <value>#Dillon_L_G</value>
@@ -1253,7 +1273,9 @@
 <value>#Burke_M_J</value>
 <value>#Burrows_W</value>
 <value>#Byrne_A</value>
+            <value>#Azam_S_M</value>
 <value>#Campbell_Gordon_J</value>
+            <value>#Gordon_J</value>
 <value>#Campbell_RIC</value>
 <value>#Casement_A</value>
 <value>#Casement_R</value>
@@ -1393,10 +1415,29 @@
 <value>#Cribb_F_J</value>
 <value>#Devlin_J_E</value>
 <value>#Pearse_W</value>
+            <value>#Murphy_P_A</value>
 <value>#Eagleston_A_J</value>
 <value>#Magistrate_Office_Templemore</value>
 <value>#County_Inspector_x</value>
+            <value>#ChicagoFerrotype_Co</value>
+            <value>#Davis_H</value>
 <value>#Thrift_W_E</value>
+            <value>#Chairman_Bray_x</value>
+            <value>#Hayden_J_P</value>
+            <value>#Elder_R</value>
+            <value>#Montgomery_G_F</value>
+            <value>#Scraggs_T_D</value>
+            <value>#Walker_H_J</value>
+            <value>#Local_Government_Board_Dublin</value>
+            <value>#BoyleOReilly_M</value>
+            <value>#Kelly_R_C</value>
+            <value>#Tobin_R_F</value>
+            <value>#OConnell_M</value>
+            <value>#Campbell_J_M</value>
+            <value>#Devlin_J</value>
+            <value>#Home_Office_London_x</value>
+            <value>#Samuel_H</value>
+            <value></value>
 <value>#Draper_H_D</value>
 <value>#Hamilton_J</value>
 <value>#Advertising_Manager_Belfast_Telegraph</value>

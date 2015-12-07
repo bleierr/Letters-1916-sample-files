@@ -1281,7 +1281,6 @@
 <value>#Casement_R</value>
 <value>#Ceannt_A</value>
 <value>#Chalmers_R</value>
-<value>#Chalmers_R</value>
 <value>#Clarke_T_J</value>
 <value>#Coffey_D</value>
 <value>#Coffey_V</value>
@@ -1455,6 +1454,23 @@
             <value>#Delaney_T_F</value>
             <value>#McCann_J</value>
             <value>#Dillon_F</value>
+            <value>#Kirker_Fitzwalter_H</value>
+            <value>#King_George_V</value>
+            <value>#Cox_Ch</value>
+            <value>#Russell_Wallace_T</value>
+            <value>#Batty_F_E</value>
+            <value>#Megaw_Stanley_A</value>
+            <value>#Tennant_J_H</value>
+            <value>#MacMaster_D</value>
+            <value>#McDonagh_T</value>
+            <value>#Griffith_M</value>
+            <value>#OBrien_W</value>
+            <value>#Byrne_A</value>
+            <value>#Griffith_A</value>
+            <value>#Healy_T</value>
+            <value>#Ginnell_L</value>
+            
+            
           </choice>
         
       </attribute>

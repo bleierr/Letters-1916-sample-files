@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
+<!-- 
 <?oxygen RNGSchema="template.rng" type="xml"?>
-<!--  
+ -->
 <?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
--->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:id="L1916_267">
         <fileDesc>
@@ -54,11 +55,11 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc>
+            <correspDesc xml:id="corresp1">
 
                 <correspAction type="received">
 
-                    <persName ref="#Beaslai_P"> Piaras Béaslaí</persName>
+                    <persName ref="#Beazley_P"> Piaras Béaslaí</persName>
                     <placeName ref="#Dublin">Dublin, Ireland </placeName>
                     <date>unknown</date>
                 </correspAction>
@@ -88,24 +89,16 @@
             <projectDesc>
                 <p/>
             </projectDesc>
-            <classDecl>
-                <taxonomy>
-                    <listBibl>
-                        <bibl/>
-                    </listBibl>
-                </taxonomy>
-            </classDecl>
+
             <appInfo>
                 <application xml:id="smthing" ident="rh" version="1">
                     <desc/>
                 </application>
             </appInfo>
-            <tagsDecl>
-                <rendition/>
-            </tagsDecl>
+
         </encodingDesc>
         <revisionDesc>
-            <change when="2015-11-18T14:56:57" who="#RB"/>
+            <change when="2015-11-18T14:56:57" who="#RB">Created postcard template</change>
         </revisionDesc>
 
     </teiHeader>
@@ -116,7 +109,7 @@
     <text>
         <group>
             <pb n="123" facs="#L1916_267_img_1"/>
-            <text type="postcard">
+            <text type="postcard" decls="#corresp1">
                 <body>
                     <div type="message">
 
@@ -137,6 +130,9 @@
 
                     </div>
                 </body>
+            </text>
+            <text type="additional">
+                <body/>
             </text>
         </group>
     </text>

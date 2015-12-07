@@ -1,19 +1,20 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L1916_108">
-    <teiHeader>
+<?oxygen RNGSchema="template.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="L1916_108">
         <fileDesc>
             <titleStmt>
                 <title>
                     <!-- Title of the transcription -->Letter from Joseph MacDonagh to Mary
                     MacDonagh, 4 May 1916 </title>
-                <author ref="#P3">Joseph MacDonagh</author>
-                <editor>Susan Schreibman</editor>
+                <author>Joseph MacDonagh</author>
             </titleStmt>
             <editionStmt>
-                <p>
-                    <!-- A general edition statement has to be added here, most likely the same statement for all letters -->
-                </p>
+                <edition><!-- MISSING --></edition>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>Roman Bleier</name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>
@@ -21,7 +22,7 @@
                         <!-- publisher details -->
                         <name>An Foras Feasa</name>
                         <orgName>NUI Maynooth</orgName>
-                        <postBox>Co. Kildare</postBox>
+                        <region>Co. Kildare</region>
                         <placeName>
                             <country>IRE</country>
                             <settlement>Maynooth</settlement>
@@ -30,21 +31,10 @@
                 </publisher>
                 <idno n="L1916-108"/>
                 <availability status="restricted">
-                    <!-- Copyright statement example
-                    <p>This work is the property of the University of Nebraska—Lincoln. It may be copied freely by individuals for personal use, research, and teaching (including distribution to classes) as long as this statement of availability is included in the text. It may be linked to freely in Internet editions of all kinds, including for—profit works.</p>
-                    <p>Publishers, libraries, and other information providers interested in providing this text in a commercial or non—profit product or from an information server must contact the University of Nebraska—Lincoln for licensing and cost information.</p>
-                    <p> Scholars interested in changing or adding to these texts by, for example, creating a new edition of the text (electronically or in print) with substantive editorial changes, may do so with the permission of the University of Nebraska—Lincoln. This is the case whether the new publication will be made available at a cost or free of charge.</p>
-                
-                    -->
                     <p>Copyright © 2015, Letters of 1916, Maynooth</p>
                 </availability>
                 <date>2015</date>
             </publicationStmt>
-            <seriesStmt>
-                <!-- Series statement, optional-->
-                <p>Machine-readable transcriptions of letters from the Letters of 1916
-                    collection</p>
-            </seriesStmt>
             <notesStmt>
                 <note type="summary">
                     <!-- a note statement could contain a short summary, optional -->
@@ -64,75 +54,94 @@
                         Thomas's brother John (1880-1961) who had fought under Thomas in the Rising
                         and was imprisoned afterwards.</p>
                 </note>
+                <note type="translation">
+                    <p><!-- Translation of the text could go here --></p>
+                </note>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country>IRE</country>
-                        <settlement>Dublin</settlement>
-                        <repository>National Library of Ireland</repository>
-                        <idno>Thomas MacDonagh Family Papers, Collection List No 131; Ms.
-                            20647/1</idno>
+                        <repository ref="#NLI">National Library of Ireland</repository>
+                        <collection type="private">Thomas MacDonagh Family Papers, Collection List
+                            No 131</collection>
+                        <idno>Ms. 20647/1</idno>
                     </msIdentifier>
                 </msDesc>
 
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc>
-                <correspAction type="receiving">
+            <correspDesc xml:id="corresp1">
+                <correspAction type="received">
 
-                    <persName ref="#P2">Mary MacDonagh</persName>
+                    <persName ref="#MacDonagh_M">Mary MacDonagh</persName>
+                    <!-- unknown place name or date -->
 
-                    <placeName>unknown</placeName>
-                    <date>unknown</date>
                 </correspAction>
-                <correspAction type="sending">
-                    <persName ref="#P3">Joseph MacDonagh</persName>
-                    <placeName>unknown</placeName>
+                <correspAction type="sent">
+                    <persName ref="#MacDonagh_J">Joseph MacDonagh</persName>
+                    <!-- unknown place name -->
                     <date when="1916-05-04"> 4 May 1916</date>
                 </correspAction>
             </correspDesc>
-
+            <textClass>
+                <keywords>
+                    <list>
+                        <item n="tag">Easter Rising</item>
+                    </list>
+                </keywords>
+            </textClass>
             <langUsage>
-                <language ident="en-EN">English</language>
+                <language ident="en">English</language>
             </langUsage>
-
         </profileDesc>
         <encodingDesc>
-            <ab>This electronic transcription was created as part of the crowdsourced project
-                Letters of 1916: creating history.</ab>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <appInfo>
+                <application xml:id="smthing" ident="rh" version="1">
+                    <desc/>
+                </application>
+            </appInfo>
         </encodingDesc>
-
+        <revisionDesc>
+            <change when="2015-11-18T14:56:57" who="#RB">Created template</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic xml:id="L1916_108_img_1" url="#L1916_108_img_1.jpg"/>
     </facsimile>
-    <text type="letter">
-        <body>
-            <div>
-                <pb n="1" facs="#L1916_108_img_1"/>
-                <opener>
-                    <address>
+    <text>
+        <group>
+            <pb n="1" facs="#L1916_108_img_1"/>
+            <text type="letter" decls="#corresp1">
+                <body>
+                    <opener>
+                        <address>
                         <addrLine>Friar St.</addrLine> 
                         <addrLine>Thurles</addrLine>
                     </address>
-                    <dateline><date when="1916-05-04">4.5.16.</date></dateline>
-                    <salute>My Dear Mary,</salute>
-                </opener>
-                <p>I only heard the news<lb/>to-day.</p>
-                <p>I hope you are not too grieved. <lb/>The written or spoken word at such a time is
-                    useless.</p>
+                        <dateline><date when="1916-05-04">4.5.16.</date></dateline>
+                        <salute>My Dear Mary,</salute>
+                    </opener>
+                    <p>I only heard the news<lb/>to-day.</p>
+                    <p>I hope you are not too grieved. <lb/>The written or spoken word at such a
+                        time is useless.</p>
 
-                <p>I will go up to Dublin <lb/>when the restrictions are off.</p>
-                <p>Let me know of Muriel and Jack.</p>
-                <closer>
-                    <lb/>Your fond brother, <lb/>Joe. </closer>
+                    <p>I will go up to Dublin <lb/>when the restrictions are off.</p>
+                    <p>Let me know of Muriel and Jack.</p>
+                    <closer>
+                        <lb/>Your fond brother, <lb/>Joe. </closer>
 
-                <postscript>
-                    <p>PS could go here</p>
-                </postscript>
-            </div>
-        </body>
+                    <postscript>
+                        <p>PS could go here</p>
+                    </postscript>
+                </body>
+            </text>
+        </group>
     </text>
 </TEI>

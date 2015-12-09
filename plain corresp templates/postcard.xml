@@ -1,28 +1,35 @@
-<?xml version="1.0"?>
-<!-- 
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
 <?oxygen RNGSchema="template.rng" type="xml"?>
- -->
+-->
 <?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:id="L1916_267">
+    <teiHeader xml:id="L1916_289">
         <fileDesc>
             <titleStmt>
-                <title>Postcard from M. in Belfast to Piaras Béaslaí, January 1916</title>
-                <author>M.</author>
+                <title>Postcard from Eileen Corrigan to her mother, Mrs Corrigan, 24 April
+                    1916</title>
+                
+                <author>Eileen Corrigan</author>
+                
+                
             </titleStmt>
             <editionStmt>
-                <edition/>
+                <!-- some kind of respStmt or correct thing here... -->
+                <!-- Should be written sometime yay! -->
+                <edition> The Letters 1916 </edition>
                 <respStmt>
-                    <resp/>
-                    <name/>
+                    <resp> Edited by </resp>
+                    <name>Susan Schreibman</name>
+                    <!-- fix this properly -->
                 </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>
                     <address>
                         <name>An Foras Feasa</name>
-                        <orgName>NUI Maynooth</orgName>
+                        <orgName>Maynooth University</orgName>
                         <region>Co. Kildare</region>
                         <placeName>
                             <country>IRE</country>
@@ -30,110 +37,200 @@
                         </placeName>
                     </address>
                 </publisher>
-                <idno n="L1916_267"/>
+                <idno n="L1916_289"/>
                 <availability status="restricted">
-                    <!-- Copyright statement ?-->
-                    <p>Copyright © 2015, Letters of 1916, Maynooth</p>
+                    <p><!-- Copyright status-specific thing... --></p>
+                    
+                    <p>All rights reserved. No part of this image may be reproduced, distributed, or
+                        transmitted in any form or by any means, including photocopying, recording,
+                        or other electronic or mechanical methods, without the prior written
+                        permission of the institutional or private owner of the image and the
+                        Letters of 1916 project. For permission requests, write to the Letters of
+                        1916 at letters1916@gmail.com. </p>
+                    <!-- <p>Copyright  2015, Letters of 1916, Maynooth</p> -->
                 </availability>
-                <date>2015</date>
+                <date when="2015">2015</date>
             </publicationStmt>
+            <!--<seriesStmt>
+                 Series statement is for book series
+                <p>PUT A STATEMENT</p>
+            </seriesStmt>-->
             <notesStmt>
-                <note type="summary"> Post card from M. to Piaras from Belfast. M. misses Dublin and
-                    at the end of the post card tells Piaras to 'Tell Tadhg Scannell to do that
-                    thing'. </note>
+                <note type="summary">
+                    <!-- The abstract -->
+                    <p>This postcard was written by Eileen Corrigan (d. 1993) to her mother. Eileen
+                        had arrived in Dublin on 24 April 1916, the first day of the Easter Rising,
+                        from Belfast to sit her exams in the Trinity College and wrote this note to
+                        her mother in order to let her know that communication for Dublin had
+                        stopped but that she had arrived safely. </p>
+                    <p>Eileen Corrigan was one of just four female students who sat their exams as
+                        rebellion and counter attack swirled about outside Trinity’s walls. They
+                        were rewarded with lunch in Provost Mahafy’s house hosted by his wife,
+                        Frances Letitia.</p>
+                </note>
             </notesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-
-                        <repository ref="#PCMA">National Library of Ireland</repository>
-                        <collection type="private"/>
-                        <idno>NLI MS 33,977/7; Collection List 44</idno>
+                        
+                        <repository ref="#TCD">Trinity College Dublin</repository>
+                        <!-- 
+                                Original DCN: TCD MS 3987a/1
+                             
+                        -->
+                        
+                        <collection type="public"/>
+                        <!--MANDATORY -->
+                        <!--check for correctness: use the script which split the string!-->
+                        
+                        
+                        <idno>TCD MS 3987a/1</idno>
+                        
+                        
                     </msIdentifier>
                 </msDesc>
-
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc xml:id="corresp1">
-
+                
+                
                 <correspAction type="received">
-
-                    <persName ref="#Beazley_P"> Piaras Béaslaí</persName>
-                    <placeName ref="#Dublin">Dublin, Ireland </placeName>
-                    <date>unknown</date>
+                    
+                    <persName ref="#Mrs_Corrigan">Mrs Corrigan</persName>
+                    
+                    
+                    
+                    
+                    
+                    <placeName ref="#Belfast">Belfast, Ireland</placeName>
+                    
+                    <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
                 </correspAction>
+                
                 <correspAction type="sent">
-
-                    <persName ref="#M_x"> M.</persName>
-                    <placeName ref="#Belfast"> Belfast, Ireland </placeName>
-                    <date when="1916-01-11"> 11 January 1916</date>
+                    
+                    <persName ref="#Corrigan_E">Eileen Corrigan</persName>
+                    
+                    
+                    <placeName ref="#Dublin">Dublin, Ireland</placeName>
+                    
+                    
+                    <date when="1916-04-24">24 April 1916</date>
+                    <!-- Make the date human-readable : rcd: strftime-->
+                    
                 </correspAction>
             </correspDesc>
             <textClass>
+                <!-- Type of the letter should be separate -->
                 <keywords>
                     <list>
-                        <item n="death"/>
+                        
+                        <item n="gender">Female</item>
+                        <!--put an IF -->
+                        
+                        
+                        
+                        <item n="tag">Easter Rising Ireland 1916</item>
+                        
+                        
+                        
+                        
+                        
+                        
                     </list>
                 </keywords>
             </textClass>
             <langUsage>
-                <language ident="ga">Irish</language>
+                <language ident="en">English</language>
             </langUsage>
-
         </profileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p/>
+                <p>
+                    <!-- Write this -->
+                </p>
             </editorialDecl>
             <projectDesc>
-                <p/>
+                <p><!-- Was done by crowdsourcing, Python, magic, etc. --></p>
             </projectDesc>
-
             <appInfo>
                 <application xml:id="smthing" ident="rh" version="1">
-                    <desc/>
+                    <desc>Richard's Python Editing Tool</desc>
                 </application>
             </appInfo>
-
+            
         </encodingDesc>
         <revisionDesc>
-            <change when="2015-11-18T14:56:57" who="#RB">Created postcard template</change>
+            
+            <change when="2015-11-18T14:56:47" who="#PythonScript_pageDublicatesResolve"> Old page
+                dublicate removed: </change>
+            
+            <change when="2015-11-18T14:57:03" who="#PythonScript_mergeLetterPagesTransform"> New
+                Letter created: </change>
+            
+            <change when="2015-11-18T14:57:04" who="#PythonScript_mergeLetterPagesResolve">
+                Additional page merged into Letter: </change>
+            
+            <change when="2015-11-18T14:57:13" who="#PythonScript"> Filtered from Completed List: </change>
+            
+            <change when="2015-06-09T00:00:00" who="#HH"> OmekaProof: </change>
+            
+            <change when="2015-11-18T14:57:23" who="#PythonScript_TagCleaner"> Clean Tags: Page 770
+                of 0 errors. </change>
+            
+            <change when="2015-11-18T14:57:23" who="#PythonScript_TagCleaner"> Clean Tags: Page 771
+                of 0 errors. </change>
+            
+            <change when="2015-11-18T14:57:29" who="#PythonScript_wrapOpenerCloser"> Opener and
+                closer wrapped: </change>
+            
+            
+            <change when="2015-11-19T15:54:13" who="#Linda"> TEI check </change>
         </revisionDesc>
-
     </teiHeader>
+    
     <facsimile>
-        <graphic xml:id="L1916_267_img_1" url="#L1916_267_img_1.jpg"/>
-        <graphic xml:id="L1916_267_img_2" url="#L1916_267_img_2.jpg"> </graphic>
+        
+        <graphic xml:id="L1916_289_img_1" url="2121798b8c459d5f925b3e614d40b131.jpg"/>
+
+        <graphic xml:id="L1916_289_img_2" url="32dcb72f6622936257d029657b5ca0c9.jpg"/>
+      
     </facsimile>
-    <text>
-        <group>
-            <pb n="123" facs="#L1916_267_img_1"/>
-            <text type="postcard" decls="#corresp1">
-                <body>
-                    <div type="message">
-
-                        <opener>
-                            <address>
-                <addrLine>Piaras Béaslaí, 25 Lindsay Rd, <del>L</del> Glasnevin, <hi rend="underline">Dublin</hi></addrLine>
-                </address>
-                            <dateline><date when="1916-01-11">11-1-16</date></dateline>
-                        </opener>
-                        <p> Annso dhom arís &amp; uaigneas orm indiaidh B. Átha Cliath. Níor bhuail
-                            an taingeal liom. Is dóca go raibh sé imthighte go luath. Ar thugais
-                            cuairt ar P. Ó Shoin. Abair le Tadgh Scannell an rud sin a dhéanamh </p>
-                        <closer><signed>M.</signed></closer>
-                    </div>
-                    <div type="imageCaption">
-                        <pb n="2" facs="#L1916_267_img_2"/>
-                        <p>"Donegal Square &amp; Wellington Place, Belfast."</p>
-
-                    </div>
-                </body>
-            </text>
-            <text type="additional">
-                <body/>
-            </text>
-        </group>
-    </text>
+    
+    
+    <text><group>
+        <pb facs="#L1916_289_img_2" n=""/>
+        <text type="postcard" decls="#corresp1">
+        <body>
+            <div type="address">
+                <ab>
+                    <address>
+                <addrLine>Mrs Corrigan</addrLine>
+                <addrLine>The Manse,</addrLine> 
+                <addrLine>Green Road,</addrLine>
+                <addrLine><hi rend="underline">Knock</hi>, <hi rend="underline">Belfast</hi></addrLine>
+            </address>
+                </ab>
+            </div>
+            <pb facs="#L1916_289_img_1" n=""/>
+            <div type="message">
+                <opener>
+                    <address><addrLine><add>Rathmines</add></addrLine>
+                    <addrLine><add>Dublin</add></addrLine> 
+                    <addrLine>Y.W.C.A.</addrLine></address>
+                    <dateline><date>24th April <add>1916</add></date></dateline>
+                </opener>
+                
+                <p>Just a line to let you know <lb/> I arrived safely, in case the <lb/> papers
+                    should make you <lb/> anxious. All communication <lb/> is stopped from Dublin
+                    <lb/> but a lady promised to <lb/> post this tomorrow from <lb/>the North.
+                    Everything will <lb/> probably be all right <lb/> tomorrow, as the military
+                    <lb/> are coming from Curragh.</p>
+                <closer><salute>With love</salute>
+                    <signed>Frog.</signed></closer>
+                
+            </div>
+        </body>
+    </text></group></text>
 </TEI>

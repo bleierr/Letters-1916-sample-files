@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<!--  
 <?oxygen RNGSchema="template.rng" type="xml"?>
+-->
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:id="L1916_108">
         <fileDesc>
@@ -67,20 +71,15 @@
                         <idno>Ms. 20647/1</idno>
                     </msIdentifier>
                 </msDesc>
-
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc xml:id="corresp1">
                 <correspAction type="received">
-
                     <persName ref="#MacDonagh_M">Mary MacDonagh</persName>
-                    <!-- unknown place name or date -->
-
                 </correspAction>
                 <correspAction type="sent">
                     <persName ref="#MacDonagh_J">Joseph MacDonagh</persName>
-                    <!-- unknown place name -->
                     <date when="1916-05-04"> 4 May 1916</date>
                 </correspAction>
             </correspDesc>
@@ -136,10 +135,11 @@
                     <p>Let me know of Muriel and Jack.</p>
                     <closer>
                         <lb/>Your fond brother, <lb/>Joe. </closer>
-
+                    
                     <postscript>
                         <p>PS could go here</p>
                     </postscript>
+                    
                 </body>
             </text>
         </group>

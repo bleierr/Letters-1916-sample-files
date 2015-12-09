@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<?oxygen RNGSchema="template.rng" type="xml"?>
 <!--  
-<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+<?oxygen RNGSchema="template.rng" type="xml"?>
 -->
+<?oxygen RNGSchema="https://raw.githubusercontent.com/bleierr/Letters-1916-sample-files/master/plain%20corresp%20templates/template.rng" type="xml"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:id="L1916_1590">
         <fileDesc>
@@ -80,12 +81,10 @@
         <profileDesc>
             <correspDesc xml:id="corresp1">
                 <correspAction type="received">
-
                     <persName ref="#Murphy_J_J"> D. J. Murphy</persName>
                     <placeName ref="#Rockchapel">Rockchapel, County Cork, Ireland</placeName>
                 </correspAction>
                 <correspAction type="sent">
-
                     <persName ref="#Curtin_D_G"> David G. Curtin </persName>
                     <date when="1916-02-26">26 February 1916</date>
                 </correspAction>
@@ -115,13 +114,13 @@
             <projectDesc>
                 <p><!-- Was done by crowdsourcing, Python, magic, etc. --></p>
             </projectDesc>
-            
+
             <appInfo>
                 <application xml:id="smthing" ident="rh" version="1">
                     <desc>Richard's Python Editing Tool</desc>
                 </application>
             </appInfo>
-            
+
         </encodingDesc>
         <revisionDesc>
 
@@ -186,7 +185,8 @@
                         of post.<lb/> Do not keep me in suspense<lb/> With best regards to<lb/>
                         yourself and all my<lb/> cousins at the Rock.<lb/>
                     </p>
-                    <closer><salute>I remain<lb/> Your Cousin <lb/> D. J. Murphy</salute></closer>
+                    <closer><salute>I remain<lb/> Your Cousin</salute><lb/><signed>D. J.
+                            Murphy</signed></closer>
                     <note>To D. G. Curtin Esq. <unclear>R.D.6.</unclear>Note
                         <sic>adress</sic></note>
                     <postscript>

@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="TEI">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:teiHeader"/>
+        <xs:element ref="ns1:facsimile"/>
+        <xs:group ref="ns1:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="teiHeader">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:fileDesc"/>
+        <xs:element ref="ns1:profileDesc"/>
+        <xs:element ref="ns1:encodingDesc"/>
+        <xs:element ref="ns1:revisionDesc"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="xml:id"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fileDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:titleStmt"/>
+        <xs:element ref="ns1:editionStmt"/>
+        <xs:element ref="ns1:publicationStmt"/>
+        <xs:element ref="ns1:notesStmt"/>
+        <xs:element ref="ns1:sourceDesc"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titleStmt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:title"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:author"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="author" type="xs:string"/>
+  <xs:element name="editionStmt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:edition"/>
+        <xs:element maxOccurs="unbounded" ref="ns1:respStmt"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="edition" type="xs:string"/>
+  <xs:element name="respStmt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:resp"/>
+        <xs:element ref="ns1:name"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="resp" type="xs:string"/>
+  <xs:element name="publicationStmt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:publisher"/>
+        <xs:element ref="ns1:idno"/>
+        <xs:element ref="ns1:availability"/>
+        <xs:element ref="ns1:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publisher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:address"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="availability">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:p"/>
+      </xs:sequence>
+      <xs:attribute name="status" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="notesStmt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:note"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sourceDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:msDesc"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="msDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:msIdentifier"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="msIdentifier">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:repository"/>
+        <xs:element ref="ns1:collection"/>
+        <xs:element ref="ns1:idno"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="repository">
+    <xs:complexType mixed="true">
+      <xs:attribute name="ref" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="#AL"/>
+            <xs:enumeration value="#CCCA"/>
+            <xs:enumeration value="#ICPA"/>
+            <xs:enumeration value="#IJA"/>
+            <xs:enumeration value="#LDA"/>
+            <xs:enumeration value="#MMM"/>
+            <xs:enumeration value="#MAI"/>
+            <xs:enumeration value="#NAI"/>
+            <xs:enumeration value="#NLI"/>
+            <xs:enumeration value="#NMI"/>
+            <xs:enumeration value="#PRONI"/>
+            <xs:enumeration value="#PCMA"/>
+            <xs:enumeration value="#TCD"/>
+            <xs:enumeration value="#UCD"/>
+            <xs:enumeration value="#AIHS"/>
+            <xs:enumeration value="#BlairHalliday"/>
+            <xs:enumeration value="#FinnFamily"/>
+            <xs:enumeration value="#LawrenceScott"/>
+            <xs:enumeration value="#LiamSmith"/>
+            <xs:enumeration value="#Private_Collection"/>
+            <xs:enumeration value="#ClaireMissen"/>
+            <xs:enumeration value="#MichaelHannah"/>
+            <xs:enumeration value="#PatCarroll"/>
+            <xs:enumeration value="#RoryOLoughlin"/>
+            <xs:enumeration value="#JamesRyle"/>
+            <xs:enumeration value="#SighleHumphreys"/>
+            <xs:enumeration value="#PatEnglish"/>
+            <xs:enumeration value="#ONeillFamily"/>
+            <xs:enumeration value="#OLaoghaireFamily"/>
+            <xs:enumeration value="#McGrath"/>
+            <xs:enumeration value="#KellyFamily"/>
+            <xs:enumeration value="#Garland"/>
+            <xs:enumeration value="#OModhrainFamily"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="collection">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="public"/>
+            <xs:enumeration value="private"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="profileDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:correspDesc"/>
+        <xs:element ref="ns1:textClass"/>
+        <xs:element ref="ns1:langUsage"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="correspDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:correspAction"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="xml:id1"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="correspAction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:persName"/>
+        <xs:element minOccurs="0" ref="ns1:placeName"/>
+        <xs:element minOccurs="0" ref="ns1:date"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="received"/>
+            <xs:enumeration value="sent"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="textClass">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:keywords"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="keywords">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:list"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item">
+    <xs:complexType mixed="true">
+      <xs:attribute name="n" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="gender"/>
+            <xs:enumeration value="tag"/>
+            <xs:enumeration value="death"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="langUsage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:language"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="language">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:restriction base="xs:anyType">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="English"/>
+              <xs:enumeration value="Irish"/>
+            </xs:restriction>
+          </xs:simpleType>
+          <xs:attribute name="ident" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="en"/>
+                <xs:enumeration value="ga"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:restriction>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="encodingDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:editorialDecl"/>
+        <xs:element ref="ns1:projectDesc"/>
+        <xs:element ref="ns1:appInfo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="editorialDecl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:p"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="projectDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:p"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="appInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:application"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="application">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:desc"/>
+      </xs:sequence>
+      <xs:attribute name="ident" use="required" type="xs:NCName"/>
+      <xs:attribute name="version" use="required" type="xs:integer"/>
+      <xs:attributeGroup ref="xml:id"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="desc" type="xs:string"/>
+  <xs:element name="revisionDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:change"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="change">
+    <xs:complexType mixed="true">
+      <xs:attribute name="when" use="required" type="xs:dateTime"/>
+      <xs:attribute name="who" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="facsimile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:graphic"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="address">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element maxOccurs="unbounded" ref="ns1:addrLine"/>
+        <xs:sequence>
+          <xs:element ref="ns1:name"/>
+          <xs:element ref="ns1:orgName"/>
+          <xs:element ref="ns1:region"/>
+          <xs:element ref="ns1:placeName"/>
+        </xs:sequence>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addrLine">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:date"/>
+        <xs:element ref="ns1:foreign"/>
+        <xs:group ref="ns1:lineLevel"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="orgName" type="xs:string"/>
+  <xs:element name="region" type="xs:string"/>
+  <xs:element name="idno">
+    <xs:complexType mixed="true">
+      <xs:attribute name="n" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:breaks"/>
+        <xs:group ref="ns1:lineLevel"/>
+        <xs:element ref="ns1:foreign"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="date">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:add"/>
+      </xs:choice>
+      <xs:attribute name="when" type="ns1:dateValue"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="note">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:breaks"/>
+        <xs:element ref="ns1:p"/>
+        <xs:element ref="ns1:address"/>
+        <xs:group ref="ns1:lineLevel"/>
+      </xs:choice>
+      <xs:attribute name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="summary"/>
+            <xs:enumeration value="translation"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="placeName">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:country"/>
+        <xs:element ref="ns1:settlement"/>
+      </xs:choice>
+      <xs:attribute name="ref">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="#Ireland"/>
+            <xs:enumeration value="#Abbeyleix"/>
+            <xs:enumeration value="#Abingdon"/>
+            <xs:enumeration value="#Achill"/>
+            <xs:enumeration value="#Aghadowey"/>
+            <xs:enumeration value="#Ahascragh"/>
+            <xs:enumeration value="#Ahoghill"/>
+            <xs:enumeration value="#Alderney"/>
+            <xs:enumeration value="#Alexandria"/>
+            <xs:enumeration value="#Altrincham"/>
+            <xs:enumeration value="#An_Grianàn"/>
+            <xs:enumeration value="#Ancoats"/>
+            <xs:enumeration value="#Ardeevin"/>
+            <xs:enumeration value="#Armagh"/>
+            <xs:enumeration value="#Athenry"/>
+            <xs:enumeration value="#Athlone"/>
+            <xs:enumeration value="#Aughnalcoy"/>
+            <xs:enumeration value="#Avoca"/>
+            <xs:enumeration value="#Aylesbury_Prison"/>
+            <xs:enumeration value="#Bagenalstown"/>
+            <xs:enumeration value="#Bailieborough"/>
+            <xs:enumeration value="#Bala"/>
+            <xs:enumeration value="#Ballina"/>
+            <xs:enumeration value="#Ballinacurra"/>
+            <xs:enumeration value="#Ballinasloe"/>
+            <xs:enumeration value="#Ballincoona"/>
+            <xs:enumeration value="#Ballinea"/>
+            <xs:enumeration value="#Ballinskelligs"/>
+            <xs:enumeration value="#Ballsbridge"/>
+            <xs:enumeration value="#Ballybunnion"/>
+            <xs:enumeration value="#Ballycahane"/>
+            <xs:enumeration value="#Ballycastle"/>
+            <xs:enumeration value="#Ballylongford"/>
+            <xs:enumeration value="#Ballymore"/>
+            <xs:enumeration value="#Bandon"/>
+            <xs:enumeration value="#Bangor"/>
+            <xs:enumeration value="#Banteer"/>
+            <xs:enumeration value="#Bath"/>
+            <xs:enumeration value="#Battersea"/>
+            <xs:enumeration value="#Bedford"/>
+            <xs:enumeration value="#Ahogill"/>
+            <xs:enumeration value="#Belfast"/>
+            <xs:enumeration value="#Bere_Island"/>
+            <xs:enumeration value="#Berlin"/>
+            <xs:enumeration value="#Bermondsey"/>
+            <xs:enumeration value="#Berne"/>
+            <xs:enumeration value="#Bettystown"/>
+            <xs:enumeration value="#Bexhill"/>
+            <xs:enumeration value="#Birkenhead"/>
+            <xs:enumeration value="#Birmingham"/>
+            <xs:enumeration value="#Birr"/>
+            <xs:enumeration value="#Blackburn"/>
+            <xs:enumeration value="#Blackrock"/>
+            <xs:enumeration value="#Booterstown"/>
+            <xs:enumeration value="#Boscombe"/>
+            <xs:enumeration value="#Boston"/>
+            <xs:enumeration value="#Bournemouth"/>
+            <xs:enumeration value="#Boyle"/>
+            <xs:enumeration value="#Bray"/>
+            <xs:enumeration value="#Bristol"/>
+            <xs:enumeration value="#Brixton_Prison"/>
+            <xs:enumeration value="#Broomfield_Camberley"/>
+            <xs:enumeration value="#Chesham_Bois"/>
+            <xs:enumeration value="#Buncrana"/>
+            <xs:enumeration value="#Bundoran"/>
+            <xs:enumeration value="#Buxton"/>
+            <xs:enumeration value="#Cabra"/>
+            <xs:enumeration value="#Cahirciveen"/>
+            <xs:enumeration value="#Calais"/>
+            <xs:enumeration value="#Cambridge"/>
+            <xs:enumeration value="#Cardiff"/>
+            <xs:enumeration value="#Carlingford"/>
+            <xs:enumeration value="#Carlow"/>
+            <xs:enumeration value="#Carrick_on_Shannon"/>
+            <xs:enumeration value="#Carrigaholt"/>
+            <xs:enumeration value="#Carson_City"/>
+            <xs:enumeration value="#Cashelnagore"/>
+            <xs:enumeration value="#Ashtown"/>
+            <xs:enumeration value="#Castleblaney"/>
+            <xs:enumeration value="#Castlegregory"/>
+            <xs:enumeration value="#Castleknock"/>
+            <xs:enumeration value="#Cavan"/>
+            <xs:enumeration value="#Celbridge"/>
+            <xs:enumeration value="#Charleville"/>
+            <xs:enumeration value="#Chatam"/>
+            <xs:enumeration value="#Cheetam_Hill"/>
+            <xs:enumeration value="#Chelsea"/>
+            <xs:enumeration value="#Chertsey"/>
+            <xs:enumeration value="#Cheshire"/>
+            <xs:enumeration value="#Cloghran"/>
+            <xs:enumeration value="#Clonliffe"/>
+            <xs:enumeration value="#Clonmany"/>
+            <xs:enumeration value="#Clontarf"/>
+            <xs:enumeration value="#Coalisland"/>
+            <xs:enumeration value="#Colchester"/>
+            <xs:enumeration value="#Coleraine"/>
+            <xs:enumeration value="#Coolaney"/>
+            <xs:enumeration value="#Coole"/>
+            <xs:enumeration value="#Cork"/>
+            <xs:enumeration value="#Courtown"/>
+            <xs:enumeration value="#Cratloe"/>
+            <xs:enumeration value="#Crewe"/>
+            <xs:enumeration value="#Criccieth"/>
+            <xs:enumeration value="#Crossmolina"/>
+            <xs:enumeration value="#Cuckfield"/>
+            <xs:enumeration value="#Dalkey"/>
+            <xs:enumeration value="#Dartmoor"/>
+            <xs:enumeration value="#Derby"/>
+            <xs:enumeration value="#Derry"/>
+            <xs:enumeration value="#Derrynadivva"/>
+            <xs:enumeration value="#Dingle"/>
+            <xs:enumeration value="#Donaghadee"/>
+            <xs:enumeration value="#Donegal"/>
+            <xs:enumeration value="#Doneraile"/>
+            <xs:enumeration value="#Donnybrook"/>
+            <xs:enumeration value="#Downpatrick"/>
+            <xs:enumeration value="#Drogheda"/>
+            <xs:enumeration value="#Dromod"/>
+            <xs:enumeration value="#Manorhamilton"/>
+            <xs:enumeration value="#Drumcondra"/>
+            <xs:enumeration value="#Dublin"/>
+            <xs:enumeration value="#Dun_Laoghaire"/>
+            <xs:enumeration value="#Dundalk"/>
+            <xs:enumeration value="#Dundrum"/>
+            <xs:enumeration value="#Dungarvan"/>
+            <xs:enumeration value="#Dunmanway"/>
+            <xs:enumeration value="#Dunshaughlin"/>
+            <xs:enumeration value="#Edinburgh"/>
+            <xs:enumeration value="#Leith"/>
+            <xs:enumeration value="#Ennis"/>
+            <xs:enumeration value="#Enniscorthy"/>
+            <xs:enumeration value="#Enniskerry"/>
+            <xs:enumeration value="#Ewhurst"/>
+            <xs:enumeration value="#Farnham"/>
+            <xs:enumeration value="#Farranfore"/>
+            <xs:enumeration value="#Fermoy"/>
+            <xs:enumeration value="#Finglas"/>
+            <xs:enumeration value="#Fivemiletown"/>
+            <xs:enumeration value="#Folkstone"/>
+            <xs:enumeration value="#Foxrock"/>
+            <xs:enumeration value="#Foynes"/>
+            <xs:enumeration value="#Frongoch_Prison"/>
+            <xs:enumeration value="#Galway"/>
+            <xs:enumeration value="#Glasgow"/>
+            <xs:enumeration value="#Glenageary"/>
+            <xs:enumeration value="#Glencoe"/>
+            <xs:enumeration value="#Glendalough"/>
+            <xs:enumeration value="#Glengarriff"/>
+            <xs:enumeration value="#Gorey"/>
+            <xs:enumeration value="#Gort"/>
+            <xs:enumeration value="#Gortahork"/>
+            <xs:enumeration value="#Graignamanagh"/>
+            <xs:enumeration value="#Granard"/>
+            <xs:enumeration value="#Grange"/>
+            <xs:enumeration value="#Grantchester"/>
+            <xs:enumeration value="#Greystones"/>
+            <xs:enumeration value="#Gustrow"/>
+            <xs:enumeration value="#Gütersloh"/>
+            <xs:enumeration value="#Haddington"/>
+            <xs:enumeration value="#Hardelot"/>
+            <xs:enumeration value="#Harrogate_Hill"/>
+            <xs:enumeration value="#Holywood"/>
+            <xs:enumeration value="#Hope"/>
+            <xs:enumeration value="#Hot_Springs"/>
+            <xs:enumeration value="#Howth"/>
+            <xs:enumeration value="#Hull"/>
+            <xs:enumeration value="#Hunts"/>
+            <xs:enumeration value="#Inniscarra"/>
+            <xs:enumeration value="#Inverness"/>
+            <xs:enumeration value="#Johnstown"/>
+            <xs:enumeration value="#Kamuli"/>
+            <xs:enumeration value="#Kells"/>
+            <xs:enumeration value="#Kilballyowen"/>
+            <xs:enumeration value="#Kilcar"/>
+            <xs:enumeration value="#Kildare"/>
+            <xs:enumeration value="#Kilkee"/>
+            <xs:enumeration value="#Kilkenny"/>
+            <xs:enumeration value="#Killadysert"/>
+            <xs:enumeration value="#Killaloe"/>
+            <xs:enumeration value="#Killarney"/>
+            <xs:enumeration value="#Killiney"/>
+            <xs:enumeration value="#Killorglin"/>
+            <xs:enumeration value="#Killybegs"/>
+            <xs:enumeration value="#Kilmacow"/>
+            <xs:enumeration value="#Kilmainham_Gaol"/>
+            <xs:enumeration value="#Kilmore_Wexford"/>
+            <xs:enumeration value="#Kilmallock"/>
+            <xs:enumeration value="#Kingscourt"/>
+            <xs:enumeration value="#Kingstown"/>
+            <xs:enumeration value="#Kinsale"/>
+            <xs:enumeration value="#Knockmoroon"/>
+            <xs:enumeration value="#Knocknagoshel"/>
+            <xs:enumeration value="#Knutsford_Prison"/>
+            <xs:enumeration value="#Lahn"/>
+            <xs:enumeration value="#Lambton_Castle"/>
+            <xs:enumeration value="#Leadville"/>
+            <xs:enumeration value="#Leeds"/>
+            <xs:enumeration value="#Leitrim"/>
+            <xs:enumeration value="#Lenox_Dale"/>
+            <xs:enumeration value="#Letterkenny"/>
+            <xs:enumeration value="#Lewes"/>
+            <xs:enumeration value="#Lifford"/>
+            <xs:enumeration value="#Limberg"/>
+            <xs:enumeration value="#Limerick"/>
+            <xs:enumeration value="#Lisadian"/>
+            <xs:enumeration value="#Lisborn"/>
+            <xs:enumeration value="#Lisburn"/>
+            <xs:enumeration value="#Lissmacaffrey"/>
+            <xs:enumeration value="#Listowel"/>
+            <xs:enumeration value="#Liverpool"/>
+            <xs:enumeration value="#London"/>
+            <xs:enumeration value="#Hertfordshire"/>
+            <xs:enumeration value="#Londonderry"/>
+            <xs:enumeration value="#Longford"/>
+            <xs:enumeration value="#Lough_Derg"/>
+            <xs:enumeration value="#Loughrea"/>
+            <xs:enumeration value="#Lusk"/>
+            <xs:enumeration value="#Maghera"/>
+            <xs:enumeration value="#Magherafelt"/>
+            <xs:enumeration value="#Magheramore"/>
+            <xs:enumeration value="#Mallow"/>
+            <xs:enumeration value="#Malta"/>
+            <xs:enumeration value="#Manchester"/>
+            <xs:enumeration value="#Manoora"/>
+            <xs:enumeration value="#Manorhampton"/>
+            <xs:enumeration value="#Marghere"/>
+            <xs:enumeration value="#Maynooth"/>
+            <xs:enumeration value="#Mendota"/>
+            <xs:enumeration value="#Midleton"/>
+            <xs:enumeration value="#Mohill"/>
+            <xs:enumeration value="#Monaghan"/>
+            <xs:enumeration value="#Monkstown"/>
+            <xs:enumeration value="#Mount_St_Marys"/>
+            <xs:enumeration value="#Mountjoy"/>
+            <xs:enumeration value="#Mountjoy_Prison"/>
+            <xs:enumeration value="#Mountmellick"/>
+            <xs:enumeration value="#Moyvore"/>
+            <xs:enumeration value="#Mudros"/>
+            <xs:enumeration value="#Mullingar"/>
+            <xs:enumeration value="#Munich"/>
+            <xs:enumeration value="#Muontjoy"/>
+            <xs:enumeration value="#Myshall"/>
+            <xs:enumeration value="#Naas"/>
+            <xs:enumeration value="#Navan"/>
+            <xs:enumeration value="#New_York"/>
+            <xs:enumeration value="#Newcastlewest"/>
+            <xs:enumeration value="#Newry"/>
+            <xs:enumeration value="#Newtownards"/>
+            <xs:enumeration value="#Omagh"/>
+            <xs:enumeration value="#Osterrade"/>
+            <xs:enumeration value="#Oxford_Prison"/>
+            <xs:enumeration value="#Pentonville_Prison"/>
+            <xs:enumeration value="#Perth_Amboy"/>
+            <xs:enumeration value="#Perthshire"/>
+            <xs:enumeration value="#Petrograd"/>
+            <xs:enumeration value="#Phibsborough"/>
+            <xs:enumeration value="#Philadelphia"/>
+            <xs:enumeration value="#Philipopolis"/>
+            <xs:enumeration value="#Pittsburgh"/>
+            <xs:enumeration value="#PortnaBlagh"/>
+            <xs:enumeration value="#Portadown"/>
+            <xs:enumeration value="#Portarlington"/>
+            <xs:enumeration value="#Portland"/>
+            <xs:enumeration value="#Portlaoise"/>
+            <xs:enumeration value="#Portmarnock"/>
+            <xs:enumeration value="#Queenstown"/>
+            <xs:enumeration value="#Queenstown_Cork"/>
+            <xs:enumeration value="#Raheny"/>
+            <xs:enumeration value="#Ranelagh"/>
+            <xs:enumeration value="#Ravenswood"/>
+            <xs:enumeration value="#Raphoe"/>
+            <xs:enumeration value="#Ráth_Ó_Máine"/>
+            <xs:enumeration value="#Ratha"/>
+            <xs:enumeration value="#Rathfarnham"/>
+            <xs:enumeration value="#Rathgar"/>
+            <xs:enumeration value="#Rathkeale"/>
+            <xs:enumeration value="#Rathmines"/>
+            <xs:enumeration value="#Rathmore"/>
+            <xs:enumeration value="#Reading"/>
+            <xs:enumeration value="#Retford"/>
+            <xs:enumeration value="#Dublin_Richmond_Barracks"/>
+            <xs:enumeration value="#Richmond"/>
+            <xs:enumeration value="#Rochestown"/>
+            <xs:enumeration value="#Rockchapel"/>
+            <xs:enumeration value="#Rockdene"/>
+            <xs:enumeration value="#Rome"/>
+            <xs:enumeration value="#Roscommon"/>
+            <xs:enumeration value="#Roscrea"/>
+            <xs:enumeration value="#Rosscarbery"/>
+            <xs:enumeration value="#Rostrevor"/>
+            <xs:enumeration value="#Rugby"/>
+            <xs:enumeration value="#Saintfield"/>
+            <xs:enumeration value="#Sallins"/>
+            <xs:enumeration value="#Salonika"/>
+            <xs:enumeration value="#Saltspring_Island"/>
+            <xs:enumeration value="#San_Francisco"/>
+            <xs:enumeration value="#Sandymount"/>
+            <xs:enumeration value="#Scariff"/>
+            <xs:enumeration value="#Schleswig"/>
+            <xs:enumeration value="#Seacombe"/>
+            <xs:enumeration value="#Sheffield"/>
+            <xs:enumeration value="#Shillelagh"/>
+            <xs:enumeration value="#Skibbereen"/>
+            <xs:enumeration value="#Sligo"/>
+            <xs:enumeration value="#Somme"/>
+            <xs:enumeration value="#St_Anns_Hill_Tower"/>
+            <xs:enumeration value="#St_Austens_Stafford"/>
+            <xs:enumeration value="#St_Enda"/>
+            <xs:enumeration value="#Stafford"/>
+            <xs:enumeration value="#Stafford_Prison"/>
+            <xs:enumeration value="#Stillorgan"/>
+            <xs:enumeration value="#Stonehouse"/>
+            <xs:enumeration value="#Strabane"/>
+            <xs:enumeration value="#Stradbally"/>
+            <xs:enumeration value="#Straffan"/>
+            <xs:enumeration value="#Strangford"/>
+            <xs:enumeration value="#Swords"/>
+            <xs:enumeration value="#Templemore"/>
+            <xs:enumeration value="#Thurles"/>
+            <xs:enumeration value="#Tigris"/>
+            <xs:enumeration value="#Tipperary"/>
+            <xs:enumeration value="#Togherstown"/>
+            <xs:enumeration value="#Tomcoole"/>
+            <xs:enumeration value="#Tomgraney"/>
+            <xs:enumeration value="#Toronto"/>
+            <xs:enumeration value="#Tralee"/>
+            <xs:enumeration value="#Tramore"/>
+            <xs:enumeration value="#Tuam"/>
+            <xs:enumeration value="#Tullamore"/>
+            <xs:enumeration value="#Tullow"/>
+            <xs:enumeration value="#Urlingford"/>
+            <xs:enumeration value="#Ventry"/>
+            <xs:enumeration value="#Wakefield_Prison"/>
+            <xs:enumeration value="#Wandsworth_Prison"/>
+            <xs:enumeration value="#Washington"/>
+            <xs:enumeration value="#Waterford"/>
+            <xs:enumeration value="#Welshpool"/>
+            <xs:enumeration value="#Welshpool"/>
+            <xs:enumeration value="#Westport"/>
+            <xs:enumeration value="#Wexford"/>
+            <xs:enumeration value="#Whiteabbey"/>
+            <xs:enumeration value="#Whittlesea"/>
+            <xs:enumeration value="#Woking"/>
+            <xs:enumeration value="#Worcester"/>
+            <xs:enumeration value="#Zossen"/>
+            <xs:enumeration value="#Berkshire"/>
+            <xs:enumeration value="#Wicklow"/>
+            <xs:enumeration value="#France"/>
+            <xs:enumeration value="#Kerry"/>
+            <xs:enumeration value="#Cavan"/>
+            <xs:enumeration value="#Wicklow"/>
+            <xs:enumeration value="#Armagh"/>
+            <xs:enumeration value="#Longford"/>
+            <xs:enumeration value="#Roscommon"/>
+            <xs:enumeration value="#Monaghan"/>
+            <xs:enumeration value="#Berkshire"/>
+            <xs:enumeration value="#Galway"/>
+            <xs:enumeration value="#Dolphins_Barn"/>
+            <xs:enumeration value="#Frongoch_Prison"/>
+            <xs:enumeration value="#Germany_Zossen"/>
+            <xs:enumeration value="#Germany"/>
+            <xs:enumeration value="#Dublin_Castle"/>
+            <xs:enumeration value="#Calais_France"/>
+            <xs:enumeration value="#Clonakilty"/>
+            <xs:enumeration value="#Dublin_Parkgate"/>
+            <xs:enumeration value="#Berkinhead"/>
+            <xs:enumeration value="#FourCourts"/>
+            <xs:enumeration value="#CentralDublin"/>
+            <xs:enumeration value="#ship_HMS_Defence"/>
+            <xs:enumeration value="#Portobello_Dublin"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="country" type="xs:NCName"/>
+  <xs:element name="settlement" type="xs:NCName"/>
+  <xs:element name="unclear">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:add"/>
+        <xs:element ref="ns1:hi"/>
+        <xs:group ref="ns1:breaks"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hi">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:del"/>
+        <xs:element ref="ns1:add"/>
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:sic"/>
+        <xs:element ref="ns1:unclear"/>
+        <xs:element ref="ns1:lb"/>
+      </xs:choice>
+      <xs:attribute name="rend" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="superscript"/>
+            <xs:enumeration value="underline"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foreign">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="ns1:lineLevel"/>
+        <xs:group ref="ns1:breaks"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lb">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="cb">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="pb">
+    <xs:complexType>
+      <xs:attribute name="facs" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="#L1916_[0-9]+_img_[0-9]+"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="n" use="required">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:integer">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:length value="0"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ab">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:address"/>
+        <xs:element ref="ns1:name"/>
+        <xs:element ref="ns1:lb"/>
+        <xs:group ref="ns1:lineLevel"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="head">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:del"/>
+        <xs:element ref="ns1:add"/>
+        <xs:element ref="ns1:lb"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="opener">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:address"/>
+        <xs:element ref="ns1:dateline"/>
+        <xs:element ref="ns1:name"/>
+        <xs:element ref="ns1:salute"/>
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:lb"/>
+        <xs:element ref="ns1:cb"/>
+        <xs:element ref="ns1:gap"/>
+        <xs:element ref="ns1:unclear"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="closer">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:salute"/>
+        <xs:element ref="ns1:lb"/>
+        <xs:group ref="ns1:lineLevel"/>
+        <xs:element ref="ns1:signed"/>
+        <xs:element ref="ns1:address"/>
+        <xs:element ref="ns1:dateline"/>
+        <xs:element ref="ns1:gap"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salute">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:foreign"/>
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:lb"/>
+        <xs:element ref="ns1:unclear"/>
+        <xs:element ref="ns1:sic"/>
+        <xs:element ref="ns1:gap"/>
+        <xs:element ref="ns1:add"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="signed">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:unclear"/>
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:lb"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="ns1:fw"/>
+          <xs:element ref="ns1:head"/>
+          <xs:element ref="ns1:note"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="ns1:opener"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="ns1:note"/>
+          <xs:element ref="ns1:ab"/>
+          <xs:element ref="ns1:p"/>
+          <xs:group ref="ns1:breaks"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="ns1:closer"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="ns1:breaks"/>
+          <xs:element ref="ns1:note"/>
+          <xs:element ref="ns1:postscript"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="message"/>
+            <xs:enumeration value="imageCaption"/>
+            <xs:enumeration value="address"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="text">
+    <xs:sequence>
+      <xs:element name="text" type="ns1:group"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="innerText">
+    <xs:sequence>
+      <xs:element name="text" type="ns1:textAttr"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:complexType name="group">
+    <xs:sequence>
+      <xs:element ref="ns1:group"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="group">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:pb"/>
+        <xs:group maxOccurs="unbounded" ref="ns1:innerText"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fw">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:lb"/>
+        <xs:element ref="ns1:sic"/>
+        <xs:element ref="ns1:del"/>
+        <xs:element ref="ns1:add"/>
+        <xs:element ref="ns1:address"/>
+      </xs:choice>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="prePrinted-Text"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="postscript">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="ns1:p"/>
+        <xs:element ref="ns1:lb"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="add">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:unclear"/>
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:address"/>
+        <xs:element ref="ns1:lb"/>
+      </xs:choice>
+      <xs:attribute name="place">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="margin"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="del" type="xs:string"/>
+  <xs:element name="sic">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:lb"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gap">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="dateline">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:date"/>
+        <xs:element ref="ns1:foreign"/>
+        <xs:element ref="ns1:unclear"/>
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:time"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="graphic">
+    <xs:complexType>
+      <xs:attribute name="url" use="required"/>
+      <xs:attributeGroup ref="xml:id"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="textAttr">
+    <xs:choice>
+      <xs:group ref="ns1:bodyNoDiv"/>
+      <xs:group ref="ns1:bodyNoDiv"/>
+      <xs:group ref="ns1:bodyDiv"/>
+    </xs:choice>
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="letter"/>
+          <xs:enumeration value="envelope"/>
+          <xs:enumeration value="telegram"/>
+          <xs:enumeration value="additional"/>
+          <xs:enumeration value="document"/>
+          <xs:enumeration value="picture"/>
+          <xs:enumeration value="postcard"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="decls"/>
+  </xs:complexType>
+  <xs:group name="bodyNoDiv">
+    <xs:sequence>
+      <xs:element name="body">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element ref="ns1:fw"/>
+              <xs:element ref="ns1:note"/>
+              <xs:element ref="ns1:head"/>
+            </xs:choice>
+            <xs:element minOccurs="0" ref="ns1:opener"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element ref="ns1:note"/>
+              <xs:element ref="ns1:ab"/>
+              <xs:element ref="ns1:p"/>
+              <xs:group ref="ns1:breaks"/>
+            </xs:choice>
+            <xs:element minOccurs="0" ref="ns1:closer"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:group ref="ns1:breaks"/>
+              <xs:element ref="ns1:note"/>
+              <xs:element ref="ns1:postscript"/>
+            </xs:choice>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="bodyDiv">
+    <xs:sequence>
+      <xs:element name="body">
+        <xs:complexType>
+          <xs:choice maxOccurs="unbounded">
+            <xs:element ref="ns1:div"/>
+            <xs:element ref="ns1:pb"/>
+            <xs:element ref="ns1:cb"/>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="persName">
+    <xs:complexType mixed="true">
+      <xs:attribute name="ref" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="#Mahaul_B_N"/>
+            <xs:enumeration value="#Kalia_D_R"/>
+            <xs:enumeration value="#Turpin_H"/>
+            <xs:enumeration value="#Blake_and_Kenny"/>
+            <xs:enumeration value="#Preston_M_N"/>
+            <xs:enumeration value="#Woodman_A"/>
+            <xs:enumeration value="#Seagda_Ua"/>
+            <xs:enumeration value="#Daly_M"/>
+            <xs:enumeration value="#Ryan_x"/>
+            <xs:enumeration value="#Maggie_x"/>
+            <xs:enumeration value="#Cromien_J"/>
+            <xs:enumeration value="#War_Employments_Inspector_x"/>
+            <xs:enumeration value="#Aston_E_A"/>
+            <xs:enumeration value="#Thompson_J"/>
+            <xs:enumeration value="#Officer_Commander_IV"/>
+            <xs:enumeration value="#Griffith_J"/>
+            <xs:enumeration value="#Curtin_D_G"/>
+            <xs:enumeration value="#Moynihan_M"/>
+            <xs:enumeration value="#Moynihan_J"/>
+            <xs:enumeration value="#Ceannt_E"/>
+            <xs:enumeration value="#FitzGerald_M"/>
+            <xs:enumeration value="#Dyer_P"/>
+            <xs:enumeration value="#OConnor_J"/>
+            <xs:enumeration value="#Brennan_J"/>
+            <xs:enumeration value="#Brown_M"/>
+            <xs:enumeration value="#Brown_N"/>
+            <xs:enumeration value="#Brown_L"/>
+            <xs:enumeration value="#Bulfin_E"/>
+            <xs:enumeration value="#Malony_H"/>
+            <xs:enumeration value="#Doyle_S"/>
+            <xs:enumeration value="#Hely_Ltd"/>
+            <xs:enumeration value="#MacDonagh_M"/>
+            <xs:enumeration value="#MacDonagh_J"/>
+            <xs:enumeration value="#Asquith_H_H"/>
+            <xs:enumeration value="#OShea_J"/>
+            <xs:enumeration value="#Horan_G"/>
+            <xs:enumeration value="#Blythe_E"/>
+            <xs:enumeration value="#OHegarty_P_S"/>
+            <xs:enumeration value="#Carroll_P_A"/>
+            <xs:enumeration value="#Rainey_J_W"/>
+            <xs:enumeration value="#Ryan_J"/>
+            <xs:enumeration value="#Clerk_Crown_and_Peace_County_Down"/>
+            <xs:enumeration value="#OBrien_Moran_H"/>
+            <xs:enumeration value="#Chamberlain_N"/>
+            <xs:enumeration value="#McWeeney_E_J"/>
+            <xs:enumeration value="#OFarrell_E"/>
+            <xs:enumeration value="#Dowdall_J"/>
+            <xs:enumeration value="#Swift_MacNeill_J_G"/>
+            <xs:enumeration value="#Farrell_J_J"/>
+            <xs:enumeration value="#Farrell_J_J_et_al"/>
+            <xs:enumeration value="#Wynne_H_A"/>
+            <xs:enumeration value="#Fitzgerald_Barry_R"/>
+            <xs:enumeration value="#OModhrain_E"/>
+            <xs:enumeration value="#Sweetman_J"/>
+            <xs:enumeration value="#Wray_S_A"/>
+            <xs:enumeration value="#Brown_R"/>
+            <xs:enumeration value="#Dunlop_R"/>
+            <xs:enumeration value="#Hogan_J_F"/>
+            <xs:enumeration value="#Waters_J"/>
+            <xs:enumeration value="#ODonnell_F"/>
+            <xs:enumeration value="#Boase_G"/>
+            <xs:enumeration value="#Teresa_S"/>
+            <xs:enumeration value="#Stone_E_D"/>
+            <xs:enumeration value="#Duffy_G"/>
+            <xs:enumeration value="#Colbert_L"/>
+            <xs:enumeration value="#ODuibhguin_M"/>
+            <xs:enumeration value="#Daly_J"/>
+            <xs:enumeration value="#MacDermot_P_C"/>
+            <xs:enumeration value="#Moorhead_J_R"/>
+            <xs:enumeration value="#Browne_F_M"/>
+            <xs:enumeration value="#Monteith_M_F"/>
+            <xs:enumeration value="#Anthony_M"/>
+            <xs:enumeration value="#Davidson_J"/>
+            <xs:enumeration value="#Burke_M_J"/>
+            <xs:enumeration value="#Nally_T"/>
+            <xs:enumeration value="#Nally_N"/>
+            <xs:enumeration value="#Connolly_W_M"/>
+            <xs:enumeration value="#Connolly_J"/>
+            <xs:enumeration value="#May_x"/>
+            <xs:enumeration value="#ODriscoll_G"/>
+            <xs:enumeration value="#Stanley_J_M"/>
+            <xs:enumeration value="#Mr_Walker"/>
+            <xs:enumeration value="#PlunkettDillon_G"/>
+            <xs:enumeration value="#Plunkett_G_N"/>
+            <xs:enumeration value="#McBrien_P"/>
+            <xs:enumeration value="#OLoughlin_E"/>
+            <xs:enumeration value="#OLoughlin_P"/>
+            <xs:enumeration value="#Moore_M"/>
+            <xs:enumeration value="#Bannister_G"/>
+            <xs:enumeration value="#Caldwell_F"/>
+            <xs:enumeration value="#Bradley_J"/>
+            <xs:enumeration value="#Mahoney_M"/>
+            <xs:enumeration value="#Fay_M"/>
+            <xs:enumeration value="#Finn_J"/>
+            <xs:enumeration value="#Sheehan_G"/>
+            <xs:enumeration value="#Carphin_J"/>
+            <xs:enumeration value="#Carphin_P_B"/>
+            <xs:enumeration value="#deValera_E"/>
+            <xs:enumeration value="#Walsh_E"/>
+            <xs:enumeration value="#Heuston_J_J"/>
+            <xs:enumeration value="#NiCathain_M"/>
+            <xs:enumeration value="#Mr_Dolan"/>
+            <xs:enumeration value="#MacDonagh_J"/>
+            <xs:enumeration value="#Allan_F_J"/>
+            <xs:enumeration value="#Arkwright_M"/>
+            <xs:enumeration value="#Beazley_N"/>
+            <xs:enumeration value="#Beazley_N"/>
+            <xs:enumeration value="#Beazley_P"/>
+            <xs:enumeration value="#Beazley_P_L"/>
+            <xs:enumeration value="#Brabazon_R"/>
+            <xs:enumeration value="#Brady_K"/>
+            <xs:enumeration value="#Calnan_M"/>
+            <xs:enumeration value="#Churchill_G_I"/>
+            <xs:enumeration value="#Coffey_J"/>
+            <xs:enumeration value="#Collins_M"/>
+            <xs:enumeration value="#Commandant_Richmond_Barracks"/>
+            <xs:enumeration value="#Corrigan_E"/>
+            <xs:enumeration value="#Dillon_A_C"/>
+            <xs:enumeration value="#Dillon_L_G"/>
+            <xs:enumeration value="#Dillon_R_E"/>
+            <xs:enumeration value="#Doherty_L"/>
+            <xs:enumeration value="#Doyle_M_F"/>
+            <xs:enumeration value="#GavanDuffy_G"/>
+            <xs:enumeration value="#GavanDuffy_M"/>
+            <xs:enumeration value="#General_Military_Order"/>
+            <xs:enumeration value="#General_Officer"/>
+            <xs:enumeration value="#Hickey_R"/>
+            <xs:enumeration value="#Jim_x_0"/>
+            <xs:enumeration value="#Joe"/>
+            <xs:enumeration value="#Kelly_M"/>
+            <xs:enumeration value="#Kenny_M"/>
+            <xs:enumeration value="#M_x"/>
+            <xs:enumeration value="#MacDonagh_J"/>
+            <xs:enumeration value="#MacDonagh_M"/>
+            <xs:enumeration value="#MacNeill_E"/>
+            <xs:enumeration value="#Mary_M_x"/>
+            <xs:enumeration value="#miss_Ryan"/>
+            <xs:enumeration value="#Moore_B_Fr"/>
+            <xs:enumeration value="#Moran_E"/>
+            <xs:enumeration value="#Moran_L"/>
+            <xs:enumeration value="#Mr_Oliver"/>
+            <xs:enumeration value="#Mrs_Budson"/>
+            <xs:enumeration value="#Mrs_Corrigan"/>
+            <xs:enumeration value="#Mrs_Tweedy"/>
+            <xs:enumeration value="#Murnane_E_F"/>
+            <xs:enumeration value="#Murnane_E_F"/>
+            <xs:enumeration value="#Murphy_L"/>
+            <xs:enumeration value="#ODoherty_K"/>
+            <xs:enumeration value="#OSullivan_P"/>
+            <xs:enumeration value="#Plunkett_J"/>
+            <xs:enumeration value="#Quinn_J"/>
+            <xs:enumeration value="#Russell_G"/>
+            <xs:enumeration value="#Ryan_J"/>
+            <xs:enumeration value="#Seaghan_Z"/>
+            <xs:enumeration value="#Stephens_J"/>
+            <xs:enumeration value="#Triston_W_P"/>
+            <xs:enumeration value="#Watters_L_J"/>
+            <xs:enumeration value="#Wynne_A_A"/>
+            <xs:enumeration value="#Wynne_E_A"/>
+            <xs:enumeration value="#A_H"/>
+            <xs:enumeration value="#ArmyVeterinaryService"/>
+            <xs:enumeration value="#Barton_R_C"/>
+            <xs:enumeration value="#Birrell_A"/>
+            <xs:enumeration value="#Bowen_P_B"/>
+            <xs:enumeration value="#Brade_W_H"/>
+            <xs:enumeration value="#Brennan_V"/>
+            <xs:enumeration value="#BrotherPius"/>
+            <xs:enumeration value="#Burke_M_J"/>
+            <xs:enumeration value="#Burrows_W"/>
+            <xs:enumeration value="#Byrne_A"/>
+            <xs:enumeration value="#Azam_S_M"/>
+            <xs:enumeration value="#Campbell_Gordon_J"/>
+            <xs:enumeration value="#Gordon_J"/>
+            <xs:enumeration value="#Campbell_RIC"/>
+            <xs:enumeration value="#Casement_A"/>
+            <xs:enumeration value="#Casement_R"/>
+            <xs:enumeration value="#Ceannt_A"/>
+            <xs:enumeration value="#Chalmers_R"/>
+            <xs:enumeration value="#Clarke_T_J"/>
+            <xs:enumeration value="#Coffey_D"/>
+            <xs:enumeration value="#Coffey_V"/>
+            <xs:enumeration value="#Colbert_C"/>
+            <xs:enumeration value="#Crawford_A_G"/>
+            <xs:enumeration value="#Crumley_Pat"/>
+            <xs:enumeration value="#Davidson_S_C"/>
+            <xs:enumeration value="#Dawson_W_R"/>
+            <xs:enumeration value="#Dolan_T"/>
+            <xs:enumeration value="#Dowell_A"/>
+            <xs:enumeration value="#Doyle_W_Fr"/>
+            <xs:enumeration value="#Duffin_C"/>
+            <xs:enumeration value="#Duffin_E"/>
+            <xs:enumeration value="#Duffin_H"/>
+            <xs:enumeration value="#Dunn_V"/>
+            <xs:enumeration value="#English_K"/>
+            <xs:enumeration value="#English_Pat"/>
+            <xs:enumeration value="#Ennion_T"/>
+            <xs:enumeration value="#Ervine_S_J"/>
+            <xs:enumeration value="#Falkiner_A_F"/>
+            <xs:enumeration value="#Fallon_K"/>
+            <xs:enumeration value="#Faolain_S"/>
+            <xs:enumeration value="#Farrell_J_P"/>
+            <xs:enumeration value="#Field_W"/>
+            <xs:enumeration value="#Figgis_D"/>
+            <xs:enumeration value="#Fitzgerald_A"/>
+            <xs:enumeration value="#FitzGerald_D"/>
+            <xs:enumeration value="#Fitzgerald_S"/>
+            <xs:enumeration value="#French_G_A"/>
+            <xs:enumeration value="#Furlong_A"/>
+            <xs:enumeration value="#Gavegan_E_J"/>
+            <xs:enumeration value="#Gerrard_T_M"/>
+            <xs:enumeration value="#Chief_Secretary_Office_x"/>
+            <xs:enumeration value="#Lawrance-Burke_S"/>
+            <xs:enumeration value="#Condon_J"/>
+            <xs:enumeration value="#Slocock_E_J"/>
+            <xs:enumeration value="#Harrison_S_C"/>
+            <xs:enumeration value="#McDonagh_T"/>
+            <xs:enumeration value="#Gill_H_V"/>
+            <xs:enumeration value="#Graffney_Co"/>
+            <xs:enumeration value="#Grattan_Flood_W_H"/>
+            <xs:enumeration value="#Hackney_G"/>
+            <xs:enumeration value="#Hale_H"/>
+            <xs:enumeration value="#Hamilton_Daly_E"/>
+            <xs:enumeration value="#Hanna_W"/>
+            <xs:enumeration value="#Hanna_W_F"/>
+            <xs:enumeration value="#Hanrette_C_J"/>
+            <xs:enumeration value="#Heathcote_C_H"/>
+            <xs:enumeration value="#Heuston_S"/>
+            <xs:enumeration value="#Hobson_J_B"/>
+            <xs:enumeration value="#Howe_B"/>
+            <xs:enumeration value="#Hurley_D"/>
+            <xs:enumeration value="#Hurley_J"/>
+            <xs:enumeration value="#Joynt_M"/>
+            <xs:enumeration value="#Kennedy_D_H"/>
+            <xs:enumeration value="#Lawson_H"/>
+            <xs:enumeration value="#Loughborough_Ball_A_J"/>
+            <xs:enumeration value="#Lynch_D_J"/>
+            <xs:enumeration value="#Lynn_K"/>
+            <xs:enumeration value="#MacDiarmada_S"/>
+            <xs:enumeration value="#MacDonagh_T"/>
+            <xs:enumeration value="#Magill_A_P"/>
+            <xs:enumeration value="#Martin_J"/>
+            <xs:enumeration value="#Martin_Marie"/>
+            <xs:enumeration value="#Martin_Mary"/>
+            <xs:enumeration value="#Maxwell_J_G"/>
+            <xs:enumeration value="#McCullough_D"/>
+            <xs:enumeration value="#McGrath_J_J"/>
+            <xs:enumeration value="#McGrath_P"/>
+            <xs:enumeration value="#McHugh_E"/>
+            <xs:enumeration value="#McNally_F"/>
+            <xs:enumeration value="#Meehan_F_E"/>
+            <xs:enumeration value="#Meehan_Fr"/>
+            <xs:enumeration value="#Mellows_L"/>
+            <xs:enumeration value="#Miss_Carney"/>
+            <xs:enumeration value="#Mitchell_J_D"/>
+            <xs:enumeration value="#Modhrain_T"/>
+            <xs:enumeration value="#Monteith_R"/>
+            <xs:enumeration value="#Mrs_Dryhurst"/>
+            <xs:enumeration value="#Mullally_D"/>
+            <xs:enumeration value="#Munro_C_A"/>
+            <xs:enumeration value="#Murphy_J_J"/>
+            <xs:enumeration value="#Murphy_P"/>
+            <xs:enumeration value="#Nally_T"/>
+            <xs:enumeration value="#Nathan_M"/>
+            <xs:enumeration value="#Neazor_J"/>
+            <xs:enumeration value="#NiModhrain_C"/>
+            <xs:enumeration value="#Nolan_T_V"/>
+            <xs:enumeration value="#OCarroll_R"/>
+            <xs:enumeration value="#ODriscoll_D"/>
+            <xs:enumeration value="#ODwyer_E_T"/>
+            <xs:enumeration value="#OKelly_S_T"/>
+            <xs:enumeration value="#OKelly_V"/>
+            <xs:enumeration value="#ONeill_B"/>
+            <xs:enumeration value="#ONeill_J"/>
+            <xs:enumeration value="#ORahilly_A"/>
+            <xs:enumeration value="#ORahilly_M_J"/>
+            <xs:enumeration value="#OShea_P"/>
+            <xs:enumeration value="#Parr_T"/>
+            <xs:enumeration value="#Pearse_M"/>
+            <xs:enumeration value="#Pearse_P_H"/>
+            <xs:enumeration value="#person_Id"/>
+            <xs:enumeration value="#Phillips_Jo"/>
+            <xs:enumeration value="#Pim_C"/>
+            <xs:enumeration value="#Pim_H"/>
+            <xs:enumeration value="#Pollock_J"/>
+            <xs:enumeration value="#Purcell_S"/>
+            <xs:enumeration value="#Razzaq_A"/>
+            <xs:enumeration value="#Robinson_H_A"/>
+            <xs:enumeration value="#Russell_E"/>
+            <xs:enumeration value="#Ryan_A_T"/>
+            <xs:enumeration value="#Ryan_C"/>
+            <xs:enumeration value="#Ryan_J_M"/>
+            <xs:enumeration value="#Ryan_P_F"/>
+            <xs:enumeration value="#Scollan_J_J"/>
+            <xs:enumeration value="#see Churchill_G_I"/>
+            <xs:enumeration value="#see Churchill_G_I"/>
+            <xs:enumeration value="#Shaw_G_B"/>
+            <xs:enumeration value="#Sheridan_F"/>
+            <xs:enumeration value="#Smyth_Th"/>
+            <xs:enumeration value="#Spender_L"/>
+            <xs:enumeration value="#Spender_W"/>
+            <xs:enumeration value="#StopfordGreen_A"/>
+            <xs:enumeration value="#Sullivan_A_M"/>
+            <xs:enumeration value="#The_Irish_Relief_Fund_Bazaar"/>
+            <xs:enumeration value="#Thomson_B_H"/>
+            <xs:enumeration value="#Tomkin_N_J"/>
+            <xs:enumeration value="#Tweedy_R"/>
+            <xs:enumeration value="#Wallace_T_J"/>
+            <xs:enumeration value="#Walsh_E"/>
+            <xs:enumeration value="#Wickham_E_L"/>
+            <xs:enumeration value="#Wylie_M"/>
+            <xs:enumeration value="#Wynne_A_K"/>
+            <xs:enumeration value="#Wynne_C_W"/>
+            <xs:enumeration value="#Wynne_V"/>
+            <xs:enumeration value="#Yeats_W_B"/>
+            <xs:enumeration value="#Cribb_F_J"/>
+            <xs:enumeration value="#Devlin_J_E"/>
+            <xs:enumeration value="#Pearse_W"/>
+            <xs:enumeration value="#Murphy_P_A"/>
+            <xs:enumeration value="#Eagleston_A_J"/>
+            <xs:enumeration value="#Magistrate_Office_Templemore"/>
+            <xs:enumeration value="#County_Inspector_x"/>
+            <xs:enumeration value="#ChicagoFerrotype_Co"/>
+            <xs:enumeration value="#Davis_H"/>
+            <xs:enumeration value="#Thrift_W_E"/>
+            <xs:enumeration value="#Chairman_Bray_x"/>
+            <xs:enumeration value="#Hayden_J_P"/>
+            <xs:enumeration value="#Elder_R"/>
+            <xs:enumeration value="#Montgomery_G_F"/>
+            <xs:enumeration value="#Scraggs_T_D"/>
+            <xs:enumeration value="#Walker_H_J"/>
+            <xs:enumeration value="#Local_Government_Board_Dublin"/>
+            <xs:enumeration value="#BoyleOReilly_M"/>
+            <xs:enumeration value="#Kelly_R_C"/>
+            <xs:enumeration value="#Tobin_R_F"/>
+            <xs:enumeration value="#OConnell_M"/>
+            <xs:enumeration value="#Campbell_J_M"/>
+            <xs:enumeration value="#Devlin_J"/>
+            <xs:enumeration value="#Home_Office_London_x"/>
+            <xs:enumeration value="#Samuel_H"/>
+            <xs:enumeration value=""/>
+            <xs:enumeration value="#Draper_H_D"/>
+            <xs:enumeration value="#Hamilton_J"/>
+            <xs:enumeration value="#Advertising_Manager_Belfast_Telegraph"/>
+            <xs:enumeration value="#ffrench_Mullen_D"/>
+            <xs:enumeration value="#Duke_H"/>
+            <xs:enumeration value="#SpencerSmith_C"/>
+            <xs:enumeration value="#Kelly_S"/>
+            <xs:enumeration value="#McCarthy_J"/>
+            <xs:enumeration value="#Delaney_T_F"/>
+            <xs:enumeration value="#McCann_J"/>
+            <xs:enumeration value="#Dillon_F"/>
+            <xs:enumeration value="#Kirker_Fitzwalter_H"/>
+            <xs:enumeration value="#King_George_V"/>
+            <xs:enumeration value="#Cox_Ch"/>
+            <xs:enumeration value="#Russell_Wallace_T"/>
+            <xs:enumeration value="#Batty_F_E"/>
+            <xs:enumeration value="#Megaw_Stanley_A"/>
+            <xs:enumeration value="#Tennant_J_H"/>
+            <xs:enumeration value="#MacMaster_D"/>
+            <xs:enumeration value="#McDonagh_T"/>
+            <xs:enumeration value="#Griffith_M"/>
+            <xs:enumeration value="#OBrien_W"/>
+            <xs:enumeration value="#Byrne_A"/>
+            <xs:enumeration value="#Griffith_A"/>
+            <xs:enumeration value="#Healy_T"/>
+            <xs:enumeration value="#Ginnell_L"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="choice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:add"/>
+        <xs:element ref="ns1:del"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="dateValue">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="(191[567]-[01][0-9]-[0123][0-9])|(191[567]-[01][0-9])|(191[567])|(2015)"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:group name="lineLevel">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:unclear"/>
+        <xs:element ref="ns1:gap"/>
+        <xs:element ref="ns1:hi"/>
+        <xs:element ref="ns1:sic"/>
+        <xs:element ref="ns1:add"/>
+        <xs:element ref="ns1:del"/>
+        <xs:element ref="ns1:choice"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="breaks">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:lb"/>
+        <xs:element ref="ns1:pb"/>
+        <xs:element ref="ns1:cb"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:group>
+  <xs:simpleType name="correspID">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="corresp[0-9]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="time">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:hi"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

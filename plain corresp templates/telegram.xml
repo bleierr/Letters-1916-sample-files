@@ -94,14 +94,14 @@
         </profileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p></p>
+                <p/>
             </editorialDecl>
             <projectDesc>
-                <p></p>
+                <p/>
             </projectDesc>
             <appInfo>
                 <application ident="placeholder" version="1" xml:id="placeholderID">
-                    <desc></desc>
+                    <desc/>
                 </application>
             </appInfo>
         </encodingDesc>
@@ -112,25 +112,25 @@
     <facsimile>
         <graphic xml:id="L1916_619_img_1" url="#L1916_619_img_1.png"/>
     </facsimile>
-   <text>
-       <group>
-           <pb n="1" facs="#L1916_619_img_1"/>
-           <text type="telegram" decls="#corresp1">
-                    <body><!-- possible encoding of the pre-printed sections of the telegram form:
+    <text>
+        <group>
+            <pb n="1" facs="#L1916_619_img_1"/>
+            <text type="telegram" decls="#corresp1">
+                <body>
+                    <!-- possible encoding of the pre-printed sections of the telegram form:
                                     <opener>
                                 <seg type="pre-printedText">Office of Origin and Service Instructions</seg>
                                 Haddington <seg type="pre-printedText">Handed in at</seg> 3.47p <seg
                                     type="pre-printedText">Received here at</seg> 4.35p <seg
                                     type="pre-printedText">TO</seg> Lieut Fair Bereisland Lieutenant Colonel
                                 Lord </opener>-->
-                        <opener>Office of Origin and Service Instructions Haddington<lb/>
-                                Handed in at  4.35p<lb/>
-                                TO Lieut Fair Bereisland Lieutenant Colonel Lord</opener>
-                        <p>George Scott officer commanding 2/1 Lothian and Border Horse Atwell.</p>
-            
-                        
-                    </body>
+                    <opener>Office of Origin and Service Instructions Haddington<lb/> Handed in at
+                        4.35p<lb/> TO Lieut Fair Bereisland Lieutenant Colonel Lord</opener>
+                    <p>George Scott officer commanding 2/1 Lothian and Border Horse Atwell.</p>
+
+
+                </body>
             </text>
-       </group>
-   </text>
+        </group>
+    </text>
 </TEI>

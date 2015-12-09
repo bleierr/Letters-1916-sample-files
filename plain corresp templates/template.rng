@@ -13,9 +13,7 @@
               <text/>
             </element>
             <zeroOrMore>
-              <element name="author">
-                  <text/>
-              </element>
+              <ref name="author"></ref>
             </zeroOrMore>
           </element>
           <element name="editionStmt">
@@ -172,21 +170,34 @@
             <ref name="p"/>
           </element>
           <element name="appInfo">
-            <element name="application">
+            <oneOrMore>
+              <element name="application">
               <attribute name="ident">
                 <data type="NCName"/>
               </attribute>
               <attribute name="version">
-                <data type="integer"/>
+                <data type="NCName"/>
               </attribute>
               <attribute>
                 <name ns="http://www.w3.org/XML/1998/namespace">id</name>
-                <data type="NCName"/>
+                <choice>
+                  <value>PythonScript</value>
+                  <value>LetEd</value>
+                  <value>Omeka</value>
+                </choice>
               </attribute>
               <element name="desc">
-                <text/>
+                <oneOrMore>
+                  <choice>
+                    <text/>
+                    <ref name="ref"></ref>
+                  </choice>
+                </oneOrMore>
+                
               </element>
+                
             </element>
+            </oneOrMore>
           </element>
         </element>
         <element name="revisionDesc">
@@ -196,7 +207,15 @@
                 <data type="dateTime"/>
               </attribute>
               <attribute name="who"/>
-              <text/>
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <ref name="name"></ref>
+                  <ref name="ref"></ref>
+                  <ref name="date"></ref>
+                </choice>
+              </oneOrMore>
+              
             </element>
           </oneOrMore>
         </element>
@@ -209,6 +228,7 @@
   </start>
   <define name="name">
     <element name="name">
+      <optional><attribute name="xml:id"></attribute></optional>
       <text/>
     </element>
   </define>
@@ -1031,7 +1051,8 @@
           <value>telegram</value>
         </choice>
       </attribute>
-        <attribute name="decls"></attribute>
+        <attribute name="decls">
+        </attribute>
       <ref name="bodyNoDiv"></ref>
   </define>
   
@@ -1106,7 +1127,7 @@
       <attribute name="ref">
           <choice>
             <value>#Johnson_J_R</value>
-            
+            <value>#Downing_F_A</value>
             <value>#Mahaul_B_N</value>
             <value>#Miles_W_P</value>
             <value>#Kalia_D_R</value>
@@ -1291,11 +1312,13 @@
 <value>#Coffey_V</value>
 <value>#Colbert_C</value>
 <value>#Crawford_A_G</value>
+            <value>#Crawford_F_H</value>
 <value>#Crumley_Pat</value>
 <value>#Davidson_S_C</value>
 <value>#Dawson_W_R</value>
 <value>#Dolan_T</value>
 <value>#Dowell_A</value>
+            <value>#Carson_R</value>
 <value>#Doyle_W_Fr</value>
 <value>#Duffin_C</value>
 <value>#Duffin_E</value>
@@ -1537,5 +1560,17 @@
     </element>
   </define>
   
+  <define name="author">
+    <element name="author">
+      <optional><attribute name="xml:id"></attribute></optional>
+      <text/>
+    </element>
+  </define>
+  <define name="ref">
+    <element name="ref">
+      <attribute name="target"></attribute>
+      <empty></empty>
+    </element>
+  </define>
   
 </grammar>

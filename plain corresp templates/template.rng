@@ -223,6 +223,7 @@
                 <ref name="date"/>
                 <ref name="foreign"/>
                 <ref name="lineLevel"></ref>
+                
               </choice>
             </oneOrMore>
           </element>
@@ -685,6 +686,7 @@
           <element name="country">
             <data type="NCName"/>
           </element>
+          
           <element name="settlement">
             <data type="NCName"/>
           </element>
@@ -1103,7 +1105,10 @@
     <element name="persName">
       <attribute name="ref">
           <choice>
+            <value>#Johnson_J_R</value>
+            
             <value>#Mahaul_B_N</value>
+            <value>#Miles_W_P</value>
             <value>#Kalia_D_R</value>
             <value>#Turpin_H</value>
             <value>#Blake_and_Kenny</value>

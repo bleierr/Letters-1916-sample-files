@@ -176,7 +176,10 @@
                 <data type="NCName"/>
               </attribute>
               <attribute name="version">
-                <text></text>
+                <choice>
+                  <value>1</value>
+                  <value>1.5</value>
+                </choice>
               </attribute>
               <attribute>
                 <name ns="http://www.w3.org/XML/1998/namespace">id</name>

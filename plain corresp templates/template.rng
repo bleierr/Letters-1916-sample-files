@@ -1572,7 +1572,7 @@
   <define name="ref">
     <element name="ref">
       <attribute name="target"></attribute>
-      <empty></empty>
+      <optional><text></text></optional>
     </element>
   </define>
   

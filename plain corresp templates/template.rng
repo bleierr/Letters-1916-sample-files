@@ -233,7 +233,11 @@
   <define name="name">
     <element name="name">
       <optional><attribute name="xml:id"></attribute></optional>
-      <text/>
+      <optional><attribute name="ref"></attribute></optional>
+      <choice>
+        <text/>
+        <empty></empty>
+      </choice>
     </element>
   </define>
   <define name="address">

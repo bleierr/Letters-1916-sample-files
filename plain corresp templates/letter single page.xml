@@ -102,7 +102,7 @@
                 <p/>
             </projectDesc>
             <appInfo>
-                <application xml:id="smthing" ident="rh" version="1">
+                <application xml:id="Omeka" ident="rh" version="1">
                     <desc/>
                 </application>
             </appInfo>
@@ -135,11 +135,11 @@
                     <p>Let me know of Muriel and Jack.</p>
                     <closer>
                         <lb/>Your fond brother, <lb/>Joe. </closer>
-                    
+
                     <postscript>
                         <p>PS could go here</p>
                     </postscript>
-                    
+
                 </body>
             </text>
         </group>

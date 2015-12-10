@@ -139,7 +139,7 @@
             <pb n="123" facs="#L1916_1590_img_4"/>
             <text type="envelope" decls="#corresp1">
                 <body>
-                    <head>this is a text<lb/> this too</head>
+                    
                     <ab>
                         <address>
                             <addrLine>David G. Curtin Esq.R.D.C,</addrLine>
@@ -193,11 +193,9 @@
                         <p>This is a postscript</p>
                     </postscript>
 
-
-
-
                 </body>
             </text>
+           
         </group>
     </text>
 </TEI>

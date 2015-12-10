@@ -10,10 +10,10 @@
             <titleStmt>
                 <title>Postcard from Eileen Corrigan to her mother, Mrs Corrigan, 24 April
                     1916</title>
-                
+
                 <author>Eileen Corrigan</author>
-                
-                
+
+
             </titleStmt>
             <editionStmt>
                 <!-- some kind of respStmt or correct thing here... -->
@@ -40,7 +40,7 @@
                 <idno n="L1916_289"/>
                 <availability status="restricted">
                     <p><!-- Copyright status-specific thing... --></p>
-                    
+
                     <p>All rights reserved. No part of this image may be reproduced, distributed, or
                         transmitted in any form or by any means, including photocopying, recording,
                         or other electronic or mechanical methods, without the prior written
@@ -72,72 +72,72 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        
+
                         <repository ref="#TCD">Trinity College Dublin</repository>
                         <!-- 
                                 Original DCN: TCD MS 3987a/1
                              
                         -->
-                        
+
                         <collection type="public"/>
                         <!--MANDATORY -->
                         <!--check for correctness: use the script which split the string!-->
-                        
-                        
+
+
                         <idno>TCD MS 3987a/1</idno>
-                        
-                        
+
+
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc xml:id="corresp1">
-                
-                
+
+
                 <correspAction type="received">
-                    
+
                     <persName ref="#Mrs_Corrigan">Mrs Corrigan</persName>
-                    
-                    
-                    
-                    
-                    
+
+
+
+
+
                     <placeName ref="#Belfast">Belfast, Ireland</placeName>
-                    
+
                     <!-- <date>WE DON'T HAVE A DEVOTED FIELD!!!</date> -->
                 </correspAction>
-                
+
                 <correspAction type="sent">
-                    
+
                     <persName ref="#Corrigan_E">Eileen Corrigan</persName>
-                    
-                    
+
+
                     <placeName ref="#Dublin">Dublin, Ireland</placeName>
-                    
-                    
+
+
                     <date when="1916-04-24">24 April 1916</date>
                     <!-- Make the date human-readable : rcd: strftime-->
-                    
+
                 </correspAction>
             </correspDesc>
             <textClass>
                 <!-- Type of the letter should be separate -->
                 <keywords>
                     <list>
-                        
+
                         <item n="gender">Female</item>
                         <!--put an IF -->
-                        
-                        
-                        
+
+
+
                         <item n="tag">Easter Rising Ireland 1916</item>
-                        
-                        
-                        
-                        
-                        
-                        
+
+
+
+
+
+
                     </list>
                 </keywords>
             </textClass>
@@ -155,82 +155,85 @@
                 <p><!-- Was done by crowdsourcing, Python, magic, etc. --></p>
             </projectDesc>
             <appInfo>
-                <application xml:id="smthing" ident="rh" version="1">
+                <application xml:id="LetEd" ident="rh" version="1">
                     <desc>Richard's Python Editing Tool</desc>
                 </application>
             </appInfo>
-            
+
         </encodingDesc>
         <revisionDesc>
-            
+
             <change when="2015-11-18T14:56:47" who="#PythonScript_pageDublicatesResolve"> Old page
                 dublicate removed: </change>
-            
+
             <change when="2015-11-18T14:57:03" who="#PythonScript_mergeLetterPagesTransform"> New
                 Letter created: </change>
-            
+
             <change when="2015-11-18T14:57:04" who="#PythonScript_mergeLetterPagesResolve">
                 Additional page merged into Letter: </change>
-            
+
             <change when="2015-11-18T14:57:13" who="#PythonScript"> Filtered from Completed List: </change>
-            
+
             <change when="2015-06-09T00:00:00" who="#HH"> OmekaProof: </change>
-            
+
             <change when="2015-11-18T14:57:23" who="#PythonScript_TagCleaner"> Clean Tags: Page 770
                 of 0 errors. </change>
-            
+
             <change when="2015-11-18T14:57:23" who="#PythonScript_TagCleaner"> Clean Tags: Page 771
                 of 0 errors. </change>
-            
+
             <change when="2015-11-18T14:57:29" who="#PythonScript_wrapOpenerCloser"> Opener and
                 closer wrapped: </change>
-            
-            
+
+
             <change when="2015-11-19T15:54:13" who="#Linda"> TEI check </change>
         </revisionDesc>
     </teiHeader>
-    
+
     <facsimile>
-        
+
         <graphic xml:id="L1916_289_img_1" url="2121798b8c459d5f925b3e614d40b131.jpg"/>
 
         <graphic xml:id="L1916_289_img_2" url="32dcb72f6622936257d029657b5ca0c9.jpg"/>
-      
+
     </facsimile>
-    
-    
-    <text><group>
-        <pb facs="#L1916_289_img_2" n=""/>
-        <text type="postcard" decls="#corresp1">
-        <body>
-            <div type="address">
-                <ab>
-                    <address>
+
+
+    <text>
+        <group>
+            <pb facs="#L1916_289_img_2" n=""/>
+            <text type="postcard" decls="#corresp1">
+                <body>
+                    <div type="address">
+                        <ab>
+                            <address>
                 <addrLine>Mrs Corrigan</addrLine>
                 <addrLine>The Manse,</addrLine> 
                 <addrLine>Green Road,</addrLine>
                 <addrLine><hi rend="underline">Knock</hi>, <hi rend="underline">Belfast</hi></addrLine>
             </address>
-                </ab>
-            </div>
-            <pb facs="#L1916_289_img_1" n=""/>
-            <div type="message">
-                <opener>
-                    <address><addrLine><add>Rathmines</add></addrLine>
+                        </ab>
+                    </div>
+                    <pb facs="#L1916_289_img_1" n=""/>
+                    <div type="message">
+                        <opener>
+                            <address><addrLine><add>Rathmines</add></addrLine>
                     <addrLine><add>Dublin</add></addrLine> 
                     <addrLine>Y.W.C.A.</addrLine></address>
-                    <dateline><date>24th April <add>1916</add></date></dateline>
-                </opener>
-                
-                <p>Just a line to let you know <lb/> I arrived safely, in case the <lb/> papers
-                    should make you <lb/> anxious. All communication <lb/> is stopped from Dublin
-                    <lb/> but a lady promised to <lb/> post this tomorrow from <lb/>the North.
-                    Everything will <lb/> probably be all right <lb/> tomorrow, as the military
-                    <lb/> are coming from Curragh.</p>
-                <closer><salute>With love</salute>
-                    <signed>Frog.</signed></closer>
-                
-            </div>
-        </body>
-    </text></group></text>
+                            <dateline><date>24th April <add>1916</add></date></dateline>
+                        </opener>
+
+                        <p>Just a line to let you know <lb/> I arrived safely, in case the <lb/>
+                            papers should make you <lb/> anxious. All communication <lb/> is stopped
+                            from Dublin <lb/> but a lady promised to <lb/> post this tomorrow from
+                            <lb/>the North. Everything will <lb/> probably be all right <lb/>
+                            tomorrow, as the military <lb/> are coming from Curragh.</p>
+                        <closer><salute>With love</salute>
+                            <signed>Frog.</signed></closer>
+
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
 </TEI>

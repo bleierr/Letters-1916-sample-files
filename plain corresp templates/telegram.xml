@@ -100,7 +100,7 @@
                 <p/>
             </projectDesc>
             <appInfo>
-                <application ident="placeholder" version="1" xml:id="placeholderID">
+                <application xml:id="LetEd" ident="g" version="1">
                     <desc/>
                 </application>
             </appInfo>

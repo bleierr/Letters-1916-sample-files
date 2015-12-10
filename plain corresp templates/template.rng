@@ -179,6 +179,7 @@
                 <choice>
                   <value>1</value>
                   <value>1.5</value>
+                  <value>2</value>
                 </choice>
               </attribute>
               <attribute>
@@ -290,7 +291,10 @@
     <element name="date">
       <optional>
         <attribute name="when">
+          <choice>
           <ref name="dateValue"></ref>
+            <data type="dateTime"></data>
+          </choice>
         </attribute>
       </optional>
       <oneOrMore>

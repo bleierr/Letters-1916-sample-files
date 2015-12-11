@@ -306,6 +306,7 @@
           <text/>
           <ref name="hi"/>
           <ref name="add"/>
+          <ref name="sic"/>
         </choice>
       </oneOrMore>
     </element>
@@ -688,7 +689,8 @@
 <value>#Kerry</value>
 <value>#Cavan</value>
 <value>#Wicklow</value>
-<value>#Armagh</value>
+ <value>#Armagh</value>
+            <value>#Warwickshire</value>
 <value>#Longford</value>
 <value>#Roscommon</value>
 <value>#Monaghan</value>
@@ -789,10 +791,7 @@
         </data>
       </attribute>
       <attribute name="n">
-        <choice>
-          <data type="integer"/>
-          <empty></empty>
-        </choice>
+        <data type="integer"/>
       </attribute>
     </element>
   </define>
@@ -803,6 +802,7 @@
           <ref name="address"/>
           <ref name="name"/>
           <ref name="lb"></ref>
+          <ref name="foreign"></ref>
           <ref name="lineLevel"/>
           <text></text>
         </choice>
@@ -839,6 +839,7 @@
           <ref name="cb"/>
           <ref name="gap"/>
           <ref name="unclear"/>
+          <ref name="foreign"/>
           <text></text>
         </choice>
       </oneOrMore>
@@ -1421,7 +1422,11 @@
 <value>#Parr_T</value>
 <value>#Pearse_M</value>
 <value>#Pearse_P_H</value>
-<value>#person_Id</value>
+            <value>#McKee_W_S</value>
+            <value>#Kelly_J_Fr</value>
+            <value>#Town_Clerk_Blackrock</value>
+            <value>#Todd_R_H</value>
+            <value>#Hardy_J_A</value>
 <value>#Phillips_Jo</value>
 <value>#Pim_C</value>
 <value>#Pim_H</value>

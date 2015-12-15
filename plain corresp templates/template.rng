@@ -261,9 +261,6 @@
           <element name="orgName">
             <text/>
           </element>
-          <element name="region">
-            <text/>
-          </element>
           <ref name="placeName"/>
         </group>
       </choice>
@@ -719,7 +716,9 @@
           <element name="country">
             <data type="NCName"/>
           </element>
-          
+          <element name="region">
+            <text/>
+          </element>
           <element name="settlement">
             <data type="NCName"/>
           </element>
@@ -1285,7 +1284,6 @@
 <value>#Mrs_Budson</value>
 <value>#Mrs_Corrigan</value>
 <value>#Mrs_Tweedy</value>
-<value>#Murnane_E_F</value>
 <value>#Murnane_E_F</value>
 <value>#Murphy_L</value>
 <value>#ODoherty_K</value>

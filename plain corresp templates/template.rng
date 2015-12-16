@@ -1138,6 +1138,8 @@
     <element name="persName">
       <attribute name="ref">
           <choice>
+            <value>#Holahan_P</value>
+            <value>#Albert_x</value>
             <value>#K_B_x</value>
             <value>#Davin_M</value>
             <value>#Taylor_F_M</value>

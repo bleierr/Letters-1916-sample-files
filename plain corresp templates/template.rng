@@ -546,6 +546,7 @@
 <value>#Listowel</value>
 <value>#Liverpool</value>
 <value>#London</value>
+            <value>#Channel_Islands</value>
             <value>#Hertfordshire</value>
 <value>#Londonderry</value>
 <value>#Longford</value>
@@ -1154,7 +1155,7 @@
             <value>#OBriain_L</value>
             <value>#Curran_A</value>
             <value>#Teebay_K</value>
-            <value>#Killacky_P_I</value>
+            <value>#Killacky</value>
             <value>#Coyle_C_M</value>
             <value>#Lemass_H</value>
             <value>#Fletcher-Vane_F_P</value>

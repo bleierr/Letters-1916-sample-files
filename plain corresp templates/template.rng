@@ -457,6 +457,7 @@
 <value>#Manorhamilton</value>
 <value>#Drumcondra</value>
 <value>#Dublin</value>
+            <value>#Portobello</value>
 <value>#Dun_Laoghaire</value>
 <value>#Dundalk</value>
 <value>#Dundrum</value>
@@ -1566,6 +1567,7 @@
             <value>#OHanrahan_A</value>
             <value>#OHanrahan_H</value>
             <value>#Mallin_A</value>
+            <value>#Carson_E</value>
             <value>#McCann_J</value>
             <value>#Dillon_F</value>
             <value>#Kirker_Fitzwalter_H</value>

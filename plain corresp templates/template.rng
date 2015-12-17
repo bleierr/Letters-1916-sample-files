@@ -72,6 +72,7 @@
                         <value>#LiamSmith</value>
                         <value>#Private_Collection</value>
                         <value>#ClaireMissen</value>
+                        <value>#AdamsFamily</value>
                         <value>#MichaelHannah</value>
                         <value>#PatCarroll</value>
                         <value>#RoryOLoughlin</value>
@@ -1530,12 +1531,16 @@
             <value>#Lyon_W_G</value>
             <value>#OBrien_J_R</value>
             <value>#Lamb_F_W</value>
-<value>#Draper_H_D</value>
-<value>#Hamilton_J</value>
-<value>#Advertising_Manager_Belfast_Telegraph</value>
-<value>#ffrench_Mullen_D</value>
-<value>#Duke_H</value>
-<value>#SpencerSmith_C</value>
+            <value>#Draper_H_D</value>
+            <value>#Hamilton_J</value>
+            <value>#Advertising_Manager_Belfast_Telegraph</value>
+            <value>#ffrench_Mullen_D</value>
+            <value>#Duke_H</value>
+            <value>#SpencerSmith_C</value>
+            <value>#Adams_A</value>
+            <value>#Adams_J</value>
+            <value>#Adams_M</value>
+            <value>#Evans_J</value>
             <value>#Kelly_S</value>
             <value>#McCarthy_J</value>
             <value>#Delaney_T_F</value>

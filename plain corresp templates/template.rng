@@ -85,6 +85,7 @@
                         <value>#KellyFamily</value>
                         <value>#Garland</value>
                         <value>#OModhrainFamily</value>
+                        <value>#JoyceTimms</value>
                       </choice>
                   </attribute>
                   <text/>
@@ -1281,7 +1282,7 @@
             <value>#Lyden_x</value>
             <value>#J_B_x</value>
             <value>#Power_x</value>
-            <value>Farrelly_M</value>
+            <value>#Farrelly_M</value>
 <value>#Sheehan_G</value>
 <value>#Carphin_J</value>
 <value>#Carphin_P_B</value>
@@ -1547,6 +1548,7 @@
             <value>#Adams_A</value>
             <value>#Adams_J</value>
             <value>#Adams_M</value>
+            <value>#Woodman_A_G</value>
             <value>#Evans_J</value>
             <value>#Costello_M_C_C</value>
             <value>#Moore_T_C_R</value>

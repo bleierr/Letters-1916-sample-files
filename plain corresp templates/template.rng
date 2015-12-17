@@ -549,6 +549,7 @@
 <value>#London</value>
             <value>#Channel_Islands</value>
             <value>#Hertfordshire</value>
+            <value>#Glasnevin</value>
 <value>#Londonderry</value>
 <value>#Longford</value>
 <value>#Lough_Derg</value>
@@ -1544,10 +1545,17 @@
             <value>#Costello_M_C_C</value>
             <value>#Moore_T_C_R</value>
             <value>#Gough_J</value>
-            <value>#George_D_L</value>
             <value>#Kelly_S</value>
             <value>#McCarthy_J</value>
+            <value>#Lloyd_George_D</value>
             <value>#Delaney_T_F</value>
+            <value>#Cotter_N</value>
+            <value>#Nely_x</value>
+            <value>#OHanrahan_Mary</value>
+            <value>#OHanrahan_Marie</value>
+            <value>#OHanrahan_E</value>
+            <value>#OHanrahan_A</value>
+            <value>#OHanrahan_H</value>
             <value>#McCann_J</value>
             <value>#Dillon_F</value>
             <value>#Kirker_Fitzwalter_H</value>

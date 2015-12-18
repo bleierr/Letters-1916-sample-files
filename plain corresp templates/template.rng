@@ -1301,7 +1301,8 @@
 <value>#Brabazon_R</value>
 <value>#Brady_K</value>
 <value>#Calnan_M</value>
-<value>#Churchill_G_I</value>
+            <value>#Wimborne_L</value>
+            <value>#Crean_J</value>
 <value>#Coffey_J</value>
 <value>#Collins_M</value>
             <value>#Commandant_Richmond_Barracks</value>
@@ -1487,8 +1488,6 @@
 <value>#Ryan_J_M</value>
 <value>#Ryan_P_F</value>
 <value>#Scollan_J_J</value>
-<value>#see Churchill_G_I</value>
-<value>#see Churchill_G_I</value>
 <value>#Shaw_G_B</value>
 <value>#Sheridan_F</value>
 <value>#Smyth_Th</value>

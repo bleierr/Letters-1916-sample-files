@@ -1015,8 +1015,13 @@
   
   <define name="del">
     <element name="del">
-      <text/>
-    </element>
+      <oneOrMore>
+        <choice>
+          <ref name="lb"></ref>
+          <text/>
+          <ref name="hi"></ref>
+        </choice>
+      </oneOrMore>    </element>
   </define>
   
   <define name="sic">

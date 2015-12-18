@@ -391,6 +391,7 @@
 <value>#Birr</value>
 <value>#Blackburn</value>
 <value>#Blackrock</value>
+            <value>#Lucan</value>
 <value>#Booterstown</value>
 <value>#Boscombe</value>
 <value>#Boston</value>
@@ -1537,6 +1538,10 @@
             <value>#Taylor_J</value>
             <value>#Blackwood_H</value>
             <value>#Blackwood_H_G</value>
+            <value>#Brennan_Joseph</value>
+            <value>#Miles_Philip_William</value>
+            <value>#Oliver_D_W</value>
+            <value>#Craske_D</value>
             <value>#Savage_Armstrong_M_E</value>
             <value>#Samuel_H</value>
             <value>#Murphy_S</value>

@@ -73,6 +73,7 @@
                         <value>#Private_Collection</value>
                         <value>#ClaireMissen</value>
                         <value>#AdamsFamily</value>
+                        <value>#ShackletonFamily</value>
                         <value>#MichaelHannah</value>
                         <value>#PatCarroll</value>
                         <value>#RoryOLoughlin</value>
@@ -1529,8 +1530,12 @@
             <value>#Tobin_R_F</value>
             <value>#OConnell_M</value>
             <value>#Campbell_J_M</value>
+            <value>#Shackleton_R</value>
+            <value>#C_x</value>
             <value>#Devlin_J</value>
             <value>#Home_Office_London_x</value>
+            <value>#Taylor_J</value>
+            <value>#Savage_Armstrong_M_E</value>
             <value>#Samuel_H</value>
             <value>#Murphy_S</value>
             <value>#Welply_W_H</value>

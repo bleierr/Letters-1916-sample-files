@@ -1210,6 +1210,8 @@
             <value>#Curtin_D_G</value>
             <value>#Moynihan_M</value>
 <value>#Moynihan_J</value>
+            <value>#Moran_M</value>
+            <value>#Gus_x</value>
 <value>#Ceannt_E</value>
 <value>#FitzGerald_M</value>
 <value>#Dyer_P</value>
@@ -1616,7 +1618,8 @@
             <value>#Healy_T_M</value>
             <value>#Ginnell_L_J</value>
             <value>#Acetylene_Corporation</value>
-            <value>#Messrs_Corrigan_and__Corrigan</value>
+            <value>#Messrs_Corrigan_and_Corrigan</value>
+            <value>#NiModhrain_M</value>
           </choice>
         
       </attribute>

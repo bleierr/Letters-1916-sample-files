@@ -306,6 +306,7 @@
           <text/>
           <ref name="hi"/>
           <ref name="add"/>
+          <ref name="del"></ref>
           <ref name="sic"/>
         </choice>
       </oneOrMore>
@@ -1311,6 +1312,7 @@
             <value>#Crean_J</value>
 <value>#Coffey_J</value>
 <value>#Collins_M</value>
+            <value>#M_S_x</value>
             <value>#Commandant_Richmond_Barracks</value>
 <value>#Corrigan_E</value>
 <value>#Dillon_A_C</value>
@@ -1575,7 +1577,7 @@
             <value>#Gough_J</value>
             <value>#Kelly_S</value>
             <value>#McCarthy_J</value>
-            <value>#Lloyd_George_D</value>
+            <value>#George_D_L</value>
             <value>#Commandant_Frongoch_x</value>
             <value>#Waller_M_L</value>
             <value>#Ag_x</value>

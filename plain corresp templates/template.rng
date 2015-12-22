@@ -463,6 +463,8 @@
 <value>#Manorhamilton</value>
 <value>#Drumcondra</value>
 <value>#Dublin</value>
+            <value>#Chatham</value>
+            <value>#Caherciveen</value>
             <value>#Portobello</value>
 <value>#Dun_Laoghaire</value>
 <value>#Dundalk</value>
@@ -1116,14 +1118,14 @@
       <optional>
         <ref name="opener"/>
       </optional>
-      <zeroOrMore>
+      <oneOrMore>
         <choice>
           <ref name="note"></ref>
           <ref name="ab"/>
           <ref name="p"/>
           <ref name="breaks"></ref>
         </choice>
-      </zeroOrMore>
+      </oneOrMore>
       <optional>
         <ref name="closer"/>
       </optional>
@@ -1254,7 +1256,14 @@
             <value>#Command_Paymaster_x</value>
             <value>#WorthyHorne_L</value>
             <value>#Barklie_J</value>
-            
+            <value>#Acting_Secretary_x</value>
+            <value>#ODonoghue_P</value>
+            <value>#Secretary_Irish_Office_x</value>
+            <value>#SmithWright_J_H</value>
+            <value>#Garvey_T_B</value>
+            <value>#KingIrvine_R</value>
+            <value>#Kinsella_M</value>
+            <value>#McKinnonWood_T</value>
 <value>#Ceannt_E</value>
 <value>#FitzGerald_M</value>
 <value>#Dyer_P</value>

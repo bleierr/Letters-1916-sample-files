@@ -702,7 +702,7 @@
 <value>#Roscommon</value>
 <value>#Monaghan</value>
 <value>#Berkshire</value>
-<value>#Galway</value>
+            <value>#Headford</value>
 <value>#Dolphins_Barn</value>
 <value>#Germany_Zossen</value>
             <value>#Germany</value>
@@ -1247,8 +1247,13 @@
             <value>#Anderson_R</value>
             <value>#Hyder_C_J</value>
             <value>#Harcourt_L</value>
-            <value>#Edward H. Andrews</value>
-            
+            <value>#Andrews_E_H</value>
+            <value>#Maloney_J</value>
+            <value>#Heath_T_L</value>
+            <value>#Chapman_E_L</value>
+            <value>#Command_Paymaster_x</value>
+            <value>#WorthyHorne_L</value>
+            <value>#Barklie_J</value>
             
 <value>#Ceannt_E</value>
 <value>#FitzGerald_M</value>

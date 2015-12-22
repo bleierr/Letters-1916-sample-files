@@ -87,6 +87,7 @@
                         <value>#Garland</value>
                         <value>#OModhrainFamily</value>
                         <value>#JoyceTimms</value>
+                        <value>#GenevieveHarden</value>
                       </choice>
                   </attribute>
                   <text/>
@@ -340,6 +341,7 @@
         <attribute name="ref">
           <choice>
             <value>#Ireland</value>
+            <value>#England</value>
             <value>#Abbeyleix</value>
 <value>#Abingdon</value>
 <value>#Achill</value>
@@ -1238,6 +1240,16 @@
             <value>#OGrady_x</value>
             <value>#Mattei_M</value>
             <value>#Clark_J_J</value>
+            <value>#Harden_D</value>
+            <value>#Harden_S</value>
+            <value>#Citroen_M</value>
+            <value>#Houd_F_L_C</value>
+            <value>#Anderson_R</value>
+            <value>#Hyder_C_J</value>
+            <value>#Harcourt_L</value>
+            <value>#Edward H. Andrews</value>
+            
+            
 <value>#Ceannt_E</value>
 <value>#FitzGerald_M</value>
 <value>#Dyer_P</value>

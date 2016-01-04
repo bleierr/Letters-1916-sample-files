@@ -463,9 +463,12 @@
 <value>#Manorhamilton</value>
 <value>#Drumcondra</value>
 <value>#Dublin</value>
+            <value>#Everton_Terrace</value>
             <value>#Chatham</value>
             <value>#Caherciveen</value>
             <value>#Portobello</value>
+            <value>#Everton_Terrace</value>
+            
 <value>#Dun_Laoghaire</value>
 <value>#Dundalk</value>
 <value>#Dundrum</value>
@@ -1596,6 +1599,9 @@
             <value>#Tobin_R_F</value>
             <value>#OConnell_M</value>
             <value>#Campbell_J_M</value>
+            <value>#Marcella_M</value>
+            <value>#Caunt_W_H</value>
+            <value>#Edward_x</value>
             <value>#Shackleton_R</value>
             <value>#C_x</value>
             <value>#Devlin_J</value>

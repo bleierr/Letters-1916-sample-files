@@ -463,6 +463,7 @@
 <value>#Manorhamilton</value>
 <value>#Drumcondra</value>
 <value>#Dublin</value>
+            <value>#North_Circular_Road</value>
             <value>#Everton_Terrace</value>
             <value>#Chatham</value>
             <value>#Caherciveen</value>
@@ -1251,7 +1252,10 @@
             <value>#Citroen_M</value>
             <value>#Houd_F_L_C</value>
             <value>#Anderson_R</value>
+            <value>#Anderson_W_C</value>
             <value>#Hyder_C_J</value>
+            <value>#Botha_L</value>
+            <value>#Burns_J_T</value>
             <value>#Harcourt_L</value>
             <value>#Andrews_E_H</value>
             <value>#Maloney_J</value>
@@ -1314,6 +1318,7 @@
             <value>#Hogan_K</value>
             <value>#Jephson_A</value>
             <value>#Curry_M</value>
+            <value>#Gore_Booth_E</value>
 <value>#Farrell_J_J_et_al</value>
 <value>#Wynne_H_A</value>
 <value>#Fitzgerald_Barry_R</value>

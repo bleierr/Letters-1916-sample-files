@@ -463,6 +463,7 @@
 <value>#Manorhamilton</value>
 <value>#Drumcondra</value>
 <value>#Dublin</value>
+            <value>#Dublin_GPO</value>
             <value>#North_Circular_Road</value>
             <value>#Everton_Terrace</value>
             <value>#Chatham</value>
@@ -1256,6 +1257,17 @@
             <value>#Andrewes_E_A</value>
             <value>#De_Buitleir_N</value>
             <value>#Hyder_C_J</value>
+            <value>#Miss_Macoun_x</value>
+            
+            <value>#T_x</value>
+            <value>#Sister_Mangan</value>
+            <value>#Reidy_J</value>
+            <value>#Blackwood_B</value>
+            <value>#Barry_T</value>
+            <value>#MacCurtain_T</value>
+            <value>#Reade_E</value>
+            <value>#MacDermott_S</value>
+            
             <value>#Botha_L</value>
             <value>#Burns_J_T</value>
             <value>#Harcourt_L</value>

@@ -1124,14 +1124,18 @@
       <optional>
         <ref name="opener"/>
       </optional>
-      <oneOrMore>
+      <choice>
+        <ref name="ab"/>
+        <ref name="p"/>
+      </choice>
+      <zeroOrMore>
         <choice>
           <ref name="note"></ref>
           <ref name="ab"/>
           <ref name="p"/>
           <ref name="breaks"></ref>
         </choice>
-      </oneOrMore>
+      </zeroOrMore>
       <optional>
         <ref name="closer"/>
       </optional>
@@ -1582,6 +1586,7 @@
             <value>#Town_Clerk_Blackrock</value>
             <value>#Todd_R_H</value>
             <value>#Hardy_J_A</value>
+            <value>#Burgess_Ch</value>
             <value>#Lowe_W</value>
 <value>#Phillips_Jo</value>
 <value>#Pim_C</value>

@@ -889,6 +889,7 @@
           <ref name="sic"/>
           <ref name="gap"></ref>
           <ref name="add"></ref>
+          <ref name="del"></ref>
         </choice>
       </oneOrMore>
     </element>
@@ -1322,7 +1323,6 @@
             <value>#De_Valera_S</value>
             <value>#Campbell_xx</value>
             <value>#Rundle_W_J</value>
-            
             <value>#Wheelwright_C</value>
             <value>#Wheelwright_T</value>
             <value>#Flanagan_M</value>
@@ -1332,7 +1332,13 @@
             <value>#French_J</value>
             <value>#Muldoon_J</value>
             <value>#Vickery_E</value>
-            
+            <value>#Secretary_Chief_Commissioner_of_Police</value>
+            <value>#Denis_X</value>
+            <value>#NiSheaghda_E</value>
+            <value>#McDonough_M_B</value>
+            <value>#Dunne_J_J</value>
+            <value>#Sister_Cyprian_M</value>
+            <value>#Miss_Griffin_x</value>
 <value>#OHegarty_P_S</value>
 <value>#Carroll_P_A</value>
 <value>#Rainey_J_W</value>

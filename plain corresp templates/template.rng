@@ -351,7 +351,7 @@
 <value>#Alderney</value>
 <value>#Alexandria</value>
 <value>#Altrincham</value>
-<value>#An_Grianàn</value>
+<value>#An_Grianan</value>
 <value>#Ancoats</value>
 <value>#Ardeevin</value>
 <value>#Armagh</value>
@@ -1696,6 +1696,24 @@
             <value>#Samuel_H</value>
             <value>#Murphy_S</value>
             <value>#Welply_W_H</value>
+            <value>#Dore_E</value>
+            <value>#Cullen_T</value>
+            <value>#Shorter_C</value>
+            <value>#Young_E</value>
+            <value>#Gill_T</value>
+            <value>#Byrne_J</value>
+            <value>#Annie_F</value>
+            <value>#Lynch_R</value>
+            <value>#Sheaghda_Ni_C</value>
+            <value>#Stockman_H</value>
+            <value>#MacGiollaComhghall_E</value>
+            <value>#Bourke_Cockran_W</value>
+            <value>#Dolan_D</value>
+            <value>#Jack_X</value>
+            <value>#MacMahon_J_S</value>
+            <value>#Celia_x</value>
+            <value>#McArdle_P_J</value>
+            
             <value>#Gough_H</value>
             <value>#Lyon_W_G</value>
             <value>#OBrien_J_R</value>

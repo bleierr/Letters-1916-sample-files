@@ -386,6 +386,7 @@
 <value>#Bere_Island</value>
 <value>#Berlin</value>
 <value>#Bermondsey</value>
+            <value>#Bulgaria</value>
 <value>#Berne</value>
 <value>#Bettystown</value>
 <value>#Bexhill</value>
@@ -1450,11 +1451,31 @@
 <value>#Hickey_R</value>
 <value>#Jim_x_0</value>
             
+            <value>#Chenevix_Trench_C</value>
+            <value>#Chenevix_Trench_R</value>
+            <value>#Mooney_P</value>
+            <value>#Mooney_K</value>
+            <value>#Grey_E</value>
+            <value>#Schilling_A</value>
+            <value>#Londonderry_L</value>
+            <value>#Fitzmaurice_H</value>
+            <value>#Montgomery_W</value>
+            <value>#Montgomery_H_H</value>
+            <value>#Montgomery_S</value>
+            <value>#Davidson_C_M</value>
+            <value>#Johnson_H_A</value>
+            <value>#Nolan_T_V</value>
+            <value>#Wrafter_J</value>
+            <value>#Roche_D</value>
+            <value>#Duffin_O</value>
+            <value>#Duffin_R</value>
+            <value>#Castletown_L</value>
+            <value>#Bellew_G</value>
+            <value>#Morris_P</value>
             <value>#Owens_R_L</value>
             <value>#Guinell_A</value>
             <value>#D_M_R_x</value>
             <value>#Mangan_E</value>
-            
 <value>#Joe</value>
 <value>#Kelly_M</value>
 <value>#Kenny_M</value>

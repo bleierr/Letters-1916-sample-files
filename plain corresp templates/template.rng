@@ -309,6 +309,7 @@
           <ref name="add"/>
           <ref name="del"></ref>
           <ref name="sic"/>
+          <ref name="unclear"/>
         </choice>
       </oneOrMore>
     </element>
@@ -1793,6 +1794,11 @@
             <value>#OBrien_W</value>
             <value>#Byrne_A</value>
             <value>#Griffith_A</value>
+            <value>#Furey_T</value>
+            <value>#Dane_J_M</value>
+            <value>#Connolly_Joseph</value>
+            <value>#Farrant_x</value>
+            <value>#C_W_F</value>
             <value>#Healy_T_M</value>
             <value>#Ginnell_L_J</value>
             <value>#Acetylene_Corporation</value>

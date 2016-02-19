@@ -88,6 +88,7 @@
                         <value>#OModhrainFamily</value>
                         <value>#JoyceTimms</value>
                         <value>#GenevieveHarden</value>
+                        <value>#MooneyFamily</value>
                       </choice>
                   </attribute>
                   <text/>
@@ -619,6 +620,10 @@
 <value>#Portland</value>
 <value>#Portlaoise</value>
 <value>#Portmarnock</value>
+            
+            <value>#Paderborn</value>
+            <value>#Dunboyne</value>
+            
 <value>#Queenstown</value>
 <value>#Queenstown_Cork</value>
 <value>#Raheny</value>

@@ -390,7 +390,7 @@
 <value>#Bere_Island</value>
 <value>#Berlin</value>
 <value>#Bermondsey</value>
-            <value>#Bulgaria</value
+            <value>#Bulgaria</value>
             <value>#Sofia</value>
 <value>#Berne</value>
 <value>#Bettystown</value>
@@ -832,6 +832,13 @@
           <text></text>
         </choice>
       </oneOrMore>
+      <optional>
+          <attribute name="type">
+          <choice>
+            <value>prePrinted-Text</value>
+          </choice>
+        </attribute>
+      </optional>
     </element>
   </define>
   <define name="head">

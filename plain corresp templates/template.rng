@@ -65,6 +65,7 @@
                         <value>#PCMA</value>
                         <value>#TCD</value>
                         <value>#UCD</value>
+                        <value>#UCC</value>
                         <value>#AIHS</value>
                         <value>#BlairHalliday</value>
                         <value>#FinnFamily</value>
@@ -1271,7 +1272,12 @@
             <value>#De_Buitleir_N</value>
             <value>#Hyder_C_J</value>
             <value>#Miss_Macoun_x</value>
-            
+            <value>#Fellenberg_Montgomery_H</value>
+            <value>#Nolan_A</value>
+            <value>#Coote_W</value>
+            <value>#Dixon_M</value>
+            <value>#OCallaghan_P</value>
+            <value>#Crawford_Wright_M</value>
             <value>#T_x</value>
             <value>#Sister_Mangan</value>
             <value>#Reidy_J</value>

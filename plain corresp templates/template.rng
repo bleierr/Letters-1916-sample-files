@@ -988,6 +988,7 @@
           <ref name="del"></ref>
           <ref name="add"></ref>
           <ref name="address"></ref>
+          <ref name="foreign"></ref>
         </choice>
       </oneOrMore>
       
@@ -1476,6 +1477,7 @@
             <value>#Guinell_A</value>
             <value>#D_M_R_x</value>
             <value>#Mangan_E</value>
+            <value>#Furey_T</value>
 <value>#Joe</value>
 <value>#Kelly_M</value>
 <value>#Kenny_M</value>
@@ -1812,7 +1814,7 @@
   
   <define name="dateValue">
     <data type="token">
-      <param name="pattern">(191[567]-[01][0-9]-[0123][0-9])|(191[567]-[01][0-9])|(191[567])|(2015)</param>
+      <param name="pattern">(191[567]-[01][0-9]-[0123][0-9])|(191[567]-[01][0-9])|(191[567])|(2015)|(2016)</param>
     </data>
   </define>
   

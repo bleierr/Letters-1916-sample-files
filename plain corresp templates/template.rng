@@ -290,6 +290,7 @@
           <ref name="breaks"/>
           <ref name="lineLevel"></ref>
           <ref name="foreign"></ref>
+          <ref name="fw"></ref>
           </choice>
       </oneOrMore>
     </element>
@@ -1686,6 +1687,8 @@
 <value>#Smyth_Th</value>
 <value>#Spender_L</value>
 <value>#Spender_W</value>
+            <value>#Percival_Maxwell_D</value>
+            <value>#Hezlet_C_O</value>
 <value>#StopfordGreen_A</value>
 <value>#Sullivan_A_M</value>
 <value>#The_Irish_Relief_Fund_Bazaar</value>

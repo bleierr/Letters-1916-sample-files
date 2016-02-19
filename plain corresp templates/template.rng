@@ -390,7 +390,8 @@
 <value>#Bere_Island</value>
 <value>#Berlin</value>
 <value>#Bermondsey</value>
-            <value>#Bulgaria</value>
+            <value>#Bulgaria</value
+            <value>#Sofia</value>
 <value>#Berne</value>
 <value>#Bettystown</value>
 <value>#Bexhill</value>
@@ -1424,6 +1425,9 @@
 <value>#OLoughlin_E</value>
 <value>#OLoughlin_P</value>
 <value>#Moore_M</value>
+            <value>#Private_Cahill</value>
+            <value>#Furise_R</value>
+            <value>#Leigh_White_A</value>
 <value>#Bannister_G</value>
 <value>#Caldwell_F</value>
 <value>#Bradley_J</value>

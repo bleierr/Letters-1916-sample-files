@@ -1054,6 +1054,7 @@
           <ref name="lb"></ref>
           <text/>
           <ref name="hi"></ref>
+          <ref name="time"></ref>
         </choice>
       </oneOrMore>    </element>
   </define>

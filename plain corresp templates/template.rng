@@ -571,6 +571,7 @@
 <value>#Listowel</value>
 <value>#Liverpool</value>
 <value>#London</value>
+            <value>#Lancashire</value>
             <value>#Channel_Islands</value>
             <value>#Hertfordshire</value>
             <value>#Glasnevin</value>
@@ -1081,6 +1082,7 @@
           <text/>
           <ref name="date"/>
           <ref name="foreign"/>
+          <ref name="del"/>
           <ref name="unclear"/>
           <ref name="hi"/>
           <ref name="time"></ref>
@@ -1457,6 +1459,9 @@
             <value>#Lyden_x</value>
             <value>#J_B_x</value>
             <value>#Power_x</value>
+            <value>#Langan_J</value>
+            <value>#Power_C</value>
+            <value>#Power_K</value>
             <value>#Farrelly_M</value>
 <value>#Sheehan_G</value>
 <value>#Carphin_J</value>

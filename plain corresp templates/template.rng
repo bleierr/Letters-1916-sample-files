@@ -720,6 +720,7 @@
             <value>#Iraq</value>
 <value>#Kerry</value>
 <value>#Cavan</value>
+            <value>#St_Omer</value>
 <value>#Wicklow</value>
  <value>#Armagh</value>
             <value>#Warwickshire</value>
@@ -1057,6 +1058,8 @@
           <text/>
           <ref name="hi"></ref>
           <ref name="time"></ref>
+          <ref name="gap"></ref>
+          <ref name="unclear"></ref>
         </choice>
       </oneOrMore>    </element>
   </define>
@@ -1875,6 +1878,7 @@
             <value>#Furey_T</value>
             <value>#Dane_J_M</value>
             <value>#Connolly_Joseph</value>
+            <value>#Northcote_J_S</value>
             <value>#Farrant_x</value>
             <value>#C_W_F</value>
             <value>#Healy_T_M</value>

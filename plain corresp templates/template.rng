@@ -714,6 +714,7 @@
 <value>#Berkshire</value>
 <value>#Wicklow</value>
 <value>#France</value>
+            <value>#USA</value>
 <value>#Kerry</value>
 <value>#Cavan</value>
 <value>#Wicklow</value>
@@ -1739,6 +1740,8 @@
             <value>#Kelly_R_C</value>
             <value>#Tobin_R_F</value>
             <value>#OConnell_M</value>
+            <value>#A_F_x</value>
+            <value>#Delaney_J</value>
             <value>#Campbell_J_M</value>
             <value>#Marcella_M</value>
             <value>#Caunt_W_H</value>

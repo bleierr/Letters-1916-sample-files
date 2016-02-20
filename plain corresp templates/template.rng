@@ -333,6 +333,7 @@
           <text/>
           <ref name="breaks"/>
           <ref name="p"/>
+          <ref name="date"/>
           <ref name="address"></ref>
           <ref name="lineLevel"></ref>
         </choice>
@@ -1458,6 +1459,10 @@
             <value>#Farrelly_M</value>
 <value>#Sheehan_G</value>
 <value>#Carphin_J</value>
+            <value>#Guiness_P</value>
+            <value>#Nevinson_H_W</value>
+            <value>#Jackson_J</value>
+            <value>#Green_M</value>
 <value>#Carphin_P_B</value>
 <value>#deValera_E</value>
 <value>#Walsh_E</value>
@@ -1696,6 +1701,7 @@
 <value>#Smyth_Th</value>
 <value>#Spender_L</value>
 <value>#Spender_W</value>
+            <value>#Spender_Family_x</value>
             <value>#Percival_Maxwell_D</value>
             <value>#Hezlet_C_O</value>
 <value>#StopfordGreen_A</value>

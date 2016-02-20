@@ -892,7 +892,7 @@
         <choice>
           <text></text>
           <ref name="salute"/>
-          <ref name="lb"/>
+          <ref name="breaks"/>
           <ref name="lineLevel"></ref>
           <ref name="signed"></ref>
           <ref name="address"></ref>

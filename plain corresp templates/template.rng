@@ -430,6 +430,7 @@
 <value>#Cashelnagore</value>
 <value>#Ashtown</value>
 <value>#Castleblaney</value>
+            <value>#Castlebar</value>
 <value>#Castlegregory</value>
 <value>#Castleknock</value>
 <value>#Cavan</value>
@@ -1847,6 +1848,10 @@
             <value>#Delaney_T_F</value>
             <value>#Cotter_N</value>
             <value>#Tate_M</value>
+            <value>#Martin_J_R</value>
+            <value>#Brabazon_H_G</value>
+            <value>#Cregan_M</value>
+            <value>#Hayes_P_C</value>
             <value>#Haig_D</value>
             <value>#Canson_R</value>
             <value>#Nely_x</value>

@@ -292,7 +292,6 @@
           <ref name="lineLevel"></ref>
           <ref name="foreign"></ref>
           <ref name="fw"></ref>
-          <ref name="pc"></ref>
           </choice>
       </oneOrMore>
     </element>
@@ -812,6 +811,11 @@
   <define name="lb">
     <element name="lb">
       <empty/>
+      <optional>
+        <attribute name="rend">
+          <value>hyphen</value>
+        </attribute>
+      </optional>
     </element>
   </define>
   <define name="cb">

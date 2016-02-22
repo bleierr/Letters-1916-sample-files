@@ -292,6 +292,7 @@
           <ref name="lineLevel"></ref>
           <ref name="foreign"></ref>
           <ref name="fw"></ref>
+          <ref name="pc"></ref>
           </choice>
       </oneOrMore>
     </element>
@@ -1972,6 +1973,15 @@
           <ref name="hi"></ref>
         </choice>
       </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="pc">
+    <element name="time">
+      <text/>
+      <attribute name="type">
+        <value>hyphen</value>
+      </attribute>
     </element>
   </define>
   

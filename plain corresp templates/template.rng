@@ -827,7 +827,7 @@
     <element name="pb">
       <attribute name="facs">
         <data type="string">
-          <param name="pattern">#L1916_[0-9]+_img_[0-9]+</param>
+          <param name="pattern">#L1916_[0-9]+_img_[0-9]+[a-z]?</param>
         </data>
       </attribute>
       <attribute name="n">

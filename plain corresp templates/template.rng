@@ -243,6 +243,7 @@
       <optional><attribute name="ref"></attribute></optional>
       <choice>
         <text/>
+        <ref name="sic"></ref>
         <empty></empty>
       </choice>
     </element>
@@ -1396,6 +1397,7 @@
             <value>#MacDonagh_Jo</value>
             <value>#MacDonagh_Mu</value>
             <value>#Shorter_D</value>
+            <value>#Johnson_J</value>
             <value>#Mahony_J_J</value>
             <value>#Shekleton_S_J</value>
             <value>#Shekleton_H</value>

@@ -310,6 +310,13 @@
             <data type="dateTime"></data>
           </choice>
         </attribute>
+        
+      </optional>
+      <optional>
+        <attribute name="notBefore"></attribute>
+      </optional>
+      <optional>
+        <attribute name="notAfter"></attribute>
       </optional>
       <oneOrMore>
         <choice>
@@ -1685,6 +1692,11 @@
             <value>#Campbell_J_S</value>
             <value>#Stantin_J_H_G</value>
             <value>#R_H_x</value>
+            <value>#Sergeant_R_F</value>
+            <value>#Lynn_J</value>
+            <value>#BrigadierGeneral_x</value>
+            <value>#Carter_M_D</value>
+            <value>#Hutchinson_x</value>
 <value>#Hobson_J_B</value>
 <value>#Howe_B</value>
 <value>#Hurley_D</value>

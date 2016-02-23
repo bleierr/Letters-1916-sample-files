@@ -360,6 +360,7 @@
           <choice>
             <value>#Ireland</value>
             <value>#England</value>
+            <value>#Durham</value>
             <value>#Abbeyleix</value>
 <value>#Abingdon</value>
 <value>#Achill</value>
@@ -1465,6 +1466,12 @@
 <value>#Nally_N</value>
 <value>#Connolly_W_M</value>
             <value>#Connolly_J</value>
+            <value>#Goodman_W</value>
+            <value>#Lambton_A</value>
+            <value>#Lambton_J</value>
+            <value>#Cork_Citizens</value>
+            <value>#Governor_Richmond_Barracks_x</value>
+            <value>#Talbot_T</value>
             <value>#May_x</value>
             <value>#Governor_Dartmoor_Prison_x</value>
             <value>#Eyre_J</value>

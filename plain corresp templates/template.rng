@@ -241,13 +241,15 @@
     <element name="name">
       <optional><attribute name="xml:id"></attribute></optional>
       <optional><attribute name="ref"></attribute></optional>
-      <choice>
+      
         <oneOrMore>
-        <text/>
-        <ref name="sic"></ref>
-        <empty></empty>
+          <choice>
+          <text/>
+          <ref name="sic"></ref>
+          <empty></empty>
+          </choice>
       </oneOrMore>
-      </choice>
+      
     </element>
   </define>
   <define name="address">

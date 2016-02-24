@@ -2087,6 +2087,7 @@
       <oneOrMore>
         <choice>
           <ref name="lb"></ref>
+          <ref name="del"></ref>
         <text></text>
         </choice>
       </oneOrMore>

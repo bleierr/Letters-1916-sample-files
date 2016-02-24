@@ -297,6 +297,7 @@
           <ref name="lineLevel"></ref>
           <ref name="foreign"></ref>
           <ref name="fw"></ref>
+          <ref name="list"></ref>
           </choice>
       </oneOrMore>
     </element>
@@ -2063,6 +2064,21 @@
     <element name="ref">
       <attribute name="target"></attribute>
       <optional><text></text></optional>
+    </element>
+  </define>
+  <define name="list">
+    <element name="list">
+      <oneOrMore>
+        
+        <ref name="item">
+        </ref>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="item">
+    <element name="item">
+      <text></text>
     </element>
   </define>
   

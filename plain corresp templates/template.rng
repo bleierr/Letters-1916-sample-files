@@ -2073,6 +2073,12 @@
         <ref name="item">
         </ref>
       </oneOrMore>
+      <attribute name="rend">
+        <choice>
+          <value>numbered</value>
+          <value>bulleted</value>
+        </choice>
+      </attribute>
     </element>
   </define>
   

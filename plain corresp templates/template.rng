@@ -2084,7 +2084,12 @@
   
   <define name="item">
     <element name="item">
-      <text></text>
+      <oneOrMore>
+        <choice>
+          <ref name="lb"></ref>
+        <text></text>
+        </choice>
+      </oneOrMore>
     </element>
   </define>
   

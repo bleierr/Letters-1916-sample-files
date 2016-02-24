@@ -491,6 +491,8 @@
             <value>#Knockmaroon</value>
             <value>#Dublin_Royal_Barracks</value>
             <value>#Serbia</value>
+            <value>#Boulogne_Base</value>
+            <value>#Sirocco_Ironworks</value>
             <value>#North_Circular_Road</value>
             <value>#Everton_Terrace</value>
             <value>#Chatham</value>
@@ -830,7 +832,10 @@
       <empty/>
       <optional>
         <attribute name="rend">
+          <choice>
           <value>hyphen</value>
+            <value>permanent</value>
+          </choice>
         </attribute>
       </optional>
     </element>

@@ -1071,6 +1071,7 @@
         <choice>
          <ref name="unclear"></ref>
           <ref name="hi"></ref>
+          <ref name="sic"></ref>
         <ref name="address"></ref>
         <ref name="lb"/>
         <text/>

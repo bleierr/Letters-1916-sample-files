@@ -809,6 +809,8 @@
             <value>#Westmoreland_Chambers</value>
             <value>#39_Leeson_Park</value>
             <value>#42_Pearse_Street</value>
+            <value>#Vice_Regal_Lodge</value>
+            
             
            
             
@@ -1396,7 +1398,6 @@
           <value>#MacCurtain_T</value>
           <value>#Reade_E</value>
           <value>#MacDermott_S</value>
-
           <value>#Botha_L</value>
           <value>#Burns_J_T</value>
           <value>#Burns_J</value>
@@ -1493,7 +1494,6 @@
           <value>#Dowdall_J</value>
           <value>#Swift_MacNeill_J_G</value>
           <value>#Farrell_J_J</value>
-
           <value>#Mangan_D</value>
           <value>#ORahilly_B</value>
           <value>#MFadyen_Brown_J</value>
@@ -1627,7 +1627,6 @@
           <value>#General_Officer</value>
           <value>#Hickey_R</value>
           <value>#Jim_x_0</value>
-
           <value>#Chenevix_Trench_C</value>
           <value>#Chenevix_Trench_R</value>
           <value>#Mooney_P</value>
@@ -1709,12 +1708,10 @@
           <value>#Colbert_C</value>
           <value>#Crawford_A_G</value>
           <value>#Crawford_F_H</value>
-
           <value>#Hutchinson_R_G</value>
           <value>#Maguire_B</value>
           <value>#Hely_Hutchinson_R</value>
           <value>#Crofton_H_A</value>
-
           <value>#Crumley_Pat</value>
           <value>#Davidson_S_C</value>
           <value>#Dawson_W_R</value>
@@ -2160,6 +2157,9 @@
           <value>#McDowell_R</value>
           <value>#Buckmaster_S</value>
           <value>#Chamier_E</value>
+          <value>#Townsend_G</value>
+          <value>#Hunter_C</value>
+          <value>#Leverson_G</value>
 
         </choice>
 

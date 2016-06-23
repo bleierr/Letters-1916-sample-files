@@ -867,7 +867,16 @@
             <value>#Maryborough</value>
             <value>#12_D'Olier_Street</value>
             <value>#6_Westland_Row</value>
-            
+            <value>#Shamerock_Terrace</value>
+            <value>#Beauparc</value>
+            <value>#60_Dawson_Street</value>
+            <value>#7_Columbia_Place</value>
+            <value>#41_York_Street</value>
+            <value>#Seafield_House_Bangor</value>
+            <value>#10_Pembroke_Road</value>
+            <value>#59_Upper_Stephens_Street</value>
+            <value>#16_Sandymount_Avenue</value>
+            <value>#11_Frankfort_Avenue</value>
             
 
           </choice>
@@ -2306,6 +2315,15 @@
           <value>#Haslam_A</value>
           <value>#Chambers_T_Y</value>
           <value>#Waring_A_W</value>
+          <value>#E_K_M</value>
+          <value>#Van_Anda_C</value>
+          <value>#Byrne_J_F</value>
+          <value>#McCracken_E_A_M</value>
+          <value>#Browne_B_C_M</value>
+          <value>#Gleeson_E</value>
+          <value>#Kearney_J_C</value>
+          <value>#Moser_C</value>
+          <value>#Tuckey_I_D</value>
 
         </choice>
 

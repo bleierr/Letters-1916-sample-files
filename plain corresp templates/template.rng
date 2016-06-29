@@ -878,6 +878,12 @@
             <value>#16_Sandymount_Avenue</value>
             <value>#11_Frankfort_Avenue</value>
             <value>#16_Rathmines_Road</value>
+            <value>#Bank_of_Ireland</value>
+            <value>#Royal_College_of_Physicians</value>
+            <value>#40_Harcourt_Street</value>
+            <value>#Croydon</value>
+            <value>#Somerset_House</value>
+            <value>#22_Brookfield_Terrace</value>
             
 
           </choice>
@@ -2336,6 +2342,10 @@
           <value>#Benson_C_M</value>
           <value>#Kirkpatrick_T_P</value>
           <value>#Jackson_J_H</value>
+          <value>#Thompson_J</value>
+          <value>#Benson_E_M</value>
+          <value>#Heyward_H</value>
+          <value>#Joynt_M_S</value>
 
         </choice>
 

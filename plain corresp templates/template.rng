@@ -662,10 +662,8 @@
             <value>#Portland</value>
             <value>#Portlaoise</value>
             <value>#Portmarnock</value>
-
             <value>#Paderborn</value>
             <value>#Dunboyne</value>
-
             <value>#Queenstown</value>
             <value>#Queenstown_Cork</value>
             <value>#Raheny</value>
@@ -910,6 +908,9 @@
             <value># Dubuque</value>
             <value>#43_Moyne_Road</value>
             <value>#10_Adelphi_Terrace</value>
+            <value>#58_Dame_Street</value>
+            <value>#5_Stamford_Hill</value>
+            <value>#36_Foxbourne_Road</value>
 
           </choice>
         </attribute>

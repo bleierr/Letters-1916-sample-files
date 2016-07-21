@@ -911,6 +911,34 @@
             <value>#58_Dame_Street</value>
             <value>#5_Stamford_Hill</value>
             <value>#36_Foxbourne_Road</value>
+            <value>#27_Upper_Merrrion_Street</value>
+            <value>#38_Merrion_Square</value>
+            <value>#154_High_Road</value>
+            <value>#16_Cleveland_Road</value>
+            <value>#Hillmount</value>
+            <value>#5_Gardiner_Row</value>
+            <value>#King_George_Hospital</value>
+            <value>#National_Liberal_Club</value>
+            <value>#Gresham_Hotel</value>
+            <value>#2_South_Circular_Road</value>
+            <value>#34_St_Stephen's_Green</value>
+            <value>#35_St_Stephen's_Green</value>
+            <value>#Castlemaine_Avenue</value>
+            <value>#18_Merrion_Square</value>
+            <value>#The_Lord_Derby_War_Hospital</value>
+            <value>#83_Pall_Mall</value>
+            <value>#Ivanhoe</value>
+            <value>#Cashel</value>
+            <value>#Heathfield</value>
+            <value>#Branch_Medical_Council</value>
+            <value>#43_Marsden_Gardens</value>
+            <value>#North_Infirmary</value>
+            <value>#Barrington's_Hospital</value>
+            <value>#South_Charitable_Infirmary_and_County_Hospital</value>
+            <value>#Royal_Victoria_Hospital</value>
+            <value>#44_Hallam_Street</value>
+            <value>#Elpis</value>
+            <value>#Guy's_Hospital</value>
 
           </choice>
         </attribute>
@@ -2398,6 +2426,26 @@
           <value>#Cooper_A_M</value>
           <value>#Cahill_M_F</value>
           <value>#Hime_R</value>
+          <value>#Loughnan_W_F_M</value>
+          <value>#Adams_J</value>
+          <value>#Reed_H_E</value>
+          <value>#French_A</value>
+          <value>#Hayward_H</value>
+          <value>#Craig_J</value>
+          <value>#Falkiner_N_M</value>
+          <value>#Stanley_A</value>
+          <value>#Ramsden_L</value>
+          <value>#Laffan_T</value>
+          <value>#Angela</value>
+          <value>#Coffey_E_A</value>
+          <value>#Fogarty_M_A</value>
+          <value>#Huxley_M</value>
+          <value>#Bostock_M_F</value>
+          <value>#Rae_A_C</value>
+          <value>#Moore_J_W</value>
+          <value>#O'Sullivan_M</value>
+          <value>#Bromley_L</value>
+          <value>#Legh_T_W</value>
 
         </choice>
 

@@ -917,7 +917,6 @@
             <value>#16_Cleveland_Road</value>
             <value>#Hillmount</value>
             <value>#5_Gardiner_Row</value>
-<<<<<<< HEAD
             <value>#King_George_Hospital</value>
             <value>#National_Liberal_Club</value>
             <value>#Gresham_Hotel</value>
@@ -940,9 +939,6 @@
             <value>#44_Hallam_Street</value>
             <value>#Elpis</value>
             <value>#Guy's_Hospital</value>
-=======
->>>>>>> origin/master
-
           </choice>
         </attribute>
       </optional>

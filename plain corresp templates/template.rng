@@ -939,6 +939,10 @@
             <value>#44_Hallam_Street</value>
             <value>#Elpis</value>
             <value>#Guy's_Hospital</value>
+            <value>#Whitley_Camp</value>
+            <value>#Guadaloupe_Barracks</value>
+            <value>#Melrose</value>
+            <value>#National_Health_Insurance_Commission</value>
           </choice>
         </attribute>
       </optional>

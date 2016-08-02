@@ -944,6 +944,9 @@
             <value>#Melrose</value>
             <value>#National_Health_Insurance_Commission</value>
             <value>#39_Belgrave_Square</value>
+            <value>#10_Cadogan_Gardens</value>
+            <value>#Town_Hall</value>
+            <value>#1_Warwick_Terrace</value>
           </choice>
         </attribute>
       </optional>

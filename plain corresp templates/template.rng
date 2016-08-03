@@ -947,6 +947,9 @@
             <value>#10_Cadogan_Gardens</value>
             <value>#Town_Hall</value>
             <value>#1_Warwick_Terrace</value>
+            <value>#Rose_Villa</value>
+            <value>#War_Office</value>
+            <value>#Burring_Place</value>
           </choice>
         </attribute>
       </optional>

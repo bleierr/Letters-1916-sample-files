@@ -950,6 +950,7 @@
             <value>#Rose_Villa</value>
             <value>#War_Office</value>
             <value>#Burring_Place</value>
+            <value>#Bordon_Camp</value>
           </choice>
         </attribute>
       </optional>

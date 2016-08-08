@@ -952,6 +952,9 @@
             <value>#War_Office</value>
             <value>#Burring_Place</value>
             <value>#Bordon_Camp</value>
+            <value>#Westminster</value>
+            <value>#Foilnadrough</value>
+            <value>#Inis_Mor</value>
           </choice>
         </attribute>
       </optional>

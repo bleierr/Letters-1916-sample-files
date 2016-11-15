@@ -955,6 +955,22 @@
             <value>#Westminster</value>
             <value>#Foilnadrough</value>
             <value>#Inis_Mor</value>
+            <value>#Crossna</value>
+              <value>#Harbour_Office</value>
+                <value>#Palmerstown_Villas_8</value>
+                <value>#University_College_Dublin</value>
+                <value>#Annesley_House</value>
+                <value>#Ruskin_House</value>
+                <value>#South_End_19</value>
+                <value>#Beltra</value>
+                <value>#Old_Ford_Road_400</value>
+                <value>#Station_Road_4</value>
+                <value>#Cresent_View</value>
+                <value>#House_of_Commons</value>
+                <value>#The_Hut</value>
+                <value>#Richmond_Road_62</value>
+                <value>#Reading_Gaol</value>
+              <value>#South_Anne_Street_29</value>
           </choice>
         </attribute>
       </optional>

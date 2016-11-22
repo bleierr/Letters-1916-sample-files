@@ -971,6 +971,8 @@
                 <value>#Richmond_Road_62</value>
                 <value>#Reading_Gaol</value>
               <value>#South_Anne_Street_29</value>
+            <value>#Main_Street</value>
+              <value>#Ministry_of_Munitions</value>
           </choice>
         </attribute>
       </optional>

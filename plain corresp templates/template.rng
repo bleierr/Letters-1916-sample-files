@@ -972,11 +972,15 @@
                 <value>#The_Hut</value>
                 <value>#Richmond_Road_62</value>
                 <value>#Reading_Gaol</value>
-              <value>#South_Anne_Street_29</value>
+            <value>#South_Anne_Street_29</value>
             <value>#Main_Street</value>
-              <value>#Ministry_of_Munitions</value>
+            <value>#Ministry_of_Munitions</value>
             <value>#Dolier_Street_12</value>
             <value>#Downing_Street_10</value>
+            <value>#Nelson_Street</value>
+            <value>#Staughton's_Row</value>
+            <value>#The_Presbytery</value>
+            
           </choice>
         </attribute>
       </optional>

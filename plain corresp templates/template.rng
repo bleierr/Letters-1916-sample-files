@@ -987,8 +987,9 @@
             <value>#Brewsterfield</value>
             <value>#The_Green</value>
             <value>#Shorncliffe</value>
-            <value># H.M.S_Excellent</value>
-            <value># Greenview_Terrace</value>
+            <value>#H.M.S_Excellent</value>
+            <value>#Greenview_Terrace</value>
+            <value>#Palmerstown</value>
             
           </choice>
         </attribute>

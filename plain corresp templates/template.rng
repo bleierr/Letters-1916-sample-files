@@ -2714,6 +2714,9 @@
           <value>#M_Q</value>
           <value>#Young_J</value>
           <value>#Gwynn_L</value>
+          <value>#Lambert_H</value>
+          <value>#Law_A_B</value>
+          <value>#Clements_G</value>
         </choice>
 
       </attribute>

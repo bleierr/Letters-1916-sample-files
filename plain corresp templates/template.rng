@@ -2719,6 +2719,9 @@
           <value>#Lambert_H</value>
           <value>#Law_A_B</value>
           <value>#Clements_G</value>
+          <value>#Kieran_B</value>
+          <value>#Murphy_E</value>
+          <value>#Guerin_M</value>
         </choice>
 
       </attribute>

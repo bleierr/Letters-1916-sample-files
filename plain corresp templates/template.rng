@@ -1039,6 +1039,7 @@
             <value>#Knockaville</value>
             <value>#Lahardane</value>
             <value>#Hyde_Park_Gardens_24</value>
+            <value>#Vigo_Street</value>
             
           </choice>
         </attribute>
@@ -2756,6 +2757,7 @@
           <value>#Lambert_Heygate_F_A</value>
           <value>#Sullivan_P_J</value>
           <value>#Dooley_M_B</value>
+          <value>#Hawkins_H_W</value>
         </choice>
 
       </attribute>

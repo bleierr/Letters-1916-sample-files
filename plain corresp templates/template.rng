@@ -103,6 +103,8 @@
                       <value>#FadzenFamily</value>
                       <value>#WaldronFamily</value>
                       <value>#LongfordMuseum</value>
+                      <value>#RCPI</value>
+                      <value>#KerryLibrary</value>
                     </choice>
                   </attribute>
                   <text/>

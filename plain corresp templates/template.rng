@@ -930,7 +930,7 @@
             <value>#National_Liberal_Club</value>
             <value>#Gresham_Hotel</value>
             <value>#2_South_Circular_Road</value>
-            <value>#St_Stephen's_Green_34</value>
+            <value>#34_St_Stephen's_Green</value>
             <value>#35_St_Stephen's_Green</value>
             <value>#Castlemaine_Avenue</value>
             <value>#18_Merrion_Square</value>
@@ -1045,6 +1045,7 @@
             <value>#Halston</value>
             <value>#Monacherra</value>
             <value>#Town_Hall_Waterford</value>
+            <value>#St_Stephen's_Green_34</value>
             
           </choice>
         </attribute>

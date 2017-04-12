@@ -1070,6 +1070,7 @@
             <value>#Tullow_Street_67</value>
             <value>#New_Ross</value>
             <value>#Westmoreland_Street_25</value>
+            <value>#English_Street</value>
             
           </choice>
         </attribute>
@@ -2837,6 +2838,7 @@
           <value>#Chrystal_G_W</value>
           <value>#Colfer_J</value>
           <value>#Daly_C</value>
+          <value>#Kilpatrick_T_W</value>
           
         </choice>
 

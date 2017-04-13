@@ -1159,7 +1159,7 @@
     <element name="pb">
       <attribute name="facs">
         <data type="string">
-          <param name="pattern">#L1916_[0-9]+_img_[0-9]+[a-z]?</param>
+          <param name="pattern">#L19[1-2][01236789]_[0-9]+_img_[0-9]+[a-z]?</param>
         </data>
       </attribute>
       <attribute name="n">
@@ -2860,7 +2860,7 @@
   <define name="dateValue">
     <data type="token">
       <param name="pattern"
-        >(191[567]-[01][0-9]-[0123][0-9])|(191[567]-[01][0-9])|(191[567])|(2015)|(2016)</param>
+        >(19[12][567890123]-[01][0-9]-[0123][0-9])|(19[12][567890123]-[01][0-9])|(19[12][567890123])|(2015)|(2016)|(2017)</param>
     </data>
   </define>
 

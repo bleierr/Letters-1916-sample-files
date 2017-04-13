@@ -1071,6 +1071,10 @@
             <value>#New_Ross</value>
             <value>#Westmoreland_Street_25</value>
             <value>#English_Street</value>
+            <value>#Old_Queen_St</value>
+            <value>#Bouverie_Street_6</value>
+            <value>#Custom_House</value>
+            <value>#Brailsford_Rd_32</value>
             
           </choice>
         </attribute>

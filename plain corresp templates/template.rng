@@ -1093,7 +1093,11 @@
             <value>#Moor_Park</value>
             <value>#GHQ_BEF</value>
             <value>#Middle_Abbey_Street_68</value>
-            
+            <value>#Commissioners_Office_Belfast</value>
+            <value>#Ballinlug</value>
+            <value>#Marys_Road</value>
+            <value>#Royal_Hospital_Kilmainham</value>
+            <value>#South_Mall_39</value>
           </choice>
         </attribute>
       </optional>

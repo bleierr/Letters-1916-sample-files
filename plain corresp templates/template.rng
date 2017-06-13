@@ -1098,6 +1098,12 @@
             <value>#Marys_Road</value>
             <value>#Royal_Hospital_Kilmainham</value>
             <value>#South_Mall_39</value>
+            <value>#Agda_Camp</value>
+            <value>#Wharncliffe_War_Hospital</value>
+            <value>#Malone_Park_19</value>
+            <value>#Lisvarna</value>
+            <value>#Rawal_Pindi_Club</value>
+            <value>#Slieve-na-Failthe</value>
           </choice>
         </attribute>
       </optional>

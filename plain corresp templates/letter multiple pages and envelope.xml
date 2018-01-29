@@ -32,10 +32,10 @@
                     <address>
                         <name>An Foras Feasa</name>
                         <orgName>NUI Maynooth</orgName>
-                        <region>Co. Kildare</region>
                         <placeName>
                             <country>IRE</country>
                             <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
                         </placeName>
                     </address>
                 </publisher>
@@ -116,7 +116,7 @@
             </projectDesc>
 
             <appInfo>
-                <application xml:id="smthing" ident="rh" version="1">
+                <application xml:id="LetEd" ident="rh" version="1">
                     <desc>Richard's Python Editing Tool</desc>
                 </application>
             </appInfo>

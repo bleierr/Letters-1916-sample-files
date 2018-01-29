@@ -32,10 +32,10 @@
                     <address>
                         <name>An Foras Feasa</name>
                         <orgName>NUI Maynooth</orgName>
-                        <region>Co. Kildare</region>
                         <placeName>
                             <country>IRE</country>
                             <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
                         </placeName>
                     </address>
                 </publisher>
@@ -70,7 +70,7 @@
 
                 <correspAction type="received">
 
-                    <persName ref="#Fair_J_R">James R. Fair</persName>
+                    <persName ref="#Fair_J">James R. Fair</persName>
                     <placeName ref="#Bere_Island">Bere Island</placeName>
 
                 </correspAction>

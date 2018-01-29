@@ -26,10 +26,10 @@
                         <!-- publisher details -->
                         <name>An Foras Feasa</name>
                         <orgName>NUI Maynooth</orgName>
-                        <region>Co. Kildare</region>
                         <placeName>
                             <country>IRE</country>
                             <settlement>Maynooth</settlement>
+                            <region>Co. Kildare</region>
                         </placeName>
                     </address>
                 </publisher>

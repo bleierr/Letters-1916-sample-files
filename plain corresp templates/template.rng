@@ -54,8 +54,9 @@
             <element name="msDesc">
               <element name="msIdentifier">
                 <element name="repository">
-                  <attribute name="ref">
-                    <choice>
+                  <optional><attribute name="ref">
+                    <text></text>
+                    <!--<choice>
                       <value>#AL</value>
                       <value>#CCCA</value>
                       <value>#ICPA</value>
@@ -105,9 +106,9 @@
                       <value>#LongfordMuseum</value>
                       <value>#RCPI</value>
                       <value>#KerryLibrary</value>
-                    </choice>
+                    </choice>-->
                   </attribute>
-                  <text/>
+                  </optional><text/>
                 </element>
                 <element name="collection">
                   <attribute name="type">
@@ -118,7 +119,7 @@
                   </attribute>
                   <text/>
                 </element>
-                <ref name="idno"/>
+               <optional> <ref name="idno"/></optional>
               </element>
             </element>
           </element>
